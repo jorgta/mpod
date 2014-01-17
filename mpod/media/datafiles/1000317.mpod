@@ -1,0 +1,82 @@
+#------------------------------------------------------------------------------
+#$Date: 2013-07-06 22:54:00 +0000 $
+#$Revision: 001 $ Daniel Chateigner
+#------------------------------------------------------------------------------
+#
+# This file is available in the Material Properties Open Database (MPOD),
+# http://www.mpod.net/
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_1000317
+_cod_database_code 9008858
+_structure_refined 'no'
+_phase_name 'zinc iron telluride'
+_phase_formula 'Zn(1-x)FexTe'
+_chemical_formula_sum 'Zn0.999932 Fe0.000068 Te'
+_symmetry_point_group_name_H-M '-4 3 m'
+_cell_length_a  6.089
+_cell_length_b  6.089
+_cell_length_c  6.089
+_cell_angle_alpha  90
+_cell_angle_beta   90
+_cell_angle_gamma  90
+
+loop_
+_publ_author_name
+'Slack, Glen A.'
+_publ_section_title
+;
+ Thermal conductivity of II-VI compounds and phonon scattering by Fe2+ impurities
+;
+_journal_name_full               'Physical Review B'
+_journal_volume                  6
+_journal_issue                   10
+_journal_page_first              3791
+_journal_page_last               3800
+_journal_year                    1972
+
+
+_prop_measurement_method 'SST'
+
+_prop_thermal_conductivity_kappaij 'kappaij'
+
+
+loop_
+_prop_data_label
+_prop_data_tensorial_index
+_prop_data_value
+_prop_conditions_temperature
+kappaij 11 300 30
+kappaij 22 300 30
+kappaij 33 300 30
+kappaij 11 240 40
+kappaij 22 240 40
+kappaij 33 240 40
+kappaij 11 190 50
+kappaij 22 190 50
+kappaij 33 190 50
+kappaij 11 140 65
+kappaij 22 140 65
+kappaij 33 140 65
+kappaij 11 108 80
+kappaij 22 108 80
+kappaij 33 108 80
+kappaij 11 80 100
+kappaij 22 80 100
+kappaij 33 80 100
+kappaij 11 46 150
+kappaij 22 46 150
+kappaij 33 46 150
+kappaij 11 31 200
+kappaij 22 31 200
+kappaij 33 31 200
+kappaij 11 23 250
+kappaij 22 23 250
+kappaij 33 23 250
+kappaij 11 18 300
+kappaij 22 18 300
+kappaij 33 18 300
+

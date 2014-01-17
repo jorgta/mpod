@@ -1,0 +1,46 @@
+#------------------------------------------------------------------------------
+#$Date: 2010-09-30 10:46:17 +0000 (Thu, 30 Sep 2010) $
+#$Revision: 001 $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Material Properties Open Database (MPOD),
+# http://www.mpod.net/
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_1000053
+_cod_database_code               9000490
+_structure_refined 'no'
+_phase_name 'magnesium oxide'
+_chemical_formula_sum 'Mg O'
+_symmetry_point_group_name_H-M m3m
+_cell_length_a  4.211
+_publ_author_name 'Yoneda A.'
+_publ_section_title
+;
+Pressure derivatives of elastic-constants of single-crystal MgO and MgAl2O4
+;
+_journal_name_full               'Journal of Physics of the Earth'
+_journal_volume                  38
+_journal_issue                   1
+_journal_page_first              19
+_journal_page_last               55
+_journal_year                    1990
+_prop_measurement_method '?'
+_prop_conditions_temperature ?
+_prop_elastic_stiffness_cij 'cij'
+loop_
+_prop_data_label
+_prop_data_tensorial_index
+_prop_data_value
+cij 11 297.8
+cij 12 95.1
+cij 13 95.1
+cij 22 297.8
+cij 23 95.1
+cij 33 297.8
+cij 44 155.8
+cij 55 155.8
+cij 66 155.8

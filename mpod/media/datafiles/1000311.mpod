@@ -1,0 +1,68 @@
+#------------------------------------------------------------------------------
+#$Date: 2013-01-14 20:44:00 +0000 $
+#$Revision: 001 $ Daniel Chateigner
+#------------------------------------------------------------------------------
+#
+# This file is available in the Material Properties Open Database (MPOD),
+# http://www.mpod.net/
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_1000311
+_cod_database_code 2101499
+_structure_refined 'no'
+_phase_name 'diamond'
+_phase_formula 'C'
+_chemical_formula_sum 'C1'
+_symmetry_point_group_name_H-M 'm -3 m'
+_cell_length_a  3.56658
+_cell_length_b  3.56658
+_cell_length_c  3.56658
+_cell_angle_alpha  90
+_cell_angle_beta   90
+_cell_angle_gamma  90
+
+loop_
+_publ_author_name
+'Lang Jr., J.M.'
+'Gupta, Y.M.'
+_publ_section_title
+;
+ Experimental determination of third-order elastic constants of diamond
+;
+_journal_name_full               'Physical Review Letters'
+_journal_volume                  106
+_journal_issue                   12
+_journal_article_reference       125502
+_journal_pages_number            4
+_journal_year                    2011
+
+_prop_elastic_TOEC_stiffness_cijk 'cijk'
+
+loop_
+_prop_data_label
+_prop_data_tensorial_index
+_prop_data_value
+_prop_measurement_method
+cijk 111 -7603(600) SWC
+cijk 112 -1909(554) SWC
+cijk 113 -1909(554) SWC
+cijk 122 -1909(554) SWC
+cijk 123 835(1447) SWC
+cijk 133 -1909(554) SWC
+cijk 144 1438(853) SWC
+cijk 155 -3938(375) SWC
+cijk 166 -3938(375) SWC
+cijk 222 -7603(600) SWC
+cijk 223 -1909(554) SWC
+cijk 233 -1909(554) SWC
+cijk 244 -3938(375) SWC
+cijk 255 1438(853) SWC
+cijk 266 -3938(375) SWC
+cijk 333 -7603(600) SWC
+cijk 344 -3938(375) SWC
+cijk 355 -3938(375) SWC
+cijk 366 1438(853) SWC
+cijk 456 -2316(743) SWC

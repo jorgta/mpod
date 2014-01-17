@@ -1,0 +1,37 @@
+{% extends "mpod_base.html" %}
+
+{% block title %}MPOD - Material Properties Open Database{% endblock %}
+
+{% block header %}  
+<div class="header">
+</div>
+{% endblock %}
+
+{% block hor_menu %} 
+{{horizontal_menu}}
+{% endblock %}
+
+{% block ver_menu %}
+{{vertical_menu}}
+{% endblock %}
+
+{% block central_column %}  
+
+<div class="central_column">
+<p>
+The Material Properties Open Database was initiated by Daniel Chateigner in July 2010.
+</p>
+<p>
+The MPOD was inspired by the Crystallography Open Database.
+The MPOD also trys to comply with the CIF format although some tricks have been adopted to allow the insertion of tensor data into the rigid structure of the StarFile.
+</p>
+</div>
+{% endblock %}
+
+{% block footer %} 
+{% include "mpod_footer_1.html" %}
+
+{% endblock %}
+
+
+

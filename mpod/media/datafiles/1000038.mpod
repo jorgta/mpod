@@ -1,0 +1,46 @@
+#------------------------------------------------------------------------------
+#$Date: 2010-09-30 10:46:17 +0000 (Thu, 30 Sep 2010) $
+#$Revision: 001 $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Material Properties Open Database (MPOD),
+# http://www.mpod.net/
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_1000038
+_cod_database_code               9008546
+_structure_refined 'no'
+_phase_name niobium
+_chemical_formula_sum 'Nb'
+_symmetry_point_group_name_H-M m3m
+_cell_length_a  3.3004
+loop_
+_publ_author_name
+'Ledbetter H.'
+'Kim S.'
+_publ_section_title
+;
+Monocrystal elastic constants and derived properties of the cubic and the hexagonal elements
+;
+_journal_name_full               'Handbook of Elastic Properties of Solids, Liquids, and Gases (Academic Press), Levy M., Bass H., Stern R. (Eds.)'
+_journal_volume                  2
+_journal_year                    2000
+_prop_measurement_method '?'
+_prop_conditions_temperature 297
+_prop_elastic_stiffness_cij 'cij'
+loop_
+_prop_data_label
+_prop_data_tensorial_index
+_prop_data_value
+cij 11 240.19
+cij 12 125.58
+cij 13 125.58
+cij 22 240.19
+cij 23 125.58
+cij 33 240.19
+cij 44 28.22
+cij 55 28.22
+cij 66 28.22

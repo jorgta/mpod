@@ -1,0 +1,41 @@
+{% extends "mpod_base_text.html" %}
+
+{% block title %}MPOD - DataFile View{% endblock %}
+
+{% block header %}  
+<div class="header">
+</div>
+{% endblock %}
+
+{% block hor_menu %} 
+{{horizontal_menu}}
+{% endblock %}
+
+{% block ver_menu %}
+{{vertical_menu}}
+{% endblock %}
+
+{% block central_column %}  
+
+<div class="central_column">
+
+    {% if html_dataitem %}
+    	{{html_dataitem|escape}}
+    	<br />
+    {% endif %}
+    {% if html_tables %}
+    	{{html_gen_props|escape}}
+    	<br />
+		{{html_tables|escape}}
+	 {% else %}
+Sorry! Data item not found
+    {% endif %}
+
+
+</div>
+{% endblock %}
+
+{% block footer %} 
+{% include "mpod_footer_1.html" %}
+
+{% endblock %}

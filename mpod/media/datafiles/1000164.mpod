@@ -1,0 +1,61 @@
+#------------------------------------------------------------------------------
+#$Date: 2011-04-06 22.08:00 +0000 $
+#$Revision: 001 $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Material Properties Open Database (MPOD),
+# http://www.materialproperties.org/
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_1000164
+_cod_database_code 9008834
+_structure_refined 'no'
+_phase_name 'Boron nitride'
+_phase_formula 'BN'
+_chemical_formula_sum 'B N'
+_symmetry_point_group_name_H-M '-4 3 m'
+_cell_length_a 3.615
+_cell_length_b 3.615
+_cell_length_c 3.615
+_cell_angle_alpha  90
+_cell_angle_beta   90
+_cell_angle_gamma  90
+loop_
+_publ_author_name
+'Grimsditch, M.'
+'Zouboulis, E.S.'
+'Polian, A.'
+_publ_section_title
+;
+ Elastic-constants of boron-nitride
+;
+_journal_name_full               'Journal of Applied Physics'
+_journal_volume                  76
+_journal_issue                   2
+_journal_page_first              832
+_journal_page_last               834
+_journal_year                    1994
+_phase_density ?
+_prop_conditions_temperature ?
+_prop_elastic_stiffness_cij 'cij'
+_prop_conditions_wavelength ?
+_prop_measurement_method 'BS'
+loop_
+_prop_data_label
+_prop_data_tensorial_index
+_prop_data_value
+cij 11 820
+cij 12 190
+cij 13 190
+cij 14 0
+cij 22 820
+cij 23 190
+cij 24 0
+cij 33 820
+cij 44 480
+cij 55 480
+cij 56 0
+cij 66 480

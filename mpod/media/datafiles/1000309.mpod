@@ -1,0 +1,64 @@
+#------------------------------------------------------------------------------
+#$Date: 2012-12-14 16:43:00 +0000 $
+#$Revision: 001 $ Daniel Chateigner
+#------------------------------------------------------------------------------
+#
+# This file is available in the Material Properties Open Database (MPOD),
+# http://www.mpod.net/
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_1000309
+_cod_database_code 1508503
+_structure_refined 'no'
+_phase_name 'Lanthanum Aluminum Oxide'
+_phase_formula 'LaAlO3'
+_chemical_formula_sum 'La1 Al1 O3'
+_symmetry_point_group_name_H-M '-3 m'
+_cell_length_a  5.36540(7)
+_cell_length_b  5.36540(7)
+_cell_length_c  13.1126(2)
+_cell_angle_alpha  90
+_cell_angle_beta   90
+_cell_angle_gamma  120
+
+loop_
+_publ_author_name
+'Carpenter, M.A.'
+'Sinogeikin, S.V.'
+'Bass, J.D.'
+'Lakshtanov, D.L.'
+'Jacobsen, D.L.'
+_publ_section_title
+;
+ Elastic relaxations associated with the Pm-3m-R-3c transition in LaAlO3: I. Single crystal elastic moduli at room temperature
+;
+_journal_name_full               'Journal of Physics: Condensed Matter'
+_journal_volume                  22
+_journal_issue                   ?
+_journal_article_reference      035403
+_journal_pages_number           11
+_journal_year                    2010
+
+_phase_density 6520
+_prop_elastic_stiffness_cij 'cij'
+
+loop_
+_prop_data_label
+_prop_data_tensorial_index
+_prop_data_value
+_prop_measurement_method
+cij 11 337.20(1) BS-PEM
+cij 12 151.50(3) BS-PEM
+cij 13 92.70(3) BS-PEM
+cij 14 45.7(6) BS-PEM
+cij 22 337.20(1) BS-PEM
+cij 23 92.70(3) BS-PEM
+cij 24 -45.7(6) BS-PEM
+cij 33 411.30(1) BS-PEM
+cij 44 120.60(1) BS-PEM
+cij 55 120.60(1) BS-PEM
+cij 56 -91.4(6) BS-PEM
+cij 66 92.85(2) BS-PEM

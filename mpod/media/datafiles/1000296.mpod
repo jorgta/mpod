@@ -1,0 +1,138 @@
+#------------------------------------------------------------------------------
+#$Date: 2012-11-03 20:19:00 +0000 $
+#$Revision: 001 $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Material Properties Open Database (MPOD),
+# http://www.mpod.net/
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_1000296
+_cod_database_code 4500649
+_structure_refined 'no'
+_phase_name 'CTM'
+_phase_formula 'Cs2TeMo3O12'
+_chemical_formula_sum 'Cs2 Te1 Mo3 O12'
+_symmetry_point_group_name_H-M '6'
+_cell_length_a  7.4045(1)
+_cell_length_b  7.4045(1)
+_cell_length_c  12.2053(2)
+_cell_angle_alpha  90
+_cell_angle_beta   90
+_cell_angle_gamma  120
+_phase_cell_temperature 293(2)
+
+loop_
+_publ_author_name
+'Zhang, Junjie'
+'Gao, Zeliang'
+'Yin, Xin'
+'Zhang, Zhonghan'
+'Sun, Youxuan'
+'Tao, Xutang'
+_publ_section_title
+;
+ Investigation of the dielectric, elastic, and piezoelectric properties of Cs2TeMo3O12 crystals
+;
+_journal_name_full               'Applied Physics Letters'
+_journal_volume                  101
+_journal_issue                   6
+_journal_article_reference       062901
+_journal_pages_number            4
+_journal_year                    2012
+
+_phase_density 5004
+_phase_transition_temperature_rhomb_tetra ?
+_phase_transition_temperature_curie ?
+_prop_measurement_poling '?'
+_prop_symmetry_point_group_name_H-M '6'
+_prop_frame '?'
+_prop_elastic_compliance_sij 'sij'
+_prop_elastic_stiffness_cij 'cij'
+_prop_electromechanical_coupling_kij 'kij'
+_prop_piezoelectric_dij 'dij'
+_prop_piezoelectric_eij 'eij'
+_prop_dielectric_permittivity_relative_epsrij 'epsrij'
+_prop_thermoelastic_compliance_1storder_sij1T 'sij1T'
+_prop_thermoelastic_compliance_2ndorder_sij2T 'sij2T'
+_prop_thermoelastic_compliance_3rdorder_sij3T 'sij3T'
+_prop_conditions_reference_temperature_thermoelastic_non_linear_fit 297
+
+loop_
+_prop_data_label
+_prop_data_tensorial_index
+_prop_data_value
+_prop_measurement_method
+_prop_conditions_frequency
+cij 11 9.97 'RT' ?
+cij 12 2.16 'RT' ?
+cij 13 -1.33 'RT' ?
+cij 22 9.97 'RT' ?
+cij 23 -1.33 'RT' ?
+cij 33 4.01 'RT' ?
+cij 44 3.16 'RT' ?
+cij 55 3.16 'RT' ?
+cij 66 3.905 'RT' ?
+sij 11 10.85 'RT' ?
+sij 12 -1.96 'RT' ?
+sij 13 2.94 'RT' ?
+sij 22 10.85 'RT' ?
+sij 23 2.94 'RT' ?
+sij 33 26.88 'RT' ?
+sij 44 31.68 'RT' ?
+sij 55 31.68 'RT' ?
+sij 66 25.62 'RT' ?
+dij 14 6.4 'RT' ?
+dij 25 -6.4 'RT' ?
+dij 15 29.2 'RT' ?
+dij 24 29.2 'RT' ?
+dij 31 -5.6 'RT' ?
+dij 32 -5.6 'RT' ?
+dij 33 20.3 'RT' ?
+eij 14 0.2 'RT' ?
+eij 25 -0.2 'RT' ?
+eij 15 0.9 'RT' ?
+eij 24 0.9 'RT' ?
+eij 31 -0.9 'RT' ?
+eij 32 -0.9 'RT' ?
+eij 33 1.0 'RT' ?
+kij 14 9.5 'RT' ?
+kij 25 -9.5 'RT' ?
+kij 15 14.3 'RT' ?
+kij 24 14.3 'RT' ?
+kij 31 16.1 'RT' ?
+kij 32 16.1 'RT' ?
+kij 33 36.6 'RT' ?
+epsrij 11 18.7 'CAP' 1
+epsrij 22 18.7 'CAP' 1
+epsrij 33 12.9 'CAP' 1
+sij1T 11 378 'RT' ?
+sij1T 12 386 'RT' ?
+sij1T 13 1279 'RT' ?
+sij1T 22 378 'RT' ?
+sij1T 23 1279 'RT' ?
+sij1T 33 270 'RT' ?
+sij1T 44 77 'RT' ?
+sij1T 55 77 'RT' ?
+sij1T 66 405 'RT' ?
+sij2T 11 430 'RT' ?
+sij2T 12 -31342 'RT' ?
+sij2T 13 -13269 'RT' ?
+sij2T 22 430 'RT' ?
+sij2T 23 -13269 'RT' ?
+sij2T 33 -2715 'RT' ?
+sij2T 44 1409 'RT' ?
+sij2T 55 1409 'RT' ?
+sij2T 66 -4814 'RT' ?
+sij3T 11 -1706 'RT' ?
+sij3T 12 204767 'RT' ?
+sij3T 13 16017 'RT' ?
+sij3T 22 -1706 'RT' ?
+sij3T 23 16017 'RT' ?
+sij3T 33 27840 'RT' ?
+sij3T 44 -5004 'RT' ?
+sij3T 55 -5004 'RT' ?
+sij3T 66 29290 'RT' ?

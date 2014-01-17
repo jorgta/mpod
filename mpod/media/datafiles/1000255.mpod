@@ -1,0 +1,53 @@
+#------------------------------------------------------------------------------
+#$Date: 2011-06-10 23:20:00 +0000 $
+#$Revision: 001 $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Material Properties Open Database (MPOD),
+# http://www.materialproperties.org/
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_1000255
+_cod_database_code ?
+_structure_refined 'no'
+_phase_name 'potassium iron selenide'
+_phase_formula KFe(2-y)Se2
+_chemical_formula_sum 'K1 Fe2 Se2'
+_symmetry_point_group_name_H-M '4/m m m'
+_cell_length_a  ?
+_cell_length_b  ?
+_cell_length_c  ?
+_cell_angle_alpha  90
+_cell_angle_beta   90
+_cell_angle_gamma  90
+
+loop_
+_publ_author_name
+'Liu, R.H.'
+'Luo, X.G.'
+'Zhang, M.'
+'Wang, A.F.'
+'Ying, J.J.'
+'Wang, X.F.'
+'Yan, Y.J.'
+'Xiang, Z.J.'
+'Cheng, P.'
+'Ye, G.J.'
+'Li, Z.Y.'
+'Chen, X.H.'
+_publ_section_title
+;
+ Coexistence of superconductivity and antiferromagnetism in single crystals A0.8Fe2-ySe2 (A = K, Rb, Cs, Tl/K and Tl/Rb): evidence from magnetization and resistivity
+;
+_journal_name_full               'European Physics Letters'
+_journal_volume                  94
+_journal_issue                   ?
+_journal_article_reference       27008
+_journal_pages_number            5
+_journal_year                    2011
+_phase_density ?
+_prop_measurement_method 'RC'
+_prop_magnetic_antiferromagnetic_ordering_temperature_Neel 527

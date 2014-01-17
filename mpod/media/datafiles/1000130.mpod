@@ -1,0 +1,48 @@
+#------------------------------------------------------------------------------
+#$Date: 2011-03-27 22:20:00 +0000 $
+#$Revision: 001 $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Material Properties Open Database (MPOD),
+# http://www.materialproperties.org/
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_1000130
+_cod_database_code               4300180
+_structure_refined 'no'
+_phase_name 'sodium chloride'
+_chemical_formula_sum 'Na Cl'
+_symmetry_point_group_name_H-M 'm -3 m'
+_cell_length_a  5.6393
+loop_
+_publ_author_name
+'Voigt, W.'
+_publ_section_title
+;
+ Lehrburch der Kristallphysik
+;
+_journal_name_full               'Leipzig: Teubner B.G.'
+_journal_volume                  ?
+_journal_issue                   ?
+_journal_page_first              ?
+_journal_page_last               ?
+_journal_year                    1928
+_prop_measurement_method '?'
+_prop_conditions_temperature ?
+_prop_elastic_compliance_sij 'sij'
+loop_
+_prop_data_label
+_prop_data_tensorial_index
+_prop_data_value
+sij 11 24.4
+sij 12 -5.23
+sij 13 -5.23
+sij 22 24.4
+sij 23 -5.23
+sij 33 24.4
+sij 44 78.22
+sij 55 78.22
+sij 66 78.22

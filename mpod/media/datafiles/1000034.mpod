@@ -1,0 +1,47 @@
+#------------------------------------------------------------------------------
+#$Date: 2010-09-30 10:46:17 +0000 (Thu, 30 Sep 2010) $
+#$Revision: 001 $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Material Properties Open Database (MPOD),
+# http://www.mpod.net/
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_1000034
+_cod_database_code               9008506
+_structure_refined 'no'
+_phase_name magnesium
+_chemical_formula_sum 'Mg'
+_symmetry_point_group_name_H-M 6/mmm
+_cell_length_a  3.20927
+_cell_length_c  5.21033
+loop_
+_publ_author_name
+'Ledbetter H.'
+'Kim S.'
+_publ_section_title
+;
+Monocrystal elastic constants and derived properties of the cubic and the hexagonal elements
+;
+_journal_name_full               'Handbook of Elastic Properties of Solids, Liquids, and Gases (Academic Press), Levy M., Bass H., Stern R. (Eds.)'
+_journal_volume                  2
+_journal_year                    2000
+_prop_measurement_method '?'
+_prop_conditions_temperature ?
+_prop_elastic_stiffness_cij 'cij'
+loop_
+_prop_data_label
+_prop_data_tensorial_index
+_prop_data_value
+cij 11 59.3
+cij 12 25.7
+cij 13 21.4
+cij 22 59.3
+cij 23 21.4
+cij 33 61.5
+cij 44 16.4
+cij 55 16.4
+cij 66 21.45

@@ -1,0 +1,61 @@
+#------------------------------------------------------------------------------
+#$Date: 2011-24-03 22:08:00 +0000 $
+#$Revision: 001 $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Material Properties Open Database (MPOD),
+# http://www.materialproperties.org/
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_1000120
+_cod_database_code ?
+_structure_refined 'no'
+_phase_name 'Cs-doped iron selenide'
+_phase_formula Cs0.8(FeSe0.98)2
+_chemical_formula_sum 'Cs0.8 Fe2 Se1.96'
+_symmetry_point_group_name_H-M '4/m m m'
+_cell_length_a  ?
+_cell_length_b  ?
+_cell_length_c  ?
+_cell_angle_alpha  ?
+_cell_angle_beta   ?
+_cell_angle_gamma  ?
+loop_
+_publ_author_name
+'Shermadini, Z.'
+'Krzton-Maziopa, A.'
+'Bendele, M.'
+'Khasanov, R.'
+'Luetkens, H.'
+'Conder, K.'
+'Pomjakushina, E.'
+'Weyeneth, S.'
+'Pomjakushin, V.'
+'Bossen, O.'
+'Amato, A.'
+_publ_section_title
+;
+ Coexistence of magnetism and superconductivity in the iron-based compound Cs0.8(FeSe0.98)2
+;
+_journal_name_full               'Physical Review Letters'
+_journal_volume                  106
+_journal_issue                   11
+_journal_article_reference       117602
+_journal_pages_number            4
+_journal_year                    2011
+_phase_density ?
+_prop_superconducting_critical_temperature_onset 'Tconset'
+_prop_magnetic_paramagnetic_critical_temperature_Neel 'TN'
+_prop_magnetic_paramagnetic_critical_temperature_Neel_transitionwidth 'DeltaTN'
+
+loop_
+_prop_data_label
+_prop_data_tensorial_index
+_prop_data_value
+_prop_measurement_method
+Tconset 0 29.6(2) SQUID-ZFC
+TN 0 478.5(3) muSR
+DeltaTN 0 1.06(14) muSR

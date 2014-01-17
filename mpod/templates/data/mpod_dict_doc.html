@@ -1,0 +1,40 @@
+{% extends "mpod_base_text.html" %}
+
+{% block title %}Material Properties Dictionary Documentation{% endblock %}
+
+{% block central_column %}
+<div class="central_column">
+<p>
+The <a href="http://www.iucr.org/" target="_blank" name="iucr_site">IUCR</a> maintains 
+general information about the
+<a href="http://www.iucr.org/resources/cif/spec/star-file" target="_blank" name="star_file_spec">STAR File</a> syntax,
+ the various "official" CIF <a href="http://www.iucr.org/resources/cif/dictionaries" target="_blank" name="cif_dictionaries">dictionaries</a> 
+ and the <a href="http://www.iucr.org/resources/cif/ddl/" target="_blank" name="DDL">Dictionary Definition Lenguages</a>.
+</p><p>
+The <a href="/dictionary/get" name="get_dictionary">material properties dictionary</a> 
+defines new keywords for material properties and experimental conditions.
+<br />
+As also mentioned in the 
+<a href="/data/doc" name="datafile_documentation">datafiles documentation </a>
+some tricks were adopted to adapt the relatively strict STAR File syntax 
+to allow for multiple entries still avoiding ambiguousness.
+</p><p>
+In the dictionary the type of a property is a char (string) 
+and not a numb (number, float) as could be expected and it is meant to hold a <i>label</i> 
+associated to the property.
+<br />
+Two special <a href="http://www.iucr.org/resources/cif/spec/version1.1/semantics#definitions" target="_blank" name="CIF_terms_def">data name</a>
+<i>_prop_data_label</i> and <i>_prop_data_value</i> are defined with type 
+<i>char</i> and <i>numb</i> respectively to hold the label defined with the specific 
+property data name and a value.
+<br />
+For tensorial properties the <i>_prop_data_tensorial_index</i> data name has been defined 
+to descern among the different components of the tensor.
+</p><p>
+All properties and experimental conditions belong to the same <i>_prop_</i> category, because only 
+properties belonging to the same category can be in the same loop.
+In the dictionary, to ease the reading, subcategories are defined and indicated but they are 
+commented out.
+</p>
+</div>
+{% endblock %}

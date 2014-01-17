@@ -1,0 +1,56 @@
+#------------------------------------------------------------------------------
+#$Date: 2010-09-30 10:46:17 +0000 (Thu, 30 Sep 2010) $
+#$Revision: 001 $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Material Properties Open Database (MPOD),
+# http://www.mpod.net/
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_1000027
+_cod_database_code               9012795
+_structure_refined 'no'
+_phase_name langasite
+_chemical_formula_sum 'La3 Ga5 Si O14'
+_symmetry_point_group_name_H-M 32
+_cell_length_a  8.176
+_cell_length_c  5.108
+loop_
+_publ_author_name
+'Ogi H.'
+'Nakamura N.'
+'Sato K.'
+'Hirao M.'
+'Uda S.'
+_publ_section_title
+;
+Elastic, anelastic, and piezoelectric coefficients of langasite: Resonance ultrasound spectroscopy with laser-doppler interferometry
+;
+_journal_name_full               'IEEE Transactions on Ultrasonics Ferroelectrics and Frequency Control'
+_journal_volume                  50
+_journal_issue                   5
+_journal_page_first              553
+_journal_page_last               560
+_journal_year                    2003
+_prop_measurement_method 'RUS-Laser-Doppler'
+_prop_conditions_temperature 297
+_prop_elastic_stiffness_cij 'cij'
+loop_
+_prop_data_label
+_prop_data_tensorial_index
+_prop_data_value
+cij 11 189.5
+cij 12 105.3
+cij 13 97.16
+cij 14 14.25
+cij 22 189.5
+cij 23 97.16
+cij 24 -14.25
+cij 33 262.6
+cij 44 53.5
+cij 55 53.5
+cij 56 28.5
+cij 66 42.1

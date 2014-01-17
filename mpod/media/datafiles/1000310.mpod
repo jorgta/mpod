@@ -1,0 +1,70 @@
+#------------------------------------------------------------------------------
+#$Date: 2013-01-09 10:44:00 +0000 $
+#$Revision: 001 $ Daniel Chateigner
+#------------------------------------------------------------------------------
+#
+# This file is available in the Material Properties Open Database (MPOD),
+# http://www.mpod.net/
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_1000310
+_cod_database_code ?
+_structure_refined 'no'
+_phase_name 'beta-Ti0.7Nb0.3'
+_phase_formula 'Ti0.693Nb0.307'
+_chemical_formula_sum 'Ti0.693 Nb0.307'
+_symmetry_point_group_name_H-M 'm -3 m'
+_cell_length_a  3.283
+_cell_length_b  3.283
+_cell_length_c  3.283
+_cell_angle_alpha  90
+_cell_angle_beta   90
+_cell_angle_gamma  90
+
+loop_
+_publ_author_name
+'Hermann, R.'
+'Hermann, H.'
+'Calin M.'
+'B\uchner, B.'
+'Eckert, J.'
+_publ_section_title
+;
+ Elastic constants of single crystalline b-Ti70Nb30
+;
+_journal_name_full               'Scripta Materialia'
+_journal_volume                  66
+_journal_issue                   ?
+_journal_page_first              198
+_journal_page_last               201
+_journal_year                    2012
+
+_prop_elastic_compliance_sij 'sij'
+_prop_elastic_stiffness_cij 'cij'
+
+loop_
+_prop_data_label
+_prop_data_tensorial_index
+_prop_data_value
+_prop_measurement_method
+sij 11 25.28 USV
+sij 12 -11.24 USV
+sij 13 -11.24 USV
+sij 22 25.28 USV
+sij 23 -11.24 USV
+sij 33 25.28 USV
+sij 44 30.15 USV
+sij 55 30.15 USV
+sij 66 30.15 USV
+cij 11 137.0 USV
+cij 12 109.6 USV
+cij 13 109.6 USV
+cij 22 137.0 USV
+cij 23 109.6 USV
+cij 33 137.0 USV
+cij 44 33.17 USV
+cij 55 33.17 USV
+cij 66 33.17 USV

@@ -1,0 +1,113 @@
+#------------------------------------------------------------------------------
+#$Date: 2010-12-05 23:02:00 +0000 $
+#$Revision: 001 $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Material Properties Open Database (MPOD),
+# http://www.materialproperties.org/
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_1000103
+_cod_database_code 9008814
+_structure_refined 'no'
+_phase_name 'beta-Brass'
+_phase_formula CuZn
+_chemical_formula_sum 'Cu Zn'
+_symmetry_point_group_name_H-M 'm 3 m'
+_cell_length_a  2.945
+loop_
+_publ_author_name
+'Good, Walter A.'
+_publ_section_title
+;
+ Rigidity modulus of Beta-Brass single crystals
+;
+_journal_name_full               'Physical Review'
+_journal_volume                  60
+_journal_issue                   ?
+_journal_page_first              605
+_journal_page_last               609
+_journal_year                    1941
+_phase_density 8350
+_prop_measurement_method 'CPO'
+_prop_elastic_compliance_sij 'sij'
+loop_
+_prop_data_label
+_prop_data_tensorial_index
+_prop_data_value
+_prop_conditions_temperature
+sij 11 38.8 297
+sij 12 -15.2 297
+sij 13 -15.2 297
+sij 22 38.8 297
+sij 23 -15.2 297
+sij 33 38.8 297
+sij 44 5.78 297
+sij 55 5.78 297
+sij 66 5.78 297
+sij 11 36.1 468
+sij 12 -14.2 468
+sij 13 -14.2 468
+sij 22 36.1 468
+sij 23 -14.2 468
+sij 33 36.1 468
+sij 44 5.80 468
+sij 55 5.80 468
+sij 66 5.80 468
+sij 11 38.7 566
+sij 12 -14.2 566
+sij 13 -14.2 566
+sij 22 38.7 566
+sij 23 -14.2 566
+sij 33 38.7 566
+sij 44 5.88 566
+sij 55 5.88 566
+sij 66 5.88 566
+sij 11 41.5 662
+sij 12 -15.3 662
+sij 13 -15.3 662
+sij 22 41.5 662
+sij 23 -15.3 662
+sij 33 41.5 662
+sij 44 6.24 662
+sij 55 6.24 662
+sij 66 6.24 662
+sij 11 46.4 721
+sij 12 -18.0 721
+sij 13 -18.0 721
+sij 22 46.4 721
+sij 23 -18.0 721
+sij 33 46.4 721
+sij 44 6.85 721
+sij 55 6.85 721
+sij 66 6.85 721
+sij 11 49.6 739
+sij 12 -19.8 739
+sij 13 -19.8 739
+sij 22 49.6 739
+sij 23 -19.8 739
+sij 33 49.6 739
+sij 44 7.25 739
+sij 55 7.25 739
+sij 66 7.25 739
+sij 11 49.7 741
+sij 12 -19.6 741
+sij 13 -19.6 741
+sij 22 49.7 741
+sij 23 -19.6 741
+sij 33 49.7 741
+sij 44 7.27 741
+sij 55 7.27 741
+sij 66 7.27 741
+sij 11 50.6 779
+sij 12 -19.9 779
+sij 13 -19.9 779
+sij 22 50.6 779
+sij 23 -19.9 779
+sij 33 50.6 779
+sij 44 7.39 779
+sij 55 7.39 779
+sij 66 7.39 779

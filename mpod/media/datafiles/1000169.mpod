@@ -1,0 +1,53 @@
+#------------------------------------------------------------------------------
+#$Date: 2011-04-07 22:20:00 +0000 $
+#$Revision: 001 $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Material Properties Open Database (MPOD),
+# http://www.mpod.net/
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_1000169
+_cod_database_code 9008506
+_structure_refined 'no'
+_phase_name 'Magnesium'
+_phase_formula 'Mg'
+_chemical_formula_sum 'Mg'
+_symmetry_point_group_name_H-M '6/m m m'
+_cell_length_a 3.20927
+_cell_length_b 3.20927
+_cell_length_c 5.21033
+_cell_angle_alpha 90
+_cell_angle_beta 90
+_cell_angle_gamma 120
+loop_
+_publ_author_name
+'Goens, E.'
+'Schmid, E.'
+_publ_section_title
+;
+ Elastic constants, resistivity and thermal expansion of single magnesium crystals
+;
+_journal_name_full               'Physiks Zeitschrift'
+_journal_volume                  37
+_journal_issue                   ?
+_journal_page_first              387
+_journal_page_last               ?
+_journal_year                    1936
+_prop_elastic_compliance_sij 'sij'
+loop_
+_prop_data_label
+_prop_data_tensorial_index
+_prop_data_value
+sij 11 22.1
+sij 12 -7.7
+sij 13 -4.9
+sij 22 22.1
+sij 23 -4.9
+sij 33 19.7
+sij 44 60.3
+sij 55 60.3
+sij 66 59.6

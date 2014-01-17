@@ -1,0 +1,118 @@
+#------------------------------------------------------------------------------
+#$Date: 2010-09-30 10:46:17 +0000 (Thu, 30 Sep 2010) $
+#$Revision: 001 $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Material Properties Open Database (MPOD),
+# http://www.mpod.net/
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_1000032
+_cod_database_code               2101845
+_structure_refined 'no'
+_phase_name LiNbO3
+_chemical_formula_sum 'Li Nb O3.07 Mg0.07'
+_symmetry_point_group_name_H-M 3m
+_cell_length_a  5.148
+_cell_length_c  13.863
+loop_
+_publ_author_name
+'Andrushchak A.S.'
+'Mytsyk B.G.'
+'Laba H.P.'
+'Yurkevych O.V.'
+'Solskii I.M.'
+'Kityk A.V.'
+'Sahraoui B.'
+_publ_section_title
+;
+Complete sets of elastic constants and photoelastic coefficients of pure and MgO-doped lithium niobate crystals at room temperature
+;
+_journal_name_full               'Journal of Applied Physics'
+_journal_volume                  106
+_journal_issue                   7
+_journal_article_reference          073510
+_journal_pages_number             6
+_journal_year                    2009
+_phase_density 4638
+_phase_transition_temperature_rhomb_tetra ?
+_phase_transition_temperature_curie ?
+_prop_measurement_poling '?'
+_prop_symmetry_point_group_name_H-M 3m
+_prop_frame '1=? 2=? 3=[111]'
+_prop_elastic_compliance_sij 'sij'
+_prop_elastic_stiffness_cij 'cij'
+_prop_piezoelectric_dij 'dij'
+_prop_piezoelectric_eij 'eij'
+_prop_dielectric_permittivity_relative_epsrij 'epsrij'
+_prop_photoelastic_pij 'pij'
+loop_
+_prop_data_label
+_prop_data_tensorial_index
+_prop_data_value
+_prop_measurement_method
+_prop_conditions_frequency
+cij 11 205.4(4) 'RUS' ?
+cij 12 57.2(5) 'RUS' ?
+cij 13 74(11) 'RUS' ?
+cij 14 7.9(1) 'RUS' ?
+cij 22 199.2(4) 'RUS' ?
+cij 23 74(11) 'RUS' ?
+cij 24 -7.9(1) 'RUS' ?
+cij 33 249(5) 'RUS' ?
+cij 44 60.9(1) 'RUS' ?
+cij 55 60.9(1) 'RUS' ?
+cij 56 15.8(2) 'RUS' ?
+cij 66 74.1(1) 'RUS' ?
+sij 11 5.7(4) 'RUS' ?
+sij 12 -1.1(4) 'RUS' ?
+sij 13 -1.4(4) 'RUS' ?
+sij 14 -0.89(2) 'RUS' ?
+sij 22 5.9(4) 'RUS' ?
+sij 23 -1.4(4) 'RUS' ?
+sij 24 0.89(2) 'RUS' ?
+sij 33 4.8(2) 'RUS' ?
+sij 44 16.65(3) 'RUS' ?
+sij 55 16.65(3) 'RUS' ?
+sij 56 -1.78(4) 'RUS' ?
+sij 66 13.68(2) 'RUS' ?
+eij 15 3.75(3) 'RUS' ?
+eij 16 -4.6(1) 'RUS' ?
+eij 21 -2.32(6) 'RUS' ?
+eij 22 2.32(6) 'RUS' ?
+eij 24 3.75(3) 'RUS' ?
+eij 31 0.4(2) 'RUS' ?
+eij 32 0.4(2) 'RUS' ?
+eij 33 1.1(6) 'RUS' ?
+dij 15 66.6(5) 'RUS' ?
+dij 16 -38(2) 'RUS' ?
+dij 21 -19(1) 'RUS' ?
+dij 22 19(1) 'RUS' ?
+dij 24 66.6(5) 'RUS' ?
+dij 31 0(1) 'RUS' ?
+dij 32 0(1) 'RUS' ?
+dij 33 4(3) 'RUS' ?
+epsrij 11 44 '?' ?
+epsrij 22 44 '?' ?
+epsrij 33 27.9 '?' ?
+pij 11 -0.015(13) '?' ?
+pij 12 0.058(14) '?' ?
+pij 13 0.174(26) '?' ?
+pij 14 -0.044(7) '?' ?
+pij 21 0.058(14) '?' ?
+pij 22 -0.015(13) '?' ?
+pij 23 0.174(26) '?' ?
+pij 24 0.044(7) '?' ?
+pij 31 0.155(18) '?' ?
+pij 32 0.155(18) '?' ?
+pij 33 0.154(19) '?' ?
+pij 41 -0.149(32) '?' ?
+pij 42 0.149(32) '?' ?
+pij 44 0.136(30) '?' ?
+pij 55 0.136(30) '?' ?
+pij 56 -0.149(32) '?' ?
+pij 65 -0.044(7) '?' ?
+pij 66 -0.058(14) '?' ?

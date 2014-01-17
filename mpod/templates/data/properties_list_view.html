@@ -1,0 +1,25 @@
+{% extends "mpod_base_text.html" %}
+
+{% block title %}MPOD - Property View{% endblock %}
+
+{% block central_column %}  
+
+<div class="central_column">
+
+Here a list of all the properties present in the database is given. <br />
+Following the link associated to the property name you can view the properties details and the set of datafiles associated with the property.<br />
+
+
+    {% if properties_list_table %}
+		{{properties_list_table|escape}}
+	 {% else %}
+Sorry! No properties found
+    {% endif %}
+
+</div>
+{% endblock %}
+
+{% block footer %} 
+{% include "mpod_footer_1.html" %}
+
+{% endblock %}

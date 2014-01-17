@@ -1,0 +1,66 @@
+#------------------------------------------------------------------------------
+#$Date: 2011-1-11 17:19:00 +0000 $
+#$Revision: 001 $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Material Properties Open Database (MPOD),
+# http://www.materialproperties.org/
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_1000109
+_cod_database_code ?
+_structure_refined 'no'
+_phase_name 'Pr-YBCO'
+_phase_formula Y0.992Pr0.008Ba2Cu3O6.934
+_chemical_formula_sum 'Y0.992 Pr0.008 Ba2 Cu3 O6.934'
+_symmetry_point_group_name_H-M 'm m m'
+_cell_length_a  3.8188
+_cell_length_b  3.8869
+_cell_length_c  11.6901
+_cell_angle_alpha  90
+_cell_angle_beta   90
+_cell_angle_gamma  90
+loop_
+_publ_author_name
+'Kortyka, A.'
+'Puzniak, R.'
+'Wisniewski, A.'
+'Zehetmayer, M.'
+'Weber, H.W.'
+'Cai, Y.Q.'
+'Yao, X.'
+_publ_section_title
+;
+ Anisotropy of the superconducting state parameters and intrinsic pinning in low-level Pr-doped YBa2Cu3O7-d single crystals
+;
+_journal_name_full               'Superconductor Science and Technology'
+_journal_volume                  23
+_journal_issue                   10
+_journal_article_reference       065001
+_journal_pages_number            7
+_journal_year                    2010
+_phase_density ?
+_prop_measurement_method 'MagTorque'
+_prop_conditions_magnetic_field 0
+_prop_superconducting_critical_temperature_onset 91.2
+_prop_superconducting_critical_temperature_onset_90 ?
+_prop_superconducting_critical_temperature_mid_50 ?
+_prop_superconducting_critical_temperature_offset_10 ?
+_prop_superconducting_critical_temperature_thermodynamic ?
+_prop_superconducting_zero_resistivity_temperature ?
+_prop_superconducting_resistivity_transition_width ?
+_prop_superconducting_critical_field2_Hc2i 'Hc2i'
+_prop_superconducting_penetration_depth_lambdai 'lambdai'
+loop_
+_prop_data_label
+_prop_data_tensorial_index
+_prop_data_value
+Hc2i 1 1004.999
+Hc2i 2 1004.999
+Hc2i 3 127.7
+lambdai 1 105.4
+lambdai 2 105.4
+lambdai 3 829.498

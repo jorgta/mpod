@@ -1,0 +1,52 @@
+#------------------------------------------------------------------------------
+#$Date: 2011-03-26 22:05:00 +0000 $
+#$Revision: 001 $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Material Properties Open Database (MPOD),
+# http://www.materialproperties.org/
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_1000125
+_cod_database_code               1100043
+_structure_refined 'no'
+_phase_name 'zinc blende'
+_chemical_formula '(ZnS)0.9364Cu0.0103(SiO2)0.02155(Fe2O3;Al2O3)0.0374'
+_chemical_formula_sum 'Zn0.9364 S0.9364 Si0.02155 Fe0.0748 Al0.0748 O0.281'
+_symmetry_point_group_name_H-M '-4 3 m'
+_cell_length_a  4.15
+loop_
+_publ_author_name
+'Bhagavantam, S.'
+'Suryanarayana, D.'
+_publ_section_title
+;
+Elastic constants of piezo-electric crystals
+;
+_journal_name_full               'Proceedings of the Indian Academy of Science'
+_journal_volume                  20
+_journal_issue                   ?
+_journal_page_first              304
+_journal_page_last               309
+_journal_year                    1944
+
+_phase_density 4109
+_prop_measurement_method 'RT'
+_prop_conditions_temperature ?
+_prop_elastic_stiffness_cij 'cij'
+loop_
+_prop_data_label
+_prop_data_tensorial_index
+_prop_data_value
+cij 11 107.9
+cij 12 72.2
+cij 13 72.2
+cij 22 107.9
+cij 23 72.2
+cij 33 107.9
+cij 44 41.2
+cij 55 41.2
+cij 66 41.2

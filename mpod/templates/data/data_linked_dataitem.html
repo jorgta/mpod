@@ -1,0 +1,23 @@
+{% if header %}
+   {{header|safe}}
+{% endif %}
+<div class="module" id="changelist">
+<table>
+<tbody>
+{% for el in data_links_list %}
+<tr class="{% cycle 'row1' 'row2' %}">
+{% if el.2 %}
+<td> {{el.0}} </td><td>:</td> <td> <a href="{{el.2}}">{{el.1}}</a> </td>
+{% else %}
+<td> {{el.0}} </td><td>:</td> <td> {{el.1}} </td>
+{% endif %}
+</tr>
+{% endfor %}
+</tbody>
+</table>
+</div>
+
+{% if footer %}
+   {{footer|safe}}
+{% endif %}
+<br />

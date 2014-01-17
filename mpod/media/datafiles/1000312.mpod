@@ -1,0 +1,76 @@
+#------------------------------------------------------------------------------
+#$Date: 2013-01-16 10:41:00 +0000 $
+#$Revision: 001 $ Daniel Chateigner
+#------------------------------------------------------------------------------
+#
+# This file is available in the Material Properties Open Database (MPOD),
+# http://www.mpod.net/
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_1000312
+_cod_database_code ?
+_structure_refined 'no'
+_phase_name 'Nd-doped Sr3Y2(BO3)4'
+_phase_formula 'Nd-doped Sr3Y2(BO3)4'
+_chemical_formula_sum 'Nd0.005 Sr3 Y2 B4 O12'
+_symmetry_point_group_name_H-M 'm m m'
+_cell_length_a  7.3933(1)
+_cell_length_b  15.9461(2)
+_cell_length_c  8.6967(1)
+_cell_angle_alpha  90
+_cell_angle_beta   90
+_cell_angle_gamma  90
+
+loop_
+_publ_author_name
+'Pan, Zhongben'
+'Cong, Hengjiang'
+'Yu, Haohai'
+'Zhang, Huaijin'
+'Wang, Jiyang'
+'Boughton, Robert I.'
+_publ_section_title
+;
+ Growth, morphology and anisotropic thermal properties of Nd-doped Nd-doped Sr3Y2(BO3)4 crystal
+;
+_journal_name_full               'Journal of Crystal Growth'
+_journal_volume                  363
+_journal_issue                   ?
+_journal_page_first              176
+_journal_page_last               184
+_journal_year                    2013
+
+_phase_density 4386
+_phase_density_temperature 294.15
+
+_prop_heat_capacity_C 'C'
+_prop_thermal_conductivity_kappaij 'kappaij'
+_prop_thermal_diffusivity_kappadij 'kappadij'
+_prop_thermal_expansion_alphaij 'alphaij'
+_prop_conditions_temperature_range_end 770.15
+
+
+loop_
+_prop_data_label
+_prop_data_tensorial_index
+_prop_data_value
+_prop_measurement_method
+_prop_conditions_temperature_range_begin
+alphaij 11 7.04 TMA 303.15
+alphaij 22 15.32 TMA 303.15
+alphaij 33 14.35 TMA 303.15
+C 0 0.536 DSC 293.15
+C 0 0.573 DSC 330
+C 0 0.721 DSC 573.15
+kappaij 11 0.74 LPM 299.15
+kappaij 22 1.00 LPM 299.15
+kappaij 33 0.67 LPM 299.15
+kappaij 11 0.91 LPM 572.15
+kappaij 22 1.12 LPM 572.15
+kappaij 33 0.83 LPM 572.15
+kappadij 11 0.00000031 LPM 299
+kappadij 22 0.00000042 LPM 299
+kappadij 33 0.00000028 LPM 299

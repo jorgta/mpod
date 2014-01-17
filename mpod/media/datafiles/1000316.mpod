@@ -1,0 +1,82 @@
+#------------------------------------------------------------------------------
+#$Date: 2013-07-06 22:47:00 +0000 $
+#$Revision: 001 $ Daniel Chateigner
+#------------------------------------------------------------------------------
+#
+# This file is available in the Material Properties Open Database (MPOD),
+# http://www.mpod.net/
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_1000316
+_cod_database_code 9008857
+_structure_refined 'no'
+_phase_name 'zinc selenide'
+_phase_formula 'ZnSe'
+_chemical_formula_sum 'Zn Se'
+_symmetry_point_group_name_H-M '-4 3 m'
+_cell_length_a  5.6676
+_cell_length_b  5.6676
+_cell_length_c  5.6676
+_cell_angle_alpha  90
+_cell_angle_beta   90
+_cell_angle_gamma  90
+
+loop_
+_publ_author_name
+'Slack, Glen A.'
+_publ_section_title
+;
+ Thermal conductivity of II-VI compounds and phonon scattering by Fe2+ impurities
+;
+_journal_name_full               'Physical Review B'
+_journal_volume                  6
+_journal_issue                   10
+_journal_page_first              3791
+_journal_page_last               3800
+_journal_year                    1972
+
+
+_prop_measurement_method 'SST'
+
+_prop_thermal_conductivity_kappaij 'kappaij'
+
+
+loop_
+_prop_data_label
+_prop_data_tensorial_index
+_prop_data_value
+_prop_conditions_temperature
+kappaij 11 370 30
+kappaij 22 370 30
+kappaij 33 370 30
+kappaij 11 290 40
+kappaij 22 290 40
+kappaij 33 290 40
+kappaij 11 220 50
+kappaij 22 220 50
+kappaij 33 220 50
+kappaij 11 150 65
+kappaij 22 150 65
+kappaij 33 150 65
+kappaij 11 103 80
+kappaij 22 103 80
+kappaij 33 103 80
+kappaij 11 76 100
+kappaij 22 76 100
+kappaij 33 76 100
+kappaij 11 44 150
+kappaij 22 44 150
+kappaij 33 44 150
+kappaij 11 30 200
+kappaij 22 30 200
+kappaij 33 30 200
+kappaij 11 23 250
+kappaij 22 23 250
+kappaij 33 23 250
+kappaij 11 19 300
+kappaij 22 19 300
+kappaij 33 19 300
+

@@ -1,0 +1,144 @@
+#------------------------------------------------------------------------------
+#$Date: 2012-11-25 21:50:00 +0000 $
+#$Revision: 001 $ Daniel Chateigner
+#------------------------------------------------------------------------------
+#
+# This file is available in the Material Properties Open Database (MPOD),
+# http://www.mpod.net/
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_1000306
+_cod_database_code 2100858
+_structure_refined 'no'
+_phase_name 'barium titanate'
+_phase_formula 'BaTiO3'
+_chemical_formula_sum 'Ba1 Ti1 O3'
+_symmetry_point_group_name_H-M '4 m m'
+_cell_length_a  3.9998
+_cell_length_b  3.9998
+_cell_length_c   4.018
+_cell_angle_alpha  90
+_cell_angle_beta   90
+_cell_angle_gamma  90
+
+loop_
+_publ_author_name
+'Zgonik, M.'
+'Bernasconi, P.'
+'Duelli, M.'
+'Schlesser, R.'
+'Gunter, P.'
+'Garrett, M.H.'
+'Rytz, D.'
+'Zhu, Y.'
+'Wu, X.'
+_publ_section_title
+;
+ Dielectric, elastic, piezoelectric, electro-optic, and elasto-optic tensors of BaTiO3 crystals
+;
+_journal_name_full               'Physical Review B'
+_journal_volume                  50
+_journal_issue                   9
+_journal_page_first              5941
+_journal_page_last               5949
+_journal_year                    1994
+
+_phase_density 6020
+_prop_measurement_poling '[001]'
+_prop_symmetry_point_group_name_H-M '4 m m'
+_prop_dielectric_permittivity_relative_epsrijS 'epsrijS'
+_prop_dielectric_permittivity_relative_epsrijT 'epsrijT'
+_prop_elastic_compliance_sijE 'sijE'
+_prop_elastic_compliance_sijD 'sijD'
+_prop_elastic_stiffness_cijE 'cijE'
+_prop_elastic_stiffness_cijD 'cijD'
+_prop_electrooptic_rijkS 'rijkS'
+_prop_electrooptic_rijkT 'rijkT'
+_prop_photoelastic_pijE 'pijE'
+_prop_piezoelectric_dij 'dij'
+_prop_piezoelectric_eij 'eij'
+_prop_conditions_temperature 295
+
+loop_
+_prop_data_label
+_prop_data_tensorial_index
+_prop_data_value
+_prop_measurement_method
+epsrijT 11 4400(400) CAP
+epsrijT 22 4400(400) CAP
+epsrijT 33 129(5) CAP
+epsrijS 11 2200(200) CAP
+epsrijS 22 2200(200) CAP
+epsrijS 33 56(3) CAP
+sijD 11 6.4(3) RT
+sijD 12 -2.3(4) RT
+sijD 13 -1.7(3) RT
+sijD 22 6.4(3) RT
+sijD 23 -1.7(3) RT
+sijD 33 5.6(10) RT
+sijD 44 ? RT
+sijD 55 ? RT
+sijD 66 8.4(16) RT
+sijE 11 7.4(3) RT
+sijE 12 -1.4(3) RT
+sijE 13 -4.4(5) RT
+sijE 22 7.4(3) RT
+sijE 23 -4.4(5) RT
+sijE 33 13.1(15) RT
+sijE 44 16.4(16) RT
+sijE 55 16.4(16) RT
+sijE 66 7.6(8) RT
+cijD 11 223(10) RT
+cijD 12 109(5) RT
+cijD 13 102(5) RT
+cijD 22 223(10) RT
+cijD 23 102(5) RT
+cijD 33 240(10) RT
+cijD 44 121(5) RT
+cijD 55 121(5) RT
+cijD 66 ? RT
+cijE 11 222(10) RT
+cijE 12 108(18) RT
+cijE 13 111(8) RT
+cijE 22 222(10) RT
+cijE 23 111(8) RT
+cijE 33 151(7) RT
+cijE 44 61(3) RT
+cijE 55 61(3) RT
+cijE 66 134(6) RT
+rijkS 113 10.2(6) IntF
+rijkS 223 10.2(6) InTF
+rijkS 333 40.6(25) InTF
+rijkS 232 730(100) IntF
+rijkS 131 730(100) IntF
+rijkT 113 8(2) IntF
+rijkT 223 8(2) InTF
+rijkT 333 105(10) InTF
+rijkT 232 1300(100) IntF
+rijkT 131 1300(100) IntF
+pijE 11 0.50(4) LDU
+pijE 12 0.106(10) LDU
+pijE 13 0.200(14) LDU
+pijE 21 0.106(10) LDU
+pijE 22 0.50(4) LDU
+pijE 23 0.200(14) LDU
+pijE 31 0.070(7) LDU
+pijE 32 0.070(7) LDU
+pijE 33 0.77(4) LDU
+pijE 44 1.0(2) LDU
+pijE 55 1.0(2) LDU
+pijE 66 ? ?
+dij 31 -33.4(20) IntF
+dij 32 -33.4(20) InTF
+dij 33 90(5) InTF
+dij 15 564(40) IntF
+dij 24 564(40) IntF
+eij 31 -0.7(6) IntF
+eij 32 -0.7(6) IntF
+eij 33 6.7(3) IntF
+eij 15 68.4(36) IntF
+eij 24 68.4(36) IntF
+

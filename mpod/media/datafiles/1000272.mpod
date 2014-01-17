@@ -1,0 +1,45 @@
+#------------------------------------------------------------------------------
+#$Date: 2011-06-28 6:28:00 +0000 $
+#$Revision: 001 $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Material Properties Open Database (MPOD),
+# http://www.materialproperties.org/
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_1000272
+_cod_database_code               ?
+_structure_refined 'no'
+_phase_name 'BaLaCuO'
+_phase_formula 'La1.85Ba0.15CuO4'
+_chemical_formula_sum ' La1.85 Ba0.15 Cu O4'
+_symmetry_point_group_name_H-M '4/m m m'
+_cell_length_a  ?
+_cell_length_b  ?
+_cell_length_c  ?
+_cell_angle_alpha  90
+_cell_angle_beta   90
+_cell_angle_gamma  90
+loop_
+_publ_author_name
+'Bednorz, J.G.'
+'Takashige, M.'
+'M\uller, K.A.'
+_publ_section_title
+;
+ Susceptibility measurements support high-Tc superconductivity in the Ba-La-Cu-O system
+;
+_journal_name_full               'Europhysics Letters'
+_journal_volume                  3
+_journal_issue                   3
+_journal_page_first              379
+_journal_page_last               385
+_journal_year                    1987
+_phase_density ?
+_prop_measurement_method 'MS'
+_prop_conditions_temperature ?
+_prop_conditions_magnetic_field 0.03
+_prop_superconducting_critical_temperature_onset 33(2)

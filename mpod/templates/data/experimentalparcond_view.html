@@ -1,0 +1,22 @@
+{% extends "mpod_base_text.html" %}
+
+{% block title %}MPOD - Property View{% endblock %}
+
+{% block central_column %}  
+
+<div class="central_column">
+
+    {% if property_table %}
+		{{property_table|escape}}
+	 {% else %}
+Sorry! Experimental Parameter/Condition not found
+    {% endif %}
+
+
+</div>
+{% endblock %}
+
+{% block footer %} 
+{% include "mpod_footer_1.html" %}
+
+{% endblock %}

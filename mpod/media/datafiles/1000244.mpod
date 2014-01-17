@@ -1,0 +1,55 @@
+#------------------------------------------------------------------------------
+#$Date: 2011-07-1 10:22:00 +0000 $
+#$Revision: 001 $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Material Properties Open Database (MPOD),
+# http://www.materialproperties.org/
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_1000244
+_cod_database_code 2223574
+_structure_refined 'no'
+_phase_name 'sodium tartrate'
+_phase_formula 'Na2C4H4O6'
+_chemical_formula_sum 'Na2 C4 H4 O6'
+_symmetry_point_group_name_H-M 'm m m'
+_cell_length_a  10.116
+_cell_length_b  10.0049
+_cell_length_c  13.0821
+_cell_angle_alpha  90
+_cell_angle_beta   90
+_cell_angle_gamma  90
+loop_
+_publ_author_name
+'Bhagavantam, S.'
+_publ_section_title
+;
+ Elastic properties of single crystals and polycrystalline aggregates
+;
+_journal_name_full               'Proceedings of the Indian Academy of Sciences A'
+_journal_volume                  41
+_journal_issue                   ?
+_journal_page_first              72
+_journal_page_last               90
+_journal_year                    1955
+_phase_density ?
+_prop_measurement_method 'COM'
+_prop_conditions_temperature ?
+_prop_elastic_stiffness_cij 'cij'
+loop_
+_prop_data_label
+_prop_data_tensorial_index
+_prop_data_value
+cij 11 46.1
+cij 12 33.4
+cij 13 35.2
+cij 22 54.7
+cij 23 35
+cij 33 66.5
+cij 44 12.4
+cij 55 3.1
+cij 66 9.8

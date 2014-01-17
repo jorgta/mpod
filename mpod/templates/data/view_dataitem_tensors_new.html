@@ -1,0 +1,90 @@
+{% if header %}
+   {{header|safe}}
+{% endif %}
+<br />
+{% if formatted_data_blocks %}
+	{% for block in formatted_data_blocks %}
+		{% if block.0 %}
+			<h5>General experimental conditions/parameters</h5>
+			<div class="module" id="changelist">
+			<table>
+			<tbody>
+			{% for nlp in block.0 %}
+				<tr class="{% cycle 'row1' 'row2' %}">
+				<td><a href="/exparcond/{{nlp.1}}">{{nlp.0}}</a></td><td>{{nlp.2}}</td><td>:</td> <td>{{nlp.3}} </td>
+				</tr>
+			{% endfor %}
+			</tbody>
+			</table>
+			</div>
+			<br />
+		{% endif %}
+		{% if block.1 %}
+			{% for sec in block.1 %}
+				{% if sec.0 %}
+					{% if sec.0.0 %}
+							<h6>Other experimental conditions/parameters</h6>
+							<div class="module" id="changelist">
+							<table>
+							<tbody>
+							{% for lp in sec.0 %}
+								<tr class="{% cycle 'row1' 'row2' %}">
+								<td><a href="/exparcond/{{lp.1}}">{{lp.0}}</a></td><td>{{lp.2}}</td><td>:</td> <td>{{lp.3}} </td>
+								</tr>
+							{% endfor %}
+							</tbody>
+							</table>
+							</div>
+							<br />
+					{% endif %}
+					{% if sec.1 %}
+						<h6>Properties' values</h6>
+						{% for tens_prop in sec.1 %}
+							<a href="/properties/{{tens_prop.1}}">{{tens_prop.0}}</a> {{tens_prop.2}}
+								<div class="module" id="changelist">
+								<table>
+								<tbody>
+								{% for tens_row in tens_prop.3 %}
+									<tr class="{% cycle 'row1' 'row2' %}">
+									{% for tens_val in tens_row %}<td> {{tens_val}} </td>{% endfor %}
+									</tr>
+								{% endfor %}
+								</tbody>
+								</table>
+								</div>
+							<br />
+						{% endfor %}
+					{% endif %}
+				{% else %}
+					{% if sec.1 %}
+						<div class="module" id="changelist">
+						<table>
+						<th>
+							<tr> {% for item in sec.1.0 %}
+										{% if item.3 %}
+											<th> <a href="/properties/{{item.1}}">{{item.0}}{{item.2}}</a> </th>
+										{% else %}
+										   <th> <a href="/exparcond/{{item.1}}">{{item.0}}{{item.2}}</a> </th>
+										{% endif %}  
+								  {% endfor %} 
+							</tr>
+						</th>
+						<tbody>
+						{% for riga in sec.1.1 %}
+						<tr class="{% cycle 'row1' 'row2' %}">{%for ele in riga%}<td>{{ele}}</td>{% endfor %}</tr>
+						{% endfor %}
+						</tbody>
+						</table>
+						<br />
+						</div>					
+					{% endif %}
+				{% endif %}
+			{% endfor %}
+		{% endif %}
+	{% endfor %}
+{% endif %}
+
+{% if footer %}
+   {{footer|safe}}
+{% endif %}
+<br />

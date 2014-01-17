@@ -1,0 +1,62 @@
+#------------------------------------------------------------------------------
+#$Date: 2012-09-20 21:12:00 +0000$
+#$Revision: 001 $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Material Properties Open Database (MPOD),
+# http://www.materialproperties.org/
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_1000292
+_cod_database_code 1000032
+_structure_refined 'no'
+_phase_name 'corundum'
+_phase_formula 'alpha-Al2O3'
+_chemical_formula_sum 'Al2 O3'
+_symmetry_point_group_name_H-M '-3 m'
+_cell_length_a  4.7605
+_cell_length_b  4.7605
+_cell_length_c  12.9956
+_cell_angle_alpha  90
+_cell_angle_beta   90
+_cell_angle_gamma  120
+_phase_cell_temperature ?
+
+loop_
+_publ_author_name
+'Kisi, Erich H.'
+'Howard, Christopher J.'
+'Zhang, Jianfeng'
+_publ_section_title
+;
+ Verification of the elastic constants for a-Al2O3 using high-resolution neutron diffraction
+;
+_journal_name_full               'Journal of Applied Crystallography'
+_journal_volume                  44
+_journal_issue                   1
+_journal_page_first              216
+_journal_page_last               218
+_journal_year                    2011
+_phase_density ?
+_prop_conditions_temperature ?
+_prop_measurement_method PND
+_prop_elastic_compliance_sij 'sij'
+loop_
+_prop_data_label
+_prop_data_tensorial_index
+_prop_data_value
+sij 11 2.35
+sij 12 -0.7
+sij 13 -0.47
+sij 14 -0.45
+sij 22 2.35
+sij 23 -0.47
+sij 24 0.45
+sij 33 2.17
+sij 44 6.95
+sij 55 6.95
+sij 56 -0.225
+sij 66 6.1

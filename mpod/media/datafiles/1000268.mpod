@@ -1,0 +1,50 @@
+#------------------------------------------------------------------------------
+#$Date: 2011-06-13 22:20:00 +0000 $
+#$Revision: 001 $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Material Properties Open Database (MPOD),
+# http://www.materialproperties.org/
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_1000268
+_cod_database_code 9012754
+_structure_refined 'no'
+_phase_name 'alpha potassium nitrate'
+_phase_formula 'KNO3'
+_chemical_formula_sum 'K1 N1 O3'
+_symmetry_point_group_name_H-M 'm m m'
+_cell_length_a  5.4142
+_cell_length_b  9.1659
+_cell_length_c  6.4309
+_cell_angle_alpha  90
+_cell_angle_beta   90
+_cell_angle_gamma  90
+loop_
+_publ_author_name
+'Lonappan, M.A.'
+_publ_section_title
+;
+ Thermal expansion of potassium nitrate
+;
+_journal_name_full               'Proceedings of the Indian Academy of Sciences, Section A'
+_journal_volume                  41
+_journal_issue                   ?
+_journal_page_first              239
+_journal_page_last               244
+_journal_year                    1955
+_phase_density ?
+_prop_measurement_method 'SCXD'
+_prop_conditions_temperature_range_begin 303
+_prop_conditions_temperature_range_end 373
+_prop_thermal_expansion_alphaij 'alphaij'
+loop_
+_prop_data_label
+_prop_data_tensorial_index
+_prop_data_value
+alphaij 11 22.0(3)
+alphaij 22 23.5(5) 
+alphaij 33 182.6(2)

@@ -1,0 +1,54 @@
+#------------------------------------------------------------------------------
+#$Date: 2010-12-08 21:55:00 +0000 $
+#$Revision: 001 $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Material Properties Open Database (MPOD),
+# http://www.materialproperties.org/
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_1000105
+_cod_database_code ?
+_structure_refined 'no'
+_phase_name 'iron selenide'
+_phase_formula K0.8Fe2Se2
+_chemical_formula_sum 'K0.8 Fe2 Se2'
+_symmetry_point_group_name_H-M '4/m m m'
+_cell_length_a  3.9136(1)
+_cell_length_b  3.9136(1)
+_cell_length_c  14.0367(7)
+_cell_angle_alpha  90
+_cell_angle_beta   90
+_cell_angle_gamma  90
+loop_
+_publ_author_name
+'Guo, Jiangang'
+'Jin, Shifeng'
+'Wang, Gang'
+'Wang, Shunchong'
+'Zhu, Kaixing'
+'Zhou, Tingting'
+'He, Meng'
+'Chen, Xiaolong'
+_publ_section_title
+;
+ Superconductivity in the iron selenide KxFe2Se2 (0<=x<=1.0)
+;
+_journal_name_full               'Physical Review B'
+_journal_volume                  82
+_journal_issue                   18
+_journal_article_reference       180520(R)
+_journal_pages_number            4
+_journal_year                    2010
+_phase_density ?
+_prop_measurement_method 'RC'
+_prop_superconducting_critical_temperature_onset 30.1
+_prop_superconducting_critical_temperature_onset_90 ?
+_prop_superconducting_critical_temperature_mid_50 28.3
+_prop_superconducting_critical_temperature_offset_10 ?
+_prop_superconducting_critical_temperature_thermodynamic ?
+_prop_superconducting_zero_resistivity_temperature 27.2
+_prop_superconducting_resistivity_transition_width 1.3

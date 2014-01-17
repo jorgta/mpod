@@ -1,0 +1,46 @@
+#------------------------------------------------------------------------------
+#$Date: 2010-09-30 10:46:17 +0000 (Thu, 30 Sep 2010) $
+#$Revision: 001 $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Material Properties Open Database (MPOD),
+# http://www.mpod.net/
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_1000060
+_cod_database_code               9013045
+_structure_refined 'no'
+_phase_name silver
+_chemical_formula_sum 'Ag'
+_symmetry_point_group_name_H-M m3m
+_cell_length_a  4.086
+loop_
+_publ_author_name
+'Ledbetter H.'
+'Kim S.'
+_publ_section_title
+;
+Monocrystal elastic constants and derived properties of the cubic and the hexagonal elements
+;
+_journal_name_full               'Handbook of Elastic Properties of Solids, Liquids, and Gases (Academic Press), Levy M., Bass H., Stern R. (Eds.)'
+_journal_volume                  2
+_journal_year                    2000
+_prop_measurement_method 'RUS'
+_prop_conditions_temperature ?
+_prop_elastic_stiffness_cij 'cij'
+loop_
+_prop_data_label
+_prop_data_tensorial_index
+_prop_data_value
+cij 11 122.2
+cij 12 90.7
+cij 13 90.7
+cij 22 122.2
+cij 23 90.7
+cij 33 122.2
+cij 44 45.4
+cij 55 45.4
+cij 66 45.4

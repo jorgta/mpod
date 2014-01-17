@@ -1,0 +1,38 @@
+#------------------------------------------------------------------------------
+#$Date: 2010-09-30 10:46:17 +0000 (Thu, 30 Sep 2010) $
+#$Revision: 001 $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Material Properties Open Database (MPOD),
+# http://www.mpod.net/
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_1000056
+_cod_database_code               5000035
+_structure_refined 'no'
+_phase_name alpha-Quartz
+_chemical_formula_sum 'Si O2'
+_symmetry_point_group_name_H-M 32
+_cell_length_a  4.91239
+_cell_length_c  5.40385
+_publ_author_name '?'
+_publ_section_title
+;
+?
+;
+_journal_name_full               '?'
+_journal_volume                  ?
+_journal_year                    ?
+_prop_measurement_method '?'
+_prop_conditions_temperature ?
+_prop_thermal_conductivity_kappaij 'kappaij'
+loop_
+_prop_data_label
+_prop_data_tensorial_index
+_prop_data_value
+kappaij 11 6.5
+kappaij 22 6.5
+kappaij 33 11.3

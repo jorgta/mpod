@@ -1,0 +1,65 @@
+#------------------------------------------------------------------------------
+#$Date: 2010-09-30 10:46:17 +0000 (Thu, 30 Sep 2010) $
+#$Revision: 001 $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Material Properties Open Database (MPOD),
+# http://www.mpod.net/
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_1000033
+_cod_database_code               2101845
+_structure_refined 'no'
+_phase_name LiNbO3
+_chemical_formula_sum 'Li Nb O3.07 Mg0.07'
+_symmetry_point_group_name_H-M 3m
+_cell_length_a  5.148
+_cell_length_c  13.863
+loop_
+_publ_author_name
+'Mytsyk Bogdan G.'
+'Andrushchak Anatoliy S.'
+'Demyanyshyn Nataliya M.'
+'Kost Yaroslav P.'
+'Kityk Andriy V.'
+'Mandracci Pietro'
+'Schranz Wilfried'
+_publ_section_title
+;
+Piezo-optic coefficients of MgO-doped LiNbO3 crystals
+;
+_journal_name_full               'Applied Optics'
+_journal_volume                  48
+_journal_issue                   10
+_journal_page_first              1904
+_journal_page_last               1911
+_journal_year                    2009
+_phase_density 4638
+_prop_measurement_method '?'
+_prop_symmetry_point_group_name_H-M 3m
+_prop_piezooptic_piij 'piij'
+loop_
+_prop_data_label
+_prop_data_tensorial_index
+_prop_data_value
+piij 11 -0.43
+piij 12 0.15
+piij 13 0.78
+piij 14 -0.8
+piij 21 0.15
+piij 22 -0.43
+piij 23 0.78
+piij 24 0.8
+piij 31 0.5
+piij 32 0.5
+piij 33 0.32
+piij 41 -0.9
+piij 42 0.9
+piij 44 2
+piij 55 2
+piij 56 -0.9
+piij 65 -0.8
+piij 66 -0.29

@@ -1,0 +1,61 @@
+#------------------------------------------------------------------------------
+#$Date: 2010-10-23 23:15:00 +0000 $
+#$Revision: 001 $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Material Properties Open Database (MPOD),
+# http://www.mpod.net/
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_1000071
+_cod_database_code ?
+_structure_refined 'no'
+_phase_name 'pentaerythritol tetranitrate'
+_phase_formula '?'
+_symmetry_point_group_name_H-M '-4 m'
+_cell_length_a ?
+_cell_length_c ?
+loop_
+_publ_author_name
+'Stevens, Lewis L.'
+'Hooks, Daniel E.'
+'Migliori, Albert'
+_publ_section_title
+;
+ A comparative evaluation of elasticity in pentaerythritol tetranitrate using Brillouin scattering and resonant ultrasound spectroscopy
+;
+_journal_name_full               'Journal of Applied Physics'
+_journal_volume                  108
+_journal_issue            5
+_journal_article_reference       053512
+_journal_pages_number            4
+_journal_year                    2010
+_phase_density 1768
+_prop_elastic_stiffness_cij 'cij'
+loop_
+_prop_data_label
+_prop_data_tensorial_index
+_prop_data_value
+_prop_measurement_method
+cij 11 16.77(12) RUS
+cij 12 5.75(8) RUS
+cij 13 5.57(10) RUS
+cij 22 16.77(12) RUS 
+cij 23 5.57(10) RUS
+cij 33 10.33(9) RUS
+cij 44 5.04(1) RUS
+cij 55 5.04(1) RUS 
+cij 66 3.04(2) RUS 
+cij 11 16.92(7) BS
+cij 12 5.14(7) BS
+cij 13 7.80(5) BS
+cij 22 16.92(7) BS 
+cij 23 7.80(5) BS
+cij 33 11.62(5) BS
+cij 44 4.45(3) BS
+cij 55 4.45(3) BS 
+cij 66 3.80(3) BS 
+

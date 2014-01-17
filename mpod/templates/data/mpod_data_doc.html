@@ -1,0 +1,34 @@
+{% extends "mpod_base_text.html" %}
+
+{% block title %}MPOD - Datafiles documentation {% endblock %}
+
+{% block central_column %}
+<div class="central_column">
+<p>
+MPOD files syntax complies with the STAR File specification.
+However some tricks were adopted to adapt the its relatively strict syntax 
+to allow for multiple entries still avoiding ambiguousness.
+</p><p>
+Unlike the crystal structure that is univocally described, 
+material properties are not easily defined with one single value.
+<br />
+For example tensorial properties are described by a matrix of values.
+Often the change of properties under changing environment are of interest.
+<br />
+The value of a property tag is a label.
+This label is then used in a <i>_loop</i> structure where the tensorial index and/or changing
+experimental conditions (temperature, pressure, … ) as well as the actual value 
+are given.
+</p><p>
+CIF files are checked for consistency againt one or more dictionaries.<br />
+.mpod files are checked agains the 
+<a href="/dict/intro" name="material_properties_dictionary">material properties dictionary</a> 
+and the 
+<a href="http://www.iucr.org/resources/cif/dictionaries/cif_core" target="_blank" name="core_cif">CORE CIF dictionary</a>.
+<br />
+<a href="http://anbf2.kek.jp/CIF/" target="_blank" name="PyCifRW_home">PyCifRW</a> 
+is currently being used to check the syntactical correctness of the .mpod files.
+Further automatic checking routines are under development.
+</p>
+</div>
+{% endblock %}

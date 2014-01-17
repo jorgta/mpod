@@ -1,0 +1,48 @@
+#------------------------------------------------------------------------------
+#$Date: 2010-10-16 22:19:00 +0000 $
+#$Revision: 001 $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Material Properties Open Database (MPOD),
+# http://www.mpod.net/
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_1000077
+_cod_database_code 9006486
+_structure_refined 'no'
+_phase_name 'Tungsten'
+_phase_formula K
+_chemical_formula_sum 'K'
+_symmetry_point_group_name_H-M 'm 3 m'
+_cell_length_a  3.1648
+loop_
+_publ_author_name
+'Wright, S.J.'
+_publ_section_title
+;
+ Elasticity of Pintsch crystals of tungsten
+;
+_journal_name_full               'Proceedings of the Royal Society of London A'
+_journal_volume                  126
+_journal_issue            803
+_journal_page_first              613
+_journal_page_last               629
+_journal_year                    1930
+_prop_elastic_compliance_sij 'sij'
+loop_
+_prop_data_label
+_prop_data_tensorial_index
+_prop_data_value
+sij 11 2.573
+sij 12 -0.729
+sij 13 -0.729
+sij 22 2.573
+sij 23 -0.729
+sij 33 2.573
+sij 44 6.55
+sij 55 6.55
+sij 66 6.55
+

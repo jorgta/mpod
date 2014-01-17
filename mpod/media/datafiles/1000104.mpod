@@ -1,0 +1,59 @@
+#------------------------------------------------------------------------------
+#$Date: 2010-12-06 16:55:00 +0000 $
+#$Revision: 001 $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Material Properties Open Database (MPOD),
+# http://www.materialproperties.org/
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_1000104
+_cod_database_code 9008814
+_structure_refined 'no'
+_phase_name 'beta-Brass'
+_phase_formula CuZn
+_chemical_formula_sum 'Cu Zn'
+_symmetry_point_group_name_H-M 'm 3 m'
+_cell_length_a  2.945
+loop_
+_publ_author_name
+'Rinehart, John S.'
+_publ_section_title
+;
+ Behaviour of Young's modulus of beta-brass single crystals at low temperature
+;
+_journal_name_full               'Physical Review'
+_journal_volume                  59
+_journal_issue                   ?
+_journal_page_first              308
+_journal_page_last               309
+_journal_year                    1941
+_phase_density 8350
+_prop_measurement_method '?'
+_prop_elastic_compliance_sij 'sij'
+loop_
+_prop_data_label
+_prop_data_tensorial_index
+_prop_data_value
+_prop_conditions_temperature
+sij 11 40.69 90
+sij 12 ? 90
+sij 13 ? 90
+sij 22 40.69 90
+sij 23 ? 90
+sij 33 40.69 90
+sij 44 ? 90
+sij 55 ? 90
+sij 66 ? 90
+sij 11 39.68 205
+sij 12 ? 205
+sij 13 ? 205
+sij 22 39.68 205
+sij 23 ? 205
+sij 33 39.68 205
+sij 44 ? 205
+sij 55 ? 205
+sij 66 ? 205

@@ -1,0 +1,292 @@
+#------------------------------------------------------------------------------
+#$Date: 2010-10-15 22:38:00 +0000 $
+#$Revision: 001 $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Material Properties Open Database (MPOD),
+# http://www.mpod.net/
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_1000079
+_cod_database_code 9008545
+_structure_refined 'no'
+_phase_name 'Sodium'
+_phase_formula Na
+_chemical_formula_sum 'Na'
+_symmetry_point_group_name_H-M 'm 3 m'
+_cell_length_a  4.2906
+loop_
+_publ_author_name
+'Quimby, S.L.'
+'Sigiel, Sidney'
+_publ_section_title
+;
+ The variation of the elastic constants of crystalline sodium with temperature between 80°K and 210°K
+;
+_journal_name_full               'Physical Review'
+_journal_volume                  54
+_journal_page_first              293
+_journal_page_last               299
+_journal_year                    1938
+_prop_elastic_compliance_sij 'sij'
+_prop_elastic_stiffness_cij 'cij'
+loop_
+_prop_data_label
+_prop_data_tensorial_index
+_prop_data_value
+_prop_conditions_temperature
+sij 11 482.6 80
+sij 12 -208.7 80
+sij 13 -208.7 80
+sij 22 482.6 80
+sij 23 -208.7 80
+sij 33 482.6 80
+sij 44 168.5 80
+sij 55 168.5 80
+sij 66 168.5 80
+sij 11 486.1 90
+sij 12 -210.2 90
+sij 13 -210.2 90
+sij 22 486.1 90
+sij 23 -210.2 90
+sij 33 486.1 90
+sij 44 170.5 90
+sij 55 170.5 90
+sij 66 170.5 90
+sij 11 489.8 100
+sij 12 -211.8 100
+sij 13 -211.8 100
+sij 22 489.8 100
+sij 23 -211.8 100
+sij 33 489.8 100
+sij 44 172.6 100
+sij 55 172.6 100
+sij 66 172.6 100
+sij 11 493.7 110
+sij 12 -213.4 110
+sij 13 -213.4 110
+sij 22 493.7 110
+sij 23 -213.4 110
+sij 33 493.7 110
+sij 44 174.7 110
+sij 55 174.7 110
+sij 66 174.7 110
+sij 11 497.5 120
+sij 12 -215.1 120
+sij 13 -215.1 120
+sij 22 497.5 120
+sij 23 -215.1 120
+sij 33 497.5 120
+sij 44 177.0 120
+sij 55 177.0 120
+sij 66 177.0 120
+sij 11 501.4 130
+sij 12 -216.8 130
+sij 13 -216.8 130
+sij 22 501.4 130
+sij 23 -216.8 130
+sij 33 501.4 130
+sij 44 179.3 130
+sij 55 179.3 130
+sij 66 179.3 130
+sij 11 505.4 140
+sij 12 -218.6 140
+sij 13 -218.6 140
+sij 22 505.4 140
+sij 23 -218.6 140
+sij 33 505.4 140
+sij 44 181.8 140
+sij 55 181.8 140
+sij 66 181.8 140
+sij 11 509.4 150
+sij 12 -220.5 150
+sij 13 -220.5 150
+sij 22 509.4 150
+sij 23 -220.5 150
+sij 33 509.4 150
+sij 44 184.6 150
+sij 55 184.6 150
+sij 66 184.6 150
+sij 11 513.5 160
+sij 12 -222.4 160
+sij 13 -222.4 160
+sij 22 513.5 160
+sij 23 -222.4 160
+sij 33 513.5 160
+sij 44 187.4 160
+sij 55 187.4 160
+sij 66 187.4 160
+sij 11 517.7 170
+sij 12 -224.3 170
+sij 13 -224.3 170
+sij 22 517.7 170
+sij 23 -224.3 170
+sij 33 517.7 170
+sij 44 190.4 170
+sij 55 190.4 170
+sij 66 190.4 170
+sij 11 522.0 180
+sij 12 -226.2 180
+sij 13 -226.2 180
+sij 22 522.0 180
+sij 23 -226.2 180
+sij 33 522.0 180
+sij 44 193.6 180
+sij 55 193.6 180
+sij 66 193.6 180
+sij 11 526.3 190
+sij 12 -228.1 190
+sij 13 -228.1 190
+sij 22 526.3 190
+sij 23 -228.1 190
+sij 33 526.3 190
+sij 44 196.8 190
+sij 55 196.8 190
+sij 66 196.8 190
+sij 11 530.8 200
+sij 12 -230.1 200
+sij 13 -230.1 200
+sij 22 530.8 200
+sij 23 -230.1 200
+sij 33 530.8 200
+sij 44 200.2 200
+sij 55 200.2 200
+sij 66 200.2 200
+sij 11 535.4 210
+sij 12 -232.1 210
+sij 13 -232.1 210
+sij 22 535.4 210
+sij 23 -232.1 210
+sij 33 535.4 210
+sij 44 203.7 210
+sij 55 203.7 210
+sij 66 203.7 210
+cij 11 6.08 80
+cij 12 4.63 80
+cij 13 4.63 80
+cij 22 6.08 80
+cij 23 4.63 80
+cij 33 6.08 80
+cij 44 5.93 80
+cij 55 5.93 80
+cij 66 5.93 80
+cij 11 6.03 90
+cij 12 4.59 90
+cij 13 4.59 90
+cij 22 6.03 90
+cij 23 4.59 90
+cij 33 6.03 90
+cij 44 5.86 90
+cij 55 5.86 90
+cij 66 5.86 90
+cij 11 5.98 100
+cij 12 4.56 100
+cij 13 4.56 100
+cij 22 5.98 100
+cij 23 4.56 100
+cij 33 5.98 100
+cij 44 5.79 100
+cij 55 5.79 100
+cij 66 5.79 100
+cij 11 5.93 110
+cij 12 4.51 110
+cij 13 4.51 110
+cij 22 5.93 110
+cij 23 4.51 110
+cij 33 5.93 110
+cij 44 5.72 110
+cij 55 5.72 110
+cij 66 5.72 110
+cij 11 5.89 120
+cij 12 4.48 120
+cij 13 4.48 120
+cij 22 5.89 120
+cij 23 4.48 120
+cij 33 5.89 120
+cij 44 5.65 120
+cij 55 5.65 120
+cij 66 5.65 120
+cij 11 5.85 130
+cij 12 4.45 130
+cij 13 4.45 130
+cij 22 5.85 130
+cij 23 4.45 130
+cij 33 5.85 130
+cij 44 5.58 130
+cij 55 5.58 130
+cij 66 5.58 130
+cij 11 5.81 140
+cij 12 4.43 140
+cij 13 4.43 140
+cij 22 5.81 140
+cij 23 4.43 140
+cij 33 5.81 140
+cij 44 5.50 140
+cij 55 5.50 140
+cij 66 5.50 140
+cij 11 5.79 150
+cij 12 4.42 150
+cij 13 4.42 150
+cij 22 5.79 150
+cij 23 4.42 150
+cij 33 5.79 150
+cij 44 5.42 150
+cij 55 5.42 150
+cij 66 5.42 150
+cij 11 5.76 160
+cij 12 4.40 160
+cij 13 4.40 160
+cij 22 5.76 160
+cij 23 4.40 160
+cij 33 5.76 160
+cij 44 5.34 160
+cij 55 5.34 160
+cij 66 5.34 160
+cij 11 5.72 170
+cij 12 4.37 170
+cij 13 4.37 170
+cij 22 5.72 170
+cij 23 4.37 170
+cij 33 5.72 170
+cij 44 5.25 170
+cij 55 5.25 170
+cij 66 5.25 170
+cij 11 5.68 180
+cij 12 4.34 180
+cij 13 4.34 180
+cij 22 5.68 180
+cij 23 4.34 180
+cij 33 5.68 180
+cij 44 5.16 180
+cij 55 5.16 180
+cij 66 5.16 180
+cij 11 5.64 190
+cij 12 4.31 190
+cij 13 4.31 190
+cij 22 5.64 190
+cij 23 4.31 190
+cij 33 5.64 190
+cij 44 5.08 190
+cij 55 5.08 190
+cij 66 5.08 190
+cij 11 5.60 200
+cij 12 4.28 200
+cij 13 4.28 200
+cij 22 5.60 200
+cij 23 4.28 200
+cij 33 5.60 200
+cij 44 4.99 200
+cij 55 4.99 200
+cij 66 4.99 200
+cij 11 5.55 210
+cij 12 4.25 210
+cij 13 4.25 210
+cij 22 5.55 210
+cij 23 4.25 210
+cij 33 5.55 210
+cij 44 4.91 210
+cij 55 4.91 210
+cij 66 4.91 210

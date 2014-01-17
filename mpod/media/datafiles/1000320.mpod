@@ -1,0 +1,77 @@
+#------------------------------------------------------------------------------
+#$Date: 2013-07-22 17:12:00 +0000 $
+#$Revision: 001 $ Daniel Chateigner
+#------------------------------------------------------------------------------
+#
+# This file is available in the Material Properties Open Database (MPOD),
+# http://www.mpod.net/
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_1000320
+_cod_database_code ?
+_structure_refined 'no'
+_phase_name 'triglycine-zinc chloride'
+_phase_formula '(NH3CH2COO)3-ZnCl2'
+_chemical_formula_sum 'N3 H15 C6 O6 Zn1 Cl2'
+_symmetry_point_group_name_H-M 'm m 2'
+_cell_length_a                     11.230
+_cell_length_b                     15.251
+_cell_length_c                     15.564
+_cell_angle_alpha                  90.
+_cell_angle_beta                   90.
+_cell_angle_gamma                  90.
+
+loop_
+_publ_author_name
+'Tylczynski, Z.'
+'Trzaskowska, A.'
+_publ_section_title
+;
+Elastic and elasto-optical properties of triglycine-zinc chloride crystal
+;
+_journal_name_full               'Journal of Applied Physics'
+_journal_volume                  114
+_journal_issue                   3
+_journal_article_reference       033529
+_journal_pages_number            4
+_journal_year                    2013
+_phase_density 1801
+
+_prop_measurement_method 'BS'
+_prop_elastic_stiffness_cij 'cij'
+_prop_optical_index_principal_Ni 'Ni'
+_prop_photoelastic_pij 'pij'
+
+loop_
+_prop_data_label
+_prop_data_tensorial_index
+_prop_data_value
+_prop_conditions_temperature
+cij 11 29.1(1) 298
+cij 12 1.8(3) 298
+cij 13 1.4(3) 298
+cij 22 33.5(2) 298
+cij 23 19.8(3) 298
+cij 33 26.0(1) 298
+cij 44 5.9(1) 298
+cij 55 12.9(1) 298
+cij 66 16.0(1) 298
+Ni 1 1.603 298
+Ni 2 1.571 298
+Ni 3 1.552 298
+pij 11 1.308(10) ?
+pij 12 0.776(20) ?
+pij 13 0.814(20) ?
+pij 21 ? ?
+pij 22 0.302(20) ?
+pij 23 0.541(20) ?
+pij 31 ? ?
+pij 32 ? ?
+pij 33 0.70(4) ?
+pij 44 0.061(10) ?
+pij 55 0.069(20) ?
+pij 66 0.063(40) ?
+

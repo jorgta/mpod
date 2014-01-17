@@ -1,0 +1,23 @@
+{% extends "mpod_base_text.html" %}
+
+{% block title %}MPOD - Datafiles{% endblock %}
+
+{% block central_column %}
+<div class="central_column">
+<p>
+Properties are reported in mpod files where the original published paper 
+containing the data is cited and structural and experimental information is also given. 
+One mpod file contains information relative to only one publication and one phase.
+When known, a 
+<a href="http://www.crystallography.net/" target="_blank" name="cod_home">COD</a> 
+reference to a CIF File associated to the same phase/material is indicated.
+The information contained in a file can be visualised online but the .mpod file can also be 
+downloaded for local use.
+</p><p>
+Information can be 
+<a href="/data/search" name="data_search">searched</a> 
+for, according to the name of the phase, the elements contained, 
+the COD code or an author of the publication referenced in the file.
+</p>
+</div>
+{% endblock %}

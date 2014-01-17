@@ -1,0 +1,151 @@
+#------------------------------------------------------------------------------
+#$Date: 2012-11-11 21:21:00 +0000 $
+#$Revision: 001 $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Material Properties Open Database (MPOD),
+# http://www.mpod.net/
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_1000300
+_cod_database_code 2101499
+_structure_refined 'no'
+_phase_name 'diamond'
+_phase_formula 'C'
+_chemical_formula_sum 'C1'
+_symmetry_point_group_name_H-M 'm -3 m'
+_cell_length_a  3.56658
+_cell_length_b  3.56658
+_cell_length_c  3.56658
+_cell_angle_alpha  90
+_cell_angle_beta   90
+_cell_angle_gamma  90
+
+loop_
+_publ_author_name
+'McSkimin, H.J.'
+'Andreatch Jr., P.'
+_publ_section_title
+;
+ Elastic moduli of diamond as a function of pressure and temperature
+;
+_journal_name_full               'Journal of Applied Physics'
+_journal_volume                  43
+_journal_issue                   7
+_journal_page_first              2944
+_journal_page_last               2948
+_journal_year                    1972
+
+_phase_density 3512
+_prop_measurement_method 'PSM'
+_prop_elastic_stiffness_cij 'cij'
+_prop_conditions_pressure 1
+
+loop_
+_prop_data_label
+_prop_data_tensorial_index
+_prop_data_value
+_prop_conditions_temperature
+cij 11 1080.81 73
+cij 12 125.03 73
+cij 13 125.03 73
+cij 22 1080.81 73
+cij 23 125.03 73
+cij 33 1080.81 73
+cij 44 578.91 73
+cij 55 578.91 73
+cij 66 578.91 73
+cij 11 1080.78 98
+cij 12 125.01 98
+cij 13 125.01 98
+cij 22 1080.78 98
+cij 23 125.01 98
+cij 33 1080.78 98
+cij 44 578.91 98
+cij 55 578.91 98
+cij 66 578.91 98
+cij 11 1080.74 123
+cij 12 124.99 123
+cij 13 124.99 123
+cij 22 1080.74 123
+cij 23 124.99 123
+cij 33 1080.74 123
+cij 44 578.90 123
+cij 55 578.90 123
+cij 66 578.90 123
+cij 11 1080.69 148
+cij 12 124.96 148
+cij 13 124.96 148
+cij 22 1080.69 148
+cij 23 124.96 148
+cij 33 1080.69 148
+cij 44 578.88 148
+cij 55 578.88 148
+cij 66 578.88 148
+cij 11 1080.63 173
+cij 12 124.94 173
+cij 13 124.94 173
+cij 22 1080.63 173
+cij 23 124.94 173
+cij 33 1080.63 173
+cij 44 578.84 173
+cij 55 578.84 173
+cij 66 578.84 173
+cij 11 1080.54 198
+cij 12 124.93 198
+cij 13 124.93 198
+cij 22 1080.54 198
+cij 23 124.93 198
+cij 33 1080.54 198
+cij 44 578.76 198
+cij 55 578.76 198
+cij 66 578.76 198
+cij 11 1080.36 223
+cij 12 124.85 223
+cij 13 124.85 223
+cij 22 1080.36 223
+cij 23 124.85 223
+cij 33 1080.36 223
+cij 44 578.64 223
+cij 55 578.64 223
+cij 66 578.64 223
+cij 11 1080.09 248
+cij 12 124.76 248
+cij 13 124.76 248
+cij 22 1080.09 248
+cij 23 124.76 248
+cij 33 1080.09 248
+cij 44 578.46 248
+cij 55 578.46 248
+cij 66 578.46 248
+cij 11 1079.74 273
+cij 12 124.60 273
+cij 13 124.60 273
+cij 22 1079.74 273
+cij 23 124.60 273
+cij 33 1079.74 273
+cij 44 578.28 273
+cij 55 578.28 273
+cij 66 578.28 273
+cij 11 1079.36 298
+cij 12 124.41 298
+cij 13 124.41 298
+cij 22 1079.36 298
+cij 23 124.41 298
+cij 33 1079.36 298
+cij 44 578.10 298
+cij 55 578.10 298
+cij 66 578.10 298
+cij 11 1078.99 323
+cij 12 124.23 323
+cij 13 124.23 323
+cij 22 1078.99 323
+cij 23 124.23 323
+cij 33 1078.99 323
+cij 44 577.92 323
+cij 55 577.92 323
+cij 66 577.92 323
+

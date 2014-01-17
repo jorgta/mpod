@@ -1,0 +1,39 @@
+#------------------------------------------------------------------------------
+#$Date: 2010-09-30 10:46:17 +0000 (Thu, 30 Sep 2010) $
+#$Revision: 001 $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Material Properties Open Database (MPOD),
+# http://www.mpod.net/
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_1000008
+_cod_database_code               2100189
+_structure_refined 'no'
+_phase_name calcite
+_chemical_formula_sum 'Ca C O3'
+_symmetry_point_group_name_H-M -3m
+_cell_length_a  4.987
+_cell_length_c  17.058
+_publ_author_name '?'
+_publ_section_title
+;
+?
+;
+_journal_name_full               '?'
+_journal_volume                  ?
+_journal_year                    ?
+_prop_measurement_method '?'
+_prop_conditions_temperature ?
+_prop_thermal_conductivity_kappaij 'kappaij'
+loop_
+_prop_data_label
+_prop_data_tensorial_index
+_prop_data_value
+kappaij 11 4.13
+kappaij 22 4.13
+kappaij 33 4.98
+

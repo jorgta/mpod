@@ -1,0 +1,51 @@
+#------------------------------------------------------------------------------
+#$Date: 2010-09-30 10:46:17 +0000 (Thu, 30 Sep 2010) $
+#$Revision: 001 $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Material Properties Open Database (MPOD),
+# http://www.mpod.net/
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_1000014
+
+_cod_database_code               9008466
+_structure_refined 'no'
+_phase_name beta-cobalt
+_chemical_formula_sum 'Co'
+_symmetry_point_group_name_H-M m3m
+_cell_length_a  3.548
+loop_
+_publ_author_name
+'Leamy H.J.'
+'Warlimon H.'
+_publ_section_title
+;
+Elastic behaviour of Ni-Co alloys
+;
+_journal_name_full               'Physica Status Solidi'
+_journal_volume                  37
+_journal_issue                   2
+_journal_page_first              523
+_journal_page_last               ?
+_journal_year                    1970
+_prop_measurement_method '?'
+_prop_conditions_temperature ?
+_prop_elastic_stiffness_cij 'cij'
+loop_
+_prop_data_label
+_prop_data_tensorial_index
+_prop_data_value
+cij 11 239.8
+cij 12 163.4
+cij 13 163.4
+cij 22 239.8
+cij 23 163.4
+cij 33 239.8
+cij 44 133.4
+cij 55 133.4
+cij 66 133.4
+

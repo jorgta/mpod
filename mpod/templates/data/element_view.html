@@ -1,0 +1,50 @@
+{% extends "txrf_base_text.html" %}
+
+{% block title %}Element based view of X-Ray Data{% endblock %}
+
+{% block central_column %}  
+<div class="central_column">
+
+  <h2>Search</h2>
+  <form action="/xraydata/element/" method="GET">
+    <label for="el">Element: </label>
+    <input type="text" name="el" value="{{ query_el|escape }}">&nbsp;&nbsp;&nbsp;
+    <label for="en">Energy/eV: </label>
+    <input type="text" name="en" value="{{ query_en|escape }}">&nbsp;&nbsp;&nbsp;
+    <input type="submit" value="Search">
+  </form>
+  <br />
+  {% if query_el %}
+    <h3>Results for "{{ query_el|escape }} @ {{ query_en|escape }}":</h3>
+    {% if result_elem %}
+        <p>{{ result_elem }}</p>
+       {% if henke_html %}    
+          <p>{{ henke_html }}</p>
+          <p> Henke derived tau, delta, beta: <br /> {{ henkev|escape }}</p>
+       {% endif %}    
+       {% if ebel_html %}    
+          <p>{{ ebel_html }}</p>
+       {% endif %}
+       {% if edges_html %}    
+          <p>{{ edges_html }}</p>
+       {% endif %}       
+       {% if lines_html %}    
+          <p>{{ lines_html }}</p>
+       {% endif %}
+       {% if yields_html %}    
+          <p>{{ yields_html }}</p>
+       {% endif %}
+       {% if coster_html %}    
+          <p>{{ coster_html }}</p>
+       {% endif %}              
+    {% else %}
+      <p>No element found</p>
+    {% endif %}
+  {% endif %}
+</div>
+{% endblock %}
+
+{% block debugg_text %}
+{{debug_text}}
+{% endblock %}
+

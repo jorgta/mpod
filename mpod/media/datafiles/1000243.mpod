@@ -1,0 +1,58 @@
+#------------------------------------------------------------------------------
+#$Date: 2011-06-31 23:03:00 +0000 $
+#$Revision: 001 $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Material Properties Open Database (MPOD),
+# http://www.materialproperties.org/
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_1000243
+_cod_database_code 9008081
+_structure_refined 'no'
+_phase_name 'Corundum'
+_phase_formula 'alpha-Al2O3'
+_chemical_formula_sum 'Al2 O3'
+_symmetry_point_group_name_H-M '-3 m'
+_cell_length_a  4.7589
+_cell_length_b  4.7589
+_cell_length_c  12.991
+_cell_angle_alpha  90
+_cell_angle_beta   90
+_cell_angle_gamma  120
+loop_
+_publ_author_name
+'Bhagavantam, S.'
+_publ_section_title
+;
+ Elastic properties of single crystals and polycrystalline aggregates
+;
+_journal_name_full               'Proceedings of the Indian Academy of Sciences A'
+_journal_volume                  41
+_journal_issue                   ?
+_journal_page_first              72
+_journal_page_last               90
+_journal_year                    1955
+_phase_density ?
+_prop_measurement_method 'COM'
+_prop_conditions_temperature ?
+_prop_elastic_stiffness_cij 'cij'
+loop_
+_prop_data_label
+_prop_data_tensorial_index
+_prop_data_value
+cij 11 466
+cij 12 127
+cij 13 117
+cij 14 94
+cij 22 466
+cij 23 117
+cij 24 -94
+cij 33 506
+cij 44 235
+cij 55 235
+cij 56 188
+cij 66 169.5

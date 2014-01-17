@@ -1,0 +1,97 @@
+#------------------------------------------------------------------------------
+#$Date: 2012-11-27 16:00:00 +0000 $
+#$Revision: 001 $ Daniel Chateigner
+#------------------------------------------------------------------------------
+#
+# This file is available in the Material Properties Open Database (MPOD),
+# http://www.mpod.net/
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_1000307
+_cod_database_code 1508402
+_structure_refined 'no'
+_phase_name 'Lithium hydrogen selenide'
+_phase_formula 'LiH3(SeO3)2'
+_chemical_formula_sum 'Li1 H3 Se2 O6'
+_symmetry_point_group_name_H-M 'm'
+_cell_length_a  6.2534(5)
+_cell_length_b  7.8830(2)
+_cell_length_c   5.4335(11)
+_cell_angle_alpha  90
+_cell_angle_beta   105.20(1)
+_cell_angle_gamma  90
+
+loop_
+_publ_author_name
+'Berlincourt, Don'
+'Cook Jr., W.R.'
+'Rander, Mary Helen'
+_publ_section_title
+;
+ Piezoelectric, dielectric, and pyroelectric constants of LiH3(SeO3)2
+;
+_journal_name_full               'Acta Crystllographica'
+_journal_volume                  16
+_journal_issue                   ?
+_journal_page_first              163
+_journal_page_last               165
+_journal_year                    1963
+
+_phase_density 3391
+_prop_dielectric_stiffness_relative_betrijT 'betrijT'
+_prop_dielectric_permittivity_relative_epsrijT 'epsrijT'
+_prop_elastic_compliance_sijE 'sijE'
+_prop_piezoelectric_dij 'dij'
+_prop_piezoelectric_gij 'gij'
+_prop_conditions_temperature 298
+
+loop_
+_prop_data_label
+_prop_data_tensorial_index
+_prop_data_value
+_prop_measurement_method
+betrijT 11 4.93 CAP
+betrijT 12 2.77 CAP
+betrijT 22 7.80 CAP
+betrijT 33 4.95 CAP
+epsrijT 11 29.6 CAP
+epsrijT 12 -16.5 CAP
+epsrijT 22 12.9 CAP
+epsrijT 33 29.4 CAP
+sijE 11 29.4 RT
+sijE 12 ? RT
+sijE 13 ? RT
+sijE 15 ? RT
+sijE 22 34.1 RT
+sijE 23 ? RT
+sijE 33 86.7 RT
+sijE 35 ? RT
+sijE 44 ? RT
+sijE 46 ? RT
+sijE 25 ? RT
+sijE 55 ? RT
+sijE 66 ? RT
+dij 11 23.2 RT
+dij 12 -22.3 RT
+dij 13 -12.1 RT
+dij 15 -46.6 RT
+dij 24 -12.8 RT
+dij 26 -14.6 RT
+dij 31 -18.4 RT
+dij 32 -5.5 RT
+dij 33 19.9 RT
+dij 35 53.2 RT
+gij 11 0.0788 RT
+gij 12 -0.107 RT
+gij 13 -0.0051 RT
+gij 15 -0.0935 RT
+gij 24 -0.113 RT
+gij 26 -0.129 RT
+gij 31 -0.0302 RT
+gij 32 -0.0391 RT
+gij 33 0.0734 RT
+gij 35 0.152 RT
+

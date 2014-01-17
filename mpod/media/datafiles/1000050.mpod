@@ -1,0 +1,135 @@
+#------------------------------------------------------------------------------
+#$Date: 2010-09-30 10:46:17 +0000 (Thu, 30 Sep 2010) $
+#$Revision: 001 $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Material Properties Open Database (MPOD),
+# http://www.mpod.net/
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_1000050
+_cod_database_code               ?
+_structure_refined 'no'
+_phase_name Pb(Zn1/3Nb2/3)O3-PbTiO3(0.07)
+_chemical_formula_sum 'Pb Nb0.62 Zn0.31 Ti0.07 O3'
+_phase_generic 'PZN-PT'
+_symmetry_point_group_name_H-M 3m
+_cell_length_a  ?
+_cell_length_c  ?
+loop_
+_publ_author_name
+'Zhang Rui'
+'Jiang Bei'
+'Cao Wenwu'
+'Amin Ahmed'
+_publ_section_title
+;
+Complete set of material constants of 0.93Pb(Zn1/3Nb2/3)O3-0.07PbTiO3 domain engineered single crystal
+;
+_journal_name_full               'Journal of Materials Science Letters'
+_journal_volume                  21
+_journal_page_first              1877
+_journal_page_last               1879
+_journal_year                    2002
+_phase_density 8350
+_phase_transition_temperature_rhomb_tetra ?
+_phase_transition_temperature_curie ?
+_prop_measurement_poling '[001]c'
+_prop_symmetry_point_group_name_H-M 4mm
+_prop_frame '1=[100]c 2=[010]c 3=[001]c'
+_prop_elastic_compliance_sijD 'sijD'
+_prop_elastic_compliance_sijE 'sijE'
+_prop_elastic_stiffness_cijD 'cijD'
+_prop_elastic_stiffness_cijE 'cijE'
+_prop_electromechanical_coupling_kij 'kij'
+_prop_piezoelectric_dij 'dij'
+_prop_piezoelectric_eij 'eij'
+_prop_piezoelectric_gij 'gij'
+_prop_piezoelectric_hij 'hij'
+_prop_dielectric_permittivity_relative_epsrijT 'epsrijT'
+_prop_dielectric_stiffness_relative_betrijT 'betrijT'
+_prop_dielectric_permittivity_relative_epsrijS 'epsrijS'
+_prop_dielectric_stiffness_relative_betrijS 'betrijS'
+loop_
+_prop_data_label
+_prop_data_tensorial_index
+_prop_data_value
+_prop_measurement_method
+_prop_conditions_frequency
+cijE 11 113 'RUS' ?
+cijE 12 103 'RUS' ?
+cijE 13 105 'RUS' ?
+cijE 22 113 'RUS' ?
+cijE 23 105 'RUS' ?
+cijE 33 109.1 'RUS' ?
+cijE 44 63 'RUS' ?
+cijE 55 63 'RUS' ?
+cijE 66 71 'RUS' ?
+cijD 11 113.7 'RUS' ?
+cijD 12 103.7 'RUS' ?
+cijD 13 100 'RUS' ?
+cijD 22 113.7 'RUS' ?
+cijD 23 100 'RUS' ?
+cijD 33 140 'RUS' ?
+cijD 44 68 'RUS' ?
+cijD 55 68 'RUS' ?
+cijD 66 71 'RUS' ?
+sijE 11 85.9 'RUS' ?
+sijE 12 -14.1 'RUS' ?
+sijE 13 -69 'RUS' ?
+sijE 22 85.9 'RUS' ?
+sijE 23 -69 'RUS' ?
+sijE 33 142 'RUS' ?
+sijE 44 15.9 'RUS' ?
+sijE 55 15.9 'RUS' ?
+sijE 66 14.1 'RUS' ?
+sijD 11 56.7 'RUS' ?
+sijD 12 -43.3 'RUS' ?
+sijD 13 -9.6 'RUS' ?
+sijD 22 56.7 'RUS' ?
+sijD 23 -9.6 'RUS' ?
+sijD 33 20.9 'RUS' ?
+sijD 44 14.7 'RUS' ?
+sijD 55 14.7 'RUS' ?
+sijD 66 14.1 'RUS' ?
+dij 15 176 'RUS' ?
+dij 24 176 'RUS' ?
+dij 31 -1204 'RUS' ?
+dij 32 -1204 'RUS' ?
+dij 33 2455 'RUS' ?
+eij 15 11.1 'RUS' ?
+eij 24 11.1 'RUS' ?
+eij 31 -2.3 'RUS' ?
+eij 32 -2.3 'RUS' ?
+eij 33 15.1 'RUS' ?
+gij 15 0.66 'RUS' ?
+gij 24 0.66 'RUS' ?
+gij 31 -2.42 'RUS' ?
+gij 32 -2.42 'RUS' ?
+gij 33 4.93 'RUS' ?
+hij 15 4.5 'RUS' ?
+hij 24 4.5 'RUS' ?
+hij 31 -3.1 'RUS' ?
+hij 32 -3.1 'RUS' ?
+hij 33 20.7 'RUS' ?
+kij 15 0.23 'RUS' ?
+kij 24 0.23 'RUS' ?
+kij 31 0.50 'RUS' ?
+kij 32 0.50 'RUS' ?
+kij 33 0.91 'RUS' ?
+epsrijT 11 3000 'CAP' 1
+epsrijT 22 3000 'CAP' 1
+epsrijT 33 5622 'CAP' 1
+betrijT 11 3.33 'CAP' 1
+betrijT 22 3.33 'CAP' 1
+betrijT 33 1.78 'CAP' 1
+epsrijT 11 2779 'CAP' ?
+epsrijT 22 2779 'CAP' ?
+epsrijT 33 823 'CAP' ?
+betrijS 11 3.6 'CAP' ?
+betrijS 22 3.6 'CAP' ?
+betrijS 33 12.2 'CAP' ?
+

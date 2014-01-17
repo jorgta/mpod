@@ -1,0 +1,97 @@
+#------------------------------------------------------------------------------
+#$Date: 2011-07-23 14:04:00 +0000 $
+#$Revision: 001 $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Material Properties Open Database (MPOD),
+# http://www.materialproperties.org/
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_1000277
+_cod_database_code ?
+_structure_refined 'no'
+_phase_name 'SBNN 30'
+_phase_formula '(Sr0.3Ba0.7)2NaNb5O15'
+_chemical_formula_sum 'Sr0.6 Ba1.4 Na Nb5 O15'
+_symmetry_point_group_name_H-M 'm m 2'
+_cell_length_a  ?
+_cell_length_b  ?
+_cell_length_c  ?
+_cell_angle_alpha  90
+_cell_angle_beta   90
+_cell_angle_gamma  90
+loop_
+_publ_author_name
+'Jiang, Wenhua'
+'Cao, Wenwu'
+_publ_section_title
+;
+ The elastic and piezoelectric properties of tungsten bronze ferroelectric crystals .(Sr0.7Ba0.3)2NaNb5O15 and (Sr0.3Ba0.7)2NaNb5O15
+;
+_journal_name_full               'Journal of Applied Physics'
+_journal_volume                  97
+_journal_issue                   9
+_journal_article_reference       094106
+_journal_pages_number             4
+_journal_year                    2005
+_phase_density 5300
+_phase_transition_temperature_rhomb_tetra ?
+_phase_transition_temperature_curie ?
+_prop_measurement_poling '?'
+_prop_symmetry_point_group_name_H-M ?
+_prop_frame '?'
+_prop_elastic_compliance_sijE 'sijE'
+_prop_elastic_stiffness_cijE 'cijE'
+_prop_electromechanical_coupling_kij 'kij'
+_prop_piezoelectric_dij 'dij'
+_prop_piezoelectric_eij 'eij'
+_prop_dielectric_permittivity_relative_epsrijT 'epsrijT'
+_prop_dielectric_permittivity_relative_epsrijS 'epsrijS'
+loop_
+_prop_data_label
+_prop_data_tensorial_index
+_prop_data_value
+_prop_measurement_method
+_prop_conditions_frequency
+cijE 11 244 'RUS' ?
+cijE 12 102 'RUS' ?
+cijE 13 74 'RUS' ?
+cijE 22 244 'RUS' ?
+cijE 23 74 'RUS' ?
+cijE 33 156 'RUS' ?
+cijE 44 65 'RUS' ?
+cijE 55 65 'RUS' ?
+cijE 66 73 'RUS' ?
+sijE 11 5.33 'RUS' ?
+sijE 12 -1.71 'RUS' ?
+sijE 13 -1.72 'RUS' ?
+sijE 22 5.33 'RUS' ?
+sijE 23 -1.72 'RUS' ?
+sijE 33 8.04 'RUS' ?
+sijE 44 15.44 'RUS' ?
+sijE 55 15.44 'RUS' ?
+sijE 66 13.70 'RUS' ?
+dij 15 67.30 'RUS' ?
+dij 24 67.30 'RUS' ?
+dij 31 -12.40 'RUS' ?
+dij 32 -12.40 'RUS' ?
+dij 33 53 'RUS' ?
+eij 15 4.36 'RUS' ?
+eij 24 4.36 'RUS' ?
+eij 31 -0.38 'RUS' ?
+eij 32 -0.38 'RUS' ?
+eij 33 6.43 'RUS' ?
+kij 15 0.30 'RUS' ?
+kij 24 0.30 'RUS' ?
+kij 31 0.17 'RUS' ?
+kij 32 0.17 'RUS' ?
+kij 33 0.57 'RUS' ?
+epsrijT 11 380 'CAP' 1
+epsrijT 22 380 'CAP' 1
+epsrijT 33 121 'CAP' 1
+epsrijS 11 347 'CAP' 1
+epsrijS 22 347 'CAP' 1
+epsrijS 33 82.3 'CAP' 1

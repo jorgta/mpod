@@ -1,0 +1,46 @@
+#------------------------------------------------------------------------------
+#$Date: 2010-10-15 14:48:00 +0000 $
+#$Revision: 001 $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Material Properties Open Database (MPOD),
+# http://www.mpod.net/
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_1000086
+_cod_database_code 5000217
+_structure_refined 'no'
+_phase_name 'alpha-Iron'
+_phase_formula Fe
+_chemical_formula_sum 'Fe'
+_symmetry_point_group_name_H-M 'm 3 m'
+_cell_length_a  2.8608
+loop_
+_publ_author_name
+'Kimura, R.'
+_publ_section_title
+;
+ Elastic moduli of ferromagnetic materials, I: iron crystals
+;
+_journal_name_full               'Proceedings of the Physical and Mathematical Society of Japan'
+_journal_volume                  21
+_journal_page_first              686
+_journal_year                    1939
+_prop_elastic_compliance_sij 'sij'
+loop_
+_prop_data_label
+_prop_data_tensorial_index
+_prop_data_value
+sij 11 7.72
+sij 12 -2.85
+sij 13 -2.85
+sij 22 7.72
+sij 23 -2.85
+sij 33 7.72
+sij 44 9.02
+sij 55 9.02
+sij 66 9.02
+

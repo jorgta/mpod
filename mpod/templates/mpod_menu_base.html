@@ -1,0 +1,11 @@
+<div class="{{ menu_div_class }}">
+<ul id="{{ menu_ul_id }}">
+   {% for menu_item in menu_items_list %}
+   	{% if menu_item.item_class %}
+         <li><a href="{{ menu_item.ref }}" class="{{ menu_item.item_class }}">{{ menu_item.name }}</a></li>
+      {% else %}
+         <li><a href="{{ menu_item.ref }}">{{ menu_item.name }}</a></li>
+      {% endif %}
+   {% endfor %}
+</ul>
+</div>

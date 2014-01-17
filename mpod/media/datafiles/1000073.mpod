@@ -1,0 +1,65 @@
+#------------------------------------------------------------------------------
+#$Date: 2010-10-19 15:45:00 +0000 $
+#$Revision: 001 $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Material Properties Open Database (MPOD),
+# http://www.mpod.net/
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_1000073
+_cod_database_code ?
+_structure_refined 'no'
+_phase_name 'Sodium aluminosilicate glass'
+_phase_formula ?
+_chemical_formula_sum 'Nax Aly Siz O2'
+_symmetry_point_group_name_H-M '? ?/m'
+loop_
+_publ_author_name
+'Sun, Y.'
+'Cao, W.W.'
+'Cross, L.E.'
+_publ_section_title
+;
+ Electrostriction effect in glass
+;
+_journal_name_full               'Materials Letters'
+_journal_volume                  4
+_journal_issue            8-9
+_journal_page_first              329
+_journal_page_last               336
+_journal_year                    1986
+_phase_density 2420
+_prop_elastic_stiffness_cij 'cij'
+_prop_electrostriction_Dij 'Dij'
+_prop_electrostriction_Dprimeij 'Dprimeij'
+loop_
+_prop_data_label
+_prop_data_tensorial_index
+_prop_data_value
+_prop_conditions_frequency
+cij 11 65.3 ?
+cij 12 11.5 ?
+cij 13 11.5 ?
+cij 22 65.3 ?
+cij 23 11.5 ?
+cij 33 65.3 ?
+cij 44 26.9 ?
+cij 55 26.9 ?
+cij 66 26.9 ?
+Dij 11 1.01 0.1
+Dij 22 1.01 0.1
+Dij 33 1.01 0.1
+Dij 11 0.346 1
+Dij 22 0.346 1
+Dij 33 0.346 1
+Dprimeij 11 0.599 0.1
+Dprimeij 22 0.599 0.1
+Dprimeij 33 0.599 0.1
+Dprimeij 11 0.519 1
+Dprimeij 22 0.519 1
+Dprimeij 33 0.519 1
+

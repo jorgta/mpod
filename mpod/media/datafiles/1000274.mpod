@@ -1,0 +1,69 @@
+#------------------------------------------------------------------------------
+#$Date: 2011-07-01 21:30:00 +0000 $
+#$Revision: 001 $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Material Properties Open Database (MPOD),
+# http://www.materialproperties.org/
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_1000274
+_cod_database_code ?
+_structure_refined 'no'
+_phase_name 'potassium iron selenide'
+_phase_formula K0.75Fe1.66Se2
+_chemical_formula_sum 'K0.75 Fe1.66 Se2'
+_symmetry_point_group_name_H-M '4/m m m'
+_cell_length_a  3.8912
+_cell_length_b  3.8912
+_cell_length_c  14.1390
+_cell_angle_alpha  90
+_cell_angle_beta   90
+_cell_angle_gamma  90
+loop_
+_publ_author_name
+'Ying, J.J.'
+'Wang, X.F.'
+'Luo, X.G.'
+'Wang, A.F.'
+'Zhang, M.'
+'Yan, Y.J.'
+'Xiang, Z.J.'
+'Liu, R.H.'
+'Cheng, P.'
+'Ye, G.J.'
+'Chen, X.H.'
+_publ_section_title
+;
+Superconductivity and magnetic properties of single crystals of K0.75Fe1.66Se2 and Cs0.81Fe1.61Se2
+;
+_journal_name_full               'Physical Review B'
+_journal_volume                  83
+_journal_issue                   21
+_journal_article_reference       212502
+_journal_pages_number             4
+_journal_year                    2011
+_phase_density ?
+_prop_measurement_method 'RC'
+_prop_conditions_magnetic_field 0
+_prop_superconducting_critical_temperature_onset 31
+_prop_superconducting_zero_resistivity_temperature 28.7
+_prop_electric_resistivity_rhoeij 'rhoeij'
+_prop_superconducting_critical_field2_Hc2i 'Hc2i'
+loop_
+_prop_data_label
+_prop_data_tensorial_index
+_prop_data_value
+_prop_conditions_temperature
+rhoeij 11 170000 125
+rhoeij 22 170000 125
+rhoeij 33 ? 125
+rhoeij 11 70000 298
+rhoeij 22 70000 298
+rhoeij 33 ? 298
+Hc2i 1 208 0
+Hc2i 2 208 0
+Hc2i 3 67 0

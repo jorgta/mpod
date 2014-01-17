@@ -1,0 +1,82 @@
+#------------------------------------------------------------------------------
+#$Date: 2011-04-16 21:38:00 +0000$
+#$Revision: 001 $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Material Properties Open Database (MPOD),
+# http://www.mpod.net/
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_1000188
+_cod_database_code 9001037
+_structure_refined 'no'
+_phase_name 'Mullite 2.5:1'
+_phase_formula '(Al2O3)2.5-(Si02)'
+_chemical_formula_sum 'Al5 Si1 O9.5'
+_symmetry_point_group_name_H-M 'm m m'
+_cell_length_a 7.5823(6)
+_cell_length_b 7.6819(5)
+_cell_length_c 2.8865(2)
+_cell_angle_alpha  90
+_cell_angle_beta   90
+_cell_angle_gamma  90
+loop_
+_publ_author_name
+'Palko, J.W.'
+'Sayir, A.'
+'Sinogeikin, S.V.'
+'Kriven, W.M.'
+'Bass, J.D.'
+_publ_section_title
+;
+ Complete Elastic tensor for mullite (~2.5Al2O3 SiO2) to high temperatures measured from textured fibers
+;
+_journal_name_full               'Journal of the American Ceramic Society'
+_journal_volume                  85
+_journal_issue                   8
+_journal_page_first              2005
+_journal_page_last               2012
+_journal_year                    2002
+_phase_density 3110
+_prop_elastic_stiffness_cij 'cij'
+_prop_elastic_compliance_sij 'sij'
+_prop_thermal_expansion_Tij 'Tij'
+_prop_measurement_method BS
+
+loop_
+_prop_data_label
+_prop_data_tensorial_index
+_prop_data_value
+_prop_conditions_temperature
+_prop_conditions_temperature_range_begin
+_prop_conditions_temperature_range_end
+cij 11 281.9 293 ? ?
+cij 12 105.1 293 ? ?
+cij 13 100.3 293 ? ?
+cij 22 244.2 293 ? ?
+cij 23 142.3 293 ? ?
+cij 33 363.6 293 ? ?
+cij 44 111.7 293 ? ?
+cij 55 78.2 293 ? ?
+cij 66 79.2 293 ? ?
+sij 11 4.325 293 ? ?
+sij 12 -1.511 293 ? ?
+sij 13 -0.602 293 ? ?
+sij 22 5.832 293 ? ?
+sij 23 -1.866 293 ? ?
+sij 33 3.647 293 ? ?
+sij 44 2.238 293 ? ?
+sij 55 3.197 293 ? ?
+sij 66 3.157 293 ? ?
+Tij 11 -29.2 ? 293 1473 
+Tij 12 -16.1 ? 293 1473 
+Tij 13 -6.8 ? 293 1473 
+Tij 22 -29.7 ? 293 1473 
+Tij 23 -8.1 ? 293 1473 
+Tij 33 -28.6 ? 293 1473 
+Tij 44 -7.9 ? 293 1473 
+Tij 55 -6.5 ? 293 1473 
+Tij 66 -10.1 ? 293 1473

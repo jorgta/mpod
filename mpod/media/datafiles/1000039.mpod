@@ -1,0 +1,46 @@
+#------------------------------------------------------------------------------
+#$Date: 2010-09-30 10:46:17 +0000 (Thu, 30 Sep 2010) $
+#$Revision: 001 $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Material Properties Open Database (MPOD),
+# http://www.mpod.net/
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_1000039
+_cod_database_code               9008478
+_structure_refined 'no'
+_phase_name palladium
+_chemical_formula_sum 'Pd'
+_symmetry_point_group_name_H-M m3m
+_cell_length_a  3.8898
+loop_
+_publ_author_name
+'Ledbetter H.'
+'Kim S.'
+_publ_section_title
+;
+Monocrystal elastic constants and derived properties of the cubic and the hexagonal elements
+;
+_journal_name_full               'Handbook of Elastic Properties of Solids, Liquids, and Gases (Academic Press), Levy M., Bass H., Stern R. (Eds.)'
+_journal_volume                  2
+_journal_year                    2000
+_prop_measurement_method '?'
+_prop_conditions_temperature 297
+_prop_elastic_stiffness_cij 'cij'
+loop_
+_prop_data_label
+_prop_data_tensorial_index
+_prop_data_value
+cij 11 227.1
+cij 12 176.04
+cij 13 176.04
+cij 22 227.1
+cij 23 176.04
+cij 33 227.1
+cij 44 71.73
+cij 55 71.73
+cij 66 71.73

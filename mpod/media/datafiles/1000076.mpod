@@ -1,0 +1,49 @@
+#------------------------------------------------------------------------------
+#$Date: 2010-10-17 23:02:00 +0000 $
+#$Revision: 001 $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Material Properties Open Database (MPOD),
+# http://www.mpod.net/
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_1000076
+_cod_database_code 9008814
+_structure_refined 'no'
+_phase_name 'Brass'
+_phase_formula Cu0.72Zn0.28
+_chemical_formula_sum 'Cu0.72 Zn0.28'
+_symmetry_point_group_name_H-M 'm 3 m'
+_cell_length_a  2.945
+loop_
+_publ_author_name
+'Masima, M.'
+'Sachs, G.'
+_publ_section_title
+;
+ Mechanische eigenschaften von messingkristallen
+;
+_journal_name_full               'Zeitschrift f/ur Physik'
+_journal_volume                  50
+_journal_issue            3-4
+_journal_page_first              161
+_journal_page_last               186
+_journal_year                    1928
+_prop_elastic_compliance_sij 'sij'
+loop_
+_prop_data_label
+_prop_data_tensorial_index
+_prop_data_value
+sij 11 19.4
+sij 12 -8.4
+sij 13 -8.4
+sij 22 19.4
+sij 23 -8.4
+sij 33 19.4
+sij 44 13.9
+sij 55 13.9
+sij 66 13.9
+

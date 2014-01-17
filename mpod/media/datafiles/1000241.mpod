@@ -1,0 +1,58 @@
+#------------------------------------------------------------------------------
+#$Date: 2011-06-31 22:50:00 +0000 $
+#$Revision: 001 $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Material Properties Open Database (MPOD),
+# http://www.materialproperties.org/
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_1000241
+_cod_database_code               1010541
+_structure_refined 'no'
+_phase_name 'beryl'
+_phase_formula 'Be3Al2Si6O18'
+_chemical_formula_sum 'Be3 Al2 Si6 O18'
+_symmetry_point_group_name_H-M '6/m m m'
+_cell_length_a  9.21
+_cell_length_b  9.21
+_cell_length_c  9.17
+_cell_angle_alpha  90
+_cell_angle_beta   90
+_cell_angle_gamma  120
+loop_
+_publ_author_name
+'Bhagavantam, S.'
+_publ_section_title
+;
+ Elastic properties of single crystals and polycrystalline aggregates
+;
+_journal_name_full               'Proceedings of the Indian Academy of Sciences A'
+_journal_volume                  41
+_journal_issue                   ?
+_journal_page_first              72
+_journal_page_last               90
+_journal_year                    1955
+_phase_density ?
+_prop_measurement_method 'COM'
+_prop_conditions_temperature ?
+_prop_elastic_stiffness_cij 'cij'
+loop_
+_prop_data_label
+_prop_data_tensorial_index
+_prop_data_value
+cij 11 278.1
+cij 12 100.1
+cij 13 67.7
+cij 14 ?
+cij 22 278.1
+cij 23 67.7
+cij 24 ?
+cij 33 248
+cij 44 66.1
+cij 55 66.1
+cij 56 ?
+cij 66 89

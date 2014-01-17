@@ -1,0 +1,91 @@
+#------------------------------------------------------------------------------
+#$Date: 2010-09-30 10:46:17 +0000 (Thu, 30 Sep 2010) $
+#$Revision: 001 $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Material Properties Open Database (MPOD),
+# http://www.mpod.net/
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_1000042
+_cod_database_code               ?
+_structure_refined 'no'
+_phase_name Pb(In1/2Nb1/2)O3(0.33)-Pb(Mg1/3Nb2/3)O3(0.35)-PbTiO3(0.32)
+_chemical_formula_sum 'Pb In0.165 Nb0.398 Mg0.167 Ti0.32 O3'
+_phase_generic 'PIN-PMN-PT'
+_symmetry_point_group_name_H-M 3m
+_cell_length_a  ?
+_cell_length_c  ?
+loop_
+_publ_author_name
+'Wang Wei'
+'Liu Da\'an'
+'Zhang Qinhui'
+'Ren Bo'
+'Zhang Yaoyao'
+'Jiao Jie'
+'Lin Di'
+'Zhao Xiangyong'
+'Luo Haosu'
+_publ_section_title
+;
+Shear-mode piezoelectric properties of ternary Pb(In1/2Nb1/2)O3-Pb(Mg1/3Nb2/3)O3-PbTiO3 single crystals
+;
+_journal_name_full               'Journal of Applied Physics'
+_journal_volume                  107
+_journal_issue                   8
+_journal_article_reference       084101
+_journal_pages_number             4
+_journal_year                    2010
+_phase_density ?
+_phase_transition_temperature_rhomb_tetra 381
+_phase_transition_temperature_curie 451
+_prop_measurement_poling '[111]c'
+_prop_symmetry_point_group_name_H-M 3m
+_prop_frame '1=[1-10]c 2=[11-2]c 3=[111]c'
+_prop_electromechanical_coupling_kij 'kij'
+_prop_piezoelectric_dij 'dij'
+_prop_piezoelectric_gij 'gij'
+_prop_dielectric_permittivity_relative_epsrijT 'epsrijT'
+loop_
+_prop_data_label
+_prop_data_tensorial_index
+_prop_data_value
+_prop_measurement_method
+_prop_conditions_temperature
+_prop_conditions_frequency
+dij 15 5966 'RUS' ? ?
+dij 16 ? 'RUS' ? ?
+dij 21 ? 'RUS' ? ?
+dij 22 ? 'RUS' ? ?
+dij 24 ? 'RUS' ? ?
+dij 31 ? 'RUS' ? ?
+dij 32 ? 'RUS' ? ?
+dij 33 ? 'RUS' ? ?
+gij 15 4.7 'RUS' ? ?
+gij 16 ? 'RUS' ? ?
+gij 21 ? 'RUS' ? ?
+gij 22 ? 'RUS' ? ?
+gij 24 ? 'RUS' ? ?
+gij 31 ? 'RUS' ? ?
+gij 32 ? 'RUS' ? ?
+gij 33 ? 'RUS' ? ?
+kij 15 0.964 'RUS' ? ?
+kij 24 ? 'RUS' ? ?
+kij 31 ? 'RUS' ? ?
+kij 32 ? 'RUS' ? ?
+kij 33 ? 'RUS' ? ?
+epsrijT 11 14342 'CAP' ? ?
+epsrijT 22 14342 'CAP' ? ?
+epsrijT 33 ? 'CAP' ? ?
+dij 15 7934 'CAP' 378 ?
+dij 16 ? 'CAP' 378 ?
+dij 21 ? 'CAP' 378 ?
+dij 22 ? 'CAP' 378 ?
+dij 24 ? 'CAP' 378 ?
+dij 31 ? 'CAP' 378 ?
+dij 32 ? 'CAP' 378 ?
+dij 33 ? 'CAP' 378 ?

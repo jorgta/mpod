@@ -1,0 +1,27 @@
+{% if header %}
+   {{header|safe}}
+{% endif %}
+<div class="module" id="changelist">
+<table>
+<th>
+{% if caption %}
+<caption> {{caption|safe}} </caption>
+{% endif %}
+<tr> {% for hor_header in hor_headers_list %}<th> {{hor_header}} </th> {% endfor %} </tr>
+</th>
+<tbody>
+{% for riga in data_links_matrix %}
+<tr class="{% cycle 'row1' 'row2' %}">{%for ele in riga%}
+														{% if ele.1 %}
+															<td><a href="{{ele.1}}">{{ele.0}}</a></td>
+														{% else %}
+															<td>{{ele.0}}</td>
+														{% endif %}
+													{% endfor %}</tr>
+{% endfor %}													
+</tbody>
+</table>
+{% if footer %}
+   {{footer|safe}}
+{% endif %}
+<br />

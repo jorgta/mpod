@@ -1,0 +1,57 @@
+#------------------------------------------------------------------------------
+#$Date: 2013-11-09 13:54:00 +0000 $
+#$Revision: 001 $ Daniel Chateigner
+#------------------------------------------------------------------------------
+#
+# This file is available in the Material Properties Open Database (MPOD),
+# http://www.mpod.net/
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_1000324
+_cod_database_code 9009872
+_structure_refined 'no'
+_phase_name 'Dimethylammonium-bis(mu2 chloro)-chlorocuprate'
+_phase_generic 'MCCA'
+_phase_formula '(CH3)2NH2CuCl3'
+_chemical_formula_sum 'C2 H8 N1 Cu1 Cl3'
+_symmetry_point_group_name_H-M '2/m'
+_cell_length_a                     11.97
+_cell_length_b                     8.6258
+_cell_length_c                     14.34
+_cell_angle_alpha                  90
+_cell_angle_beta                   97.47
+_cell_angle_gamma                  90
+
+loop_
+_publ_author_name
+'Chen, L.M.'
+'Tao, W.'
+'Zhao, Z.Y.'
+'Li, Q.J.'
+'Ke, W.P.'
+'Wang, X.M.'
+'Liu, X.G.'
+'Fan, C.'
+'Sun, X.F.'
+_publ_section_title
+;
+ Growth of(CH3)2NH2CuCl3 single crystals using evaporation method with different temperatures and solvents
+;
+_journal_name_full               'Journal of Crystal Growth'
+_journal_volume                  312
+_journal_issue                   21
+_journal_page_first              3243
+_journal_page_last               3246
+_journal_year                    2010
+
+
+
+_prop_magnetic_antiferromagnetic_ordering_temperature_Neel 0.8
+
+_prop_conditions_magnetic_field 0
+
+
+

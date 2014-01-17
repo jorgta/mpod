@@ -1,0 +1,26 @@
+{% extends "mpod_base_text.html" %}
+{% block title %}MPOD - Contact form{% endblock %}
+{% block central_column %}
+
+<div class="central_column">
+<font size="+1"><b>Contact Form</b></font><br />
+<font size="-1">* fields required</font>
+
+<form  enctype="multipart/form-data" action="." method="POST">
+<br />
+    {% for field in form %}
+        <div class="fieldWrapper">
+       <p> {% if field.errors %}
+            {{ field.errors }}
+           <b> !{{ field.label_tag }}</b>: {{ field }} 
+        {% else %}
+        {% if field.field.required %}<span class="special_class">*</span>{% endif %}
+
+            {{ field.label_tag }}: {{ field }} 
+            {% endif %} </p>
+        </div>
+    {% endfor %}
+<input type="submit" value="Submit" />
+</form>
+</div>
+{% endblock %}

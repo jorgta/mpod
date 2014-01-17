@@ -1,0 +1,52 @@
+#------------------------------------------------------------------------------
+#$Date: 2010-09-30 10:46:17 +0000 (Thu, 30 Sep 2010) $
+#$Revision: 001 $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Material Properties Open Database (MPOD),
+# http://www.mpod.net/
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_1000062
+_cod_database_code               9008554
+_structure_refined 'no'
+_phase_name beta-Titanium
+_chemical_formula_sum 'Ti'
+_symmetry_point_group_name_H-M m3m
+_cell_length_a  3.3065
+loop_
+_publ_author_name
+'Ledbetter H.'
+'Ogi H.'
+'Kai S.'
+'Kim S.'
+'Hirao M.'
+_publ_section_title
+;
+Elastic constants of body-centered-cubic titanium monocrystals
+;
+_journal_name_full               'Journal of Applied Physics'
+_journal_volume                  95
+_journal_issue                   9
+_journal_page_first              4642
+_journal_page_last               4644
+_journal_year                    2004
+_prop_measurement_method 'EMAR'
+_prop_conditions_temperature 1273
+_prop_elastic_stiffness_cij 'cij'
+loop_
+_prop_data_label
+_prop_data_tensorial_index
+_prop_data_value
+cij 11 97.7
+cij 12 82.7
+cij 13 82.7
+cij 22 97.7
+cij 23 82.7
+cij 33 97.7
+cij 44 37.5
+cij 55 37.5
+cij 66 37.5

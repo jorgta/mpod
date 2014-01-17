@@ -1,0 +1,49 @@
+#------------------------------------------------------------------------------
+#$Date: 2011-04-07 21:50:00 +0000 $
+#$Revision: 001 $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Material Properties Open Database (MPOD),
+# http://www.materialproperties.org/
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_1000167
+_cod_database_code               9008678
+_structure_refined 'no'
+_phase_name 'sodium chloride'
+_chemical_formula_sum 'Na Cl'
+_symmetry_point_group_name_H-M 'm -3 m'
+_cell_length_a  5.64056
+loop_
+_publ_author_name
+'Hunter, L.'
+'Siegel, S.'
+_publ_section_title
+;
+ Variation with temperature of the principal elastic moduli of NaCl near the melting point
+;
+_journal_name_full               'Physical Review'
+_journal_volume                  61
+_journal_issue                   ?
+_journal_page_first              84
+_journal_page_last               ?
+_journal_year                    1942
+_prop_measurement_method '?'
+_prop_conditions_temperature ?
+_prop_elastic_compliance_sij 'sij'
+loop_
+_prop_data_label
+_prop_data_tensorial_index
+_prop_data_value
+sij 11 22.8
+sij 12 -4.5
+sij 13 -4.5
+sij 22 22.8
+sij 23 -4.5
+sij 33 22.8
+sij 44 78.1
+sij 55 78.1
+sij 66 78.1

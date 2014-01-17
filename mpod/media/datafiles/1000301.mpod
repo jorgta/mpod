@@ -1,0 +1,56 @@
+#------------------------------------------------------------------------------
+#$Date: 2012-11-23 09:10:00 +0000 $
+#$Revision: 001 $ Daniel Chateigner
+#------------------------------------------------------------------------------
+#
+# This file is available in the Material Properties Open Database (MPOD),
+# http://www.mpod.net/
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_1000301
+_cod_database_code 1010275
+_structure_refined 'yes'
+_phase_name 'titanium disulfide'
+_phase_formula 'TiS2'
+_chemical_formula_sum 'Ti1 S2'
+_symmetry_point_group_name_H-M '-3 m'
+_cell_length_a  3.407(3)
+_cell_length_b  3.407(3)
+_cell_length_c  5.696(2)
+_cell_angle_alpha  90
+_cell_angle_beta   90
+_cell_angle_gamma  120
+
+loop_
+_publ_author_name
+'Whittingham, M. Stanley'
+'Thompson, Arthur H.'
+_publ_section_title
+;
+ Intercalation and lattice expansion in titanium disulfide
+;
+_journal_name_full               'The Journal of Chemical Physics'
+_journal_volume                  62
+_journal_issue                   4
+_journal_page_first              1588
+_journal_page_last               1588
+_journal_year                    1975
+
+_prop_measurement_method 'PXD'
+_prop_thermal_expansion_alphaij 'alphaij'
+_prop_conditions_reference_temperature_thermoelastic_non_linear_fit 300
+_prop_conditions_temperature_range_begin 5
+_prop_conditions_temperature_range_end 300
+_prop_conditions_temperature_cycle 1
+
+loop_
+_prop_data_label
+_prop_data_tensorial_index
+_prop_data_value
+alphaij 11 9.6
+alphaij 22 9.6
+alphaij 33 19.4
+

@@ -1,0 +1,51 @@
+#------------------------------------------------------------------------------
+#$Date: 2010-09-30 10:46:17 +0000 (Thu, 30 Sep 2010) $
+#$Revision: 001 $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Material Properties Open Database (MPOD),
+# http://www.mpod.net/
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_1000017
+_cod_database_code               2101499
+_structure_refined 'no'
+_phase_name diamond
+_chemical_formula_sum 'C'
+_symmetry_point_group_name_H-M m3m
+_cell_length_a  3.56658
+loop_
+_publ_author_name
+'Nakamura N.'
+'Ogi H.' 
+'Hirao M.'
+_publ_section_title
+;
+Elastic constants of chemical-vapor-deposition diamond thin films: resonance ultrasound spectroscopy with laser-Doppler interferometry
+;
+_journal_name_full               'Acta Materialia'
+_journal_volume                  52
+_journal_issue                   3
+_journal_page_first              765
+_journal_page_last               771
+_journal_year                    2004
+_prop_measurement_method 'RUS-Laser-Doppler'
+_prop_conditions_temperature 297
+_prop_elastic_stiffness_cij 'cij'
+loop_
+_prop_data_label
+_prop_data_tensorial_index
+_prop_data_value
+cij 11 1068.6
+cij 12 119.8
+cij 13 119.8
+cij 22 1068.6
+cij 23 119.8
+cij 33 1068.6
+cij 44 571
+cij 55 571
+cij 66 571
+

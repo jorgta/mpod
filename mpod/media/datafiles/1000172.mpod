@@ -1,0 +1,53 @@
+#------------------------------------------------------------------------------
+#$Date: 2011-04-07 22:51:00 +0000 $
+#$Revision: 001 $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Material Properties Open Database (MPOD),
+# http://www.materialproperties.org/
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_1000172
+_cod_database_code               9008522
+_structure_refined 'no'
+_phase_name 'zinc'
+_chemical_formula_sum 'Zn'
+_symmetry_point_group_name_H-M '6/m m m'
+_cell_length_a  2.6648
+_cell_length_b  2.6648
+_cell_length_c  4.9467
+_cell_angle_alpha  90
+_cell_angle_beta   90
+_cell_angle_gamma  120
+loop_
+_publ_author_name
+'Goens, E.'
+_publ_section_title
+;
+ Improved apparatus for the measurement of torsional modulus of crystal rods, and application to single crystals of zinc
+;
+_journal_name_full               'Analen der Physik'
+_journal_volume                  16
+_journal_issue                   ?
+_journal_page_first              793
+_journal_page_last               ?
+_journal_year                    1933
+_prop_measurement_method '?'
+_prop_conditions_temperature ?
+_prop_elastic_compliance_sij 'sij'
+loop_
+_prop_data_label
+_prop_data_tensorial_index
+_prop_data_value
+sij 11 8.4
+sij 12 1.1
+sij 13 -7.7
+sij 22 8.4
+sij 23 -7.7
+sij 33 28.7
+sij 44 26.4
+sij 55 26.4
+sij 66 14.6

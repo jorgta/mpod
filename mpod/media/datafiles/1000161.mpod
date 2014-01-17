@@ -1,0 +1,61 @@
+#------------------------------------------------------------------------------
+#$Date: 2011-03-30 21.39:00 +0000 $
+#$Revision: 001 $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Material Properties Open Database (MPOD),
+# http://www.materialproperties.org/
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_1000161
+_cod_database_code 9008860
+_structure_refined 'no'
+_phase_name 'Aluminum nitride'
+_phase_formula AlN
+_chemical_formula_sum 'Al N'
+_symmetry_point_group_name_H-M '6 m m'
+_cell_length_a 3.111
+_cell_length_b 3.111
+_cell_length_c 4.978
+_cell_angle_alpha  90
+_cell_angle_beta   90
+_cell_angle_gamma  120
+loop_
+_publ_author_name
+'Tsubouchi, K.'
+'Sugai, K.'
+'Mikoshiba, N.'
+_publ_section_title
+;
+ High-frequency and low-dispersion SAW devices on AlN-Al2O3 and AlN-Si for signal-processing
+;
+_journal_name_full               'IEEE Transactions on Sonics and Ultrasonics'
+_journal_volume                  28
+_journal_issue                   5
+_journal_page_first              389
+_journal_page_last               389
+_journal_year                    1981
+_phase_density ?
+_prop_conditions_temperature ?
+_prop_elastic_stiffness_cij 'cij'
+_prop_conditions_wavelength ?
+_prop_measurement_method ?
+loop_
+_prop_data_label
+_prop_data_tensorial_index
+_prop_data_value
+cij 11 345
+cij 12 125
+cij 13 120
+cij 14 0
+cij 22 345
+cij 23 120
+cij 24 0
+cij 33 395
+cij 44 118
+cij 55 118
+cij 56 0
+cij 66 235

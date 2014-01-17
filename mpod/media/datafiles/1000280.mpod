@@ -1,0 +1,71 @@
+#------------------------------------------------------------------------------
+#$Date: 2011-07-27 22:52:00 +0000$
+#$Revision: 001 $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Material Properties Open Database (MPOD),
+# http://www.mpod.net/
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_1000280
+_cod_database_code               2101499
+_structure_refined 'no'
+_phase_name 'diamond'
+_phase_formula 'C'
+_chemical_formula_sum 'C'
+_symmetry_point_group_name_H-M 'm -3 m'
+_cell_length_a  3.56658
+_cell_length_b  3.56658
+_cell_length_c  3.56658
+_cell_angle_alpha  90
+_cell_angle_beta   90
+_cell_angle_gamma  90
+loop_
+_publ_author_name
+'Ramachandran, G.N.'
+_publ_section_title
+;
+ Photoelastic constants of diamond
+;
+_journal_name_full               'Proceedings of the Indian Academy of Sciences A'
+_journal_volume                  25
+_journal_issue                   ?
+_journal_page_first              208
+_journal_page_last               219
+_journal_year                    1947
+_phase_density ?
+_prop_measurement_method 'Birefringence'
+_prop_conditions_wavelength 0.5893
+_prop_photoelastic_pij 'pij'
+_prop_piezooptic_piij 'piij'
+loop_
+_prop_data_label
+_prop_data_tensorial_index
+_prop_data_value
+pij 11 0.12(5)
+pij 12 -0.32(5)
+pij 13 -0.32(5)
+pij 21 -0.32(5)
+pij 22 0.12(5)
+pij 23 -0.32(5)
+pij 31 -0.32(5)
+pij 32 -0.32(5)
+pij 33 0.12(5)
+pij 44 0.11
+pij 55 0.11
+pij 66 0.11
+piij 11 42
+piij 12 -36
+piij 13 -36
+piij 21 -36
+piij 22 42
+piij 23 -36
+piij 31 -36
+piij 32 -36
+piij 33 42
+piij 44 26
+piij 55 26
+piij 66 26

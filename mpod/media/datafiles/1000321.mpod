@@ -1,0 +1,162 @@
+#------------------------------------------------------------------------------
+#$Date: 2013-07-27 22:16:00 +0000 $
+#$Revision: 001 $ Daniel Chateigner
+#------------------------------------------------------------------------------
+#
+# This file is available in the Material Properties Open Database (MPOD),
+# http://www.mpod.net/
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_1000321
+_cod_database_code ?
+_structure_refined 'no'
+_phase_name 'Pb(In1/2Nb1/2)O3(0.26)-Pb(Mg1/3Nb2/3)O3(0.42)-PbTiO3(0.32):Mn'
+_phase_generic 'PIN-PMN-PT:Mn'
+_phase_formula 'Pb(In1/2Nb1/2)O3(0.26)-Pb(Mg1/3Nb2/3)O3(0.42)-PbTiO3(0.32):Mn'
+_chemical_formula_sum 'Pb In0.13 Nb0.41 Mg0.14 Ti0.32 O3'
+_symmetry_point_group_name_H-M 'm m 2'
+_cell_length_a                     ?
+_cell_length_b                     ?
+_cell_length_c                     ?
+_cell_angle_alpha                  ?
+_cell_angle_beta                   ?
+_cell_angle_gamma                  ?
+
+loop_
+_publ_author_name
+'Huo, Xiaoqing'
+'Zhang, Shujun'
+'Liu, Gang'
+'Zhang, Rui'
+'Luo, Jun'
+'Sahul, Raffi'
+'Cao Wenwu'
+'Shrout, Thomas R.'
+_publ_section_title
+;
+ Elastic, dielectric and piezoelectric characterization of single domain PIN-PMN-PT: Mn crystals
+;
+_journal_name_full               'Journal of Applied Physics'
+_journal_volume                  112
+_journal_issue                   12
+_journal_article_reference       124113
+_journal_pages_number            5
+_journal_year                    2012
+
+
+_phase_density 1801
+
+_phase_transition_temperature_ortho_tetra 389
+
+_phase_transition_temperature_curie_ferroelectric 481
+
+_prop_measurement_poling '[011]'
+
+_prop_frame '1=[0-11]c 2=[100]c 3=[011]c'
+
+
+
+_prop_dielectric_stiffness_relative_betrijS 'betrijS'
+_prop_dielectric_stiffness_relative_betrijT 'betrijT'
+
+_prop_dielectric_permittivity_relative_epsrijS 'epsrijS' 
+_prop_dielectric_permittivity_relative_epsrijT 'epsrijT'
+
+_prop_elastic_compliance_sijD 'sijD'
+_prop_elastic_compliance_sijE 'sijE'
+
+_prop_elastic_stiffness_cijE 'cijE'
+_prop_elastic_stiffness_cijD 'cijD'
+
+_prop_electromechanical_coupling_kij 'kij'
+
+_prop_piezoelectric_dij 'dij'
+_prop_piezoelectric_eij 'eij'
+_prop_piezoelectric_gij 'gij'
+_prop_piezoelectric_hij 'hij'
+
+_prop_conditions_frequency 1
+_prop_conditions_temperature 300
+
+
+loop_
+_prop_data_label
+_prop_data_tensorial_index
+_prop_data_value
+_prop_measurement_method
+betrijS 11 14.7 LCR
+betrijS 22 2.14 LCR
+betrijS 33 17.8 LCR
+betrijT 11 1.67 LCR
+betrijT 22 0.59 LCR
+betrijT 33 8.06 LCR
+cijD 11 201 RUS
+cijD 12 103 RUS
+cijD 13 53.4 RUS
+cijD 22 157 RUS
+cijD 23 83.4 RUS
+cijD 33 192 RUS
+cijD 44 66.9 RUS
+cijD 55 43.3 RUS
+cijD 66 71.4 RUS
+cijE 11 200 RUS
+cijE 12 106 RUS
+cijE 13 464 RUS
+cijE 22 149 RUS
+cijE 23 102 RUS
+cijE 33 150 RUS
+cijE 44 18.4 RUS
+cijE 55 4.9 RUS
+cijE 66 71.4 RUS
+dij 15 3100 RUS
+dij 24 2435 RUS
+dij 31 110 RUS
+dij 32 -302 RUS
+dij 33 267 RUS
+eij 15 15.2 RUS
+eij 24 44.8 RUS
+eij 31 2.38 RUS
+eij 32 -6.23 RUS
+eij 33 14.5 RUS
+epsrijS 11 679 CAP
+epsrijS 22 4672 CAP
+epsrijS 33 561 CAP
+epsrijT 11 6000 CAP
+epsrijT 22 17000 CAP
+epsrijT 33 1240 LCR
+gij 15 5.84 RUS
+gij 24 1.62 RUS
+gij 31 1.00 RUS
+gij 32 -2.75 RUS
+gij 33 2.43 RUS
+hij 15 25.3 RUS
+hij 24 10.8 RUS
+hij 31 4.80 RUS
+hij 32 -12.5 RUS
+hij 33 29.2 RUS
+kij 15 0.94 ?
+kij 24 0.85 ?
+kij 31 0.36 ?
+kij 32 0.65 ?
+kij 33 0.70 ?
+sijD 11 7.49 RUS
+sijD 12 -4.96 RUS
+sijD 13 0.07 RUS
+sijD 22 11.6 RUS
+sijD 23 -3.64 RUS
+sijD 33 6.76 RUS
+sijD 44 14.9 RUS
+sijD 55 23.1 RUS
+sijD 66 14.0 RUS
+sijE 11 8.59 RUS
+sijE 12 -7.99 RUS
+sijE 13 2.75 RUS
+sijE 22 19.9 RUS
+sijE 23 -11.0 RUS
+sijE 33 13.3 RUS
+sijE 44 54.3 RUS
+sijE 55 204 RUS
+sijE 66 14.0 RUS

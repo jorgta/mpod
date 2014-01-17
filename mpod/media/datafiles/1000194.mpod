@@ -1,0 +1,49 @@
+#------------------------------------------------------------------------------
+#$Date: 2010-04-28 16:46:00 +0000 $
+#$Revision: 001 $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Material Properties Open Database (MPOD),
+# http://www.materialproperties.org/
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_1000194
+_cod_database_code 1501462
+_structure_refined 'yes'
+_phase_name 'iron selenide'
+_phase_formula Cs0.8(FeSe0.98)2
+_chemical_formula_sum 'Cs0.8 Fe2 Se1.96'
+_symmetry_point_group_name_H-M '4/m m m'
+_cell_length_a  3.9601(2)
+_cell_length_b  3.9601(2)
+_cell_length_c  15.2846(11)
+_cell_angle_alpha  90
+_cell_angle_beta   90
+_cell_angle_gamma  90
+loop_
+_publ_author_name
+'Krzton-Maziopa, A.'
+'Shermadini, Z.'
+'Pomjakushina, E.'
+'Pomjakushina, V.'
+'Bendele, M.'
+'Amato, A.'
+'Khasanov, R.'
+'Luetkens, H.'
+'Conder, K.'
+_publ_section_title
+;
+ Synthesis and crystal growth of Cs0.8(FeSe0.98)2: a new iron-based superconductor with Tc=27K
+;
+_journal_name_full               'Journal of Physics: Condensed Matter'
+_journal_volume                  23
+_journal_issue                   ?
+_journal_article_reference       052203
+_journal_pages_number            4
+_journal_year                    2011
+_phase_density ?
+_prop_measurement_method 'AC_S'
+_prop_superconducting_critical_temperature_onset 27.4

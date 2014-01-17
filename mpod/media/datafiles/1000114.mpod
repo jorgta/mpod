@@ -1,0 +1,74 @@
+#------------------------------------------------------------------------------
+#$Date: 2011-2-22 15:19:00 +0000 $
+#$Revision: 001 $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Material Properties Open Database (MPOD),
+# http://www.materialproperties.org/
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_1000114
+_cod_database_code ?
+_structure_refined 'no'
+_phase_name 'Iron selenide'
+_phase_formula Tl0.58Rb0.42Fe1.72Se2
+_chemical_formula_sum 'Tl0.58 Rb0.42 Fe1.72 Se2'
+_symmetry_point_group_name_H-M '4/mmm'
+_cell_length_a  3.896
+_cell_length_b  3.896
+_cell_length_c  14.303
+_cell_angle_alpha  90
+_cell_angle_beta   90
+_cell_angle_gamma  90
+loop_
+_publ_author_name
+'Wang, Hang-Dong'
+'Dong, Chi-Heng'
+'Li, Zu-Juan'
+'Mao, Qian-Hui'
+'Zhu, Sha-Sha'
+'Feng, Chun-Mu'
+'Yuan, H.Q.'
+'Fang, Ming-Hu'
+_publ_section_title
+;
+ Superconductivity at 32K and anisotropy in Tl0.58Rb0.42Fe1.72Se2 crystals
+;
+_journal_name_full               'European Physics Letters'
+_journal_volume                  93
+_journal_issue                   ?
+_journal_article_reference       47004
+_journal_pages_number            4
+_journal_year                    2011
+_phase_density ?
+
+data_1000114a
+_prop_superconducting_critical_temperature_onset 'Tconset'
+_prop_superconducting_critical_temperature_mid_50 'Tcmiddle'
+_prop_superconducting_zero_resistivity_temperature 'Tczero'
+loop_
+_prop_data_label
+_prop_data_value
+_prop_measurement_method
+Tconset 32 RC
+Tcmiddle 31.5 RC
+Tczero 31.4 RC
+
+data_1000114b
+_prop_superconducting_critical_field2_Hc2i 'Hc2i'
+_prop_electric_resistivity_rhoeij 'rhoeij'
+loop_
+_prop_data_label
+_prop_data_tensorial_index
+_prop_data_value
+_prop_conditions_temperature
+_prop_measurement_method
+rhoeij 11 10000 300 RC
+rhoeij 22 10000 300 RC
+rhoeij 33 400000 300 RC
+Hc2i 1 221 0 SQUID-ZFC
+Hc2i 2 221 0 SQUID-ZFC
+Hc2i 3 44.2 0 SQUID-ZFC

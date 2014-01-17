@@ -1,0 +1,65 @@
+#------------------------------------------------------------------------------
+#$Date: 2012-11-05 21:16:00 +0000 $
+#$Revision: 001 $
+#$Date: 2013-09-09 22:36:00 +0000 $
+#$Revision: 002 $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Material Properties Open Database (MPOD),
+# http://www.mpod.net/
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_1000298
+_cod_database_code 9015208
+_structure_refined 'no'
+_phase_name 'Paddys pond lake Ice Ih'
+_phase_generic 'Lake Ice'
+_phase_formula 'H2O'
+_chemical_formula_sum 'H2 O'
+_symmetry_point_group_name_H-M '6/m m m'
+_cell_length_a                     4.497479
+_cell_length_b                     4.497479
+_cell_length_c                     7.322382
+_cell_angle_alpha                  90
+_cell_angle_beta                   90
+_cell_angle_gamma                  120
+
+
+loop_
+_publ_author_name
+'Gammon, P.H.'
+'Kiefte, H.'
+'Clouter, M.J.'
+'Denner, W.W.'
+_publ_section_title
+;
+ Elastic constants of artificial and natural ice samples by Brillouin spectroscopy
+;
+_journal_name_full               'Journal of Glaciology'
+_journal_volume                  29
+_journal_issue                   103
+_journal_page_first              433
+_journal_page_last               460
+_journal_year                    1983
+
+_phase_density 919.5(15)
+_prop_elastic_stiffness_cijS 'cijS'
+_prop_conditions_temperature 257.0(5)
+
+loop_
+_prop_data_label
+_prop_data_tensorial_index
+_prop_data_value
+_prop_measurement_method
+cijS 11 13.876(68) BS
+cijS 12 6.979(97) BS
+cijS 13 5.657(49) BS
+cijS 22 13.876(68) BS
+cijS 23 5.657(49) BS
+cijS 33 15.071(93) BS
+cijS 44 3.024(25) BS
+cijS 55 3.024(25) BS
+cijS 66 3.4485 BS

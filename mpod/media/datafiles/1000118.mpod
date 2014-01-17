@@ -1,0 +1,48 @@
+#------------------------------------------------------------------------------
+#$Date: 2011-17-03 20:58:00 +0000 $
+#$Revision: 001 $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Material Properties Open Database (MPOD),
+# http://www.mpod.net/
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_1000118
+_cod_database_code 2101575
+_structure_refined 'no'
+_phase_name 'KPC'
+_chemical_formula_sum 'K2 Pt C4 N4 Br0.3 H6 O3'
+_symmetry_point_group_name_H-M 4mm
+_cell_length_a 9.90601(6)
+_cell_length_b 9.90601(6)
+_cell_length_c 2.88729(4)
+loop_
+_publ_author_name
+'Freund, A.'
+'Roth, S.'
+'Ranvaud, R.'
+_publ_section_title
+;
+ Precise lattice constants and thermal expansion of K2Pt(CN)4Br0.3.3H2O 
+;
+_journal_name_full               'Journal of Applied Crystallography'
+_journal_volume                  7
+_journal_page_first              631
+_journal_page_last               632
+_journal_year                    1974
+_phase_density ?
+_prop_measurement_method 'SCXD'
+_prop_thermal_expansion_alphaij 'alphaij'
+loop_
+_prop_data_label
+_prop_data_tensorial_index
+_prop_data_value
+_prop_conditions_temperature_range_begin
+_prop_conditions_temperature_range_end
+_prop_conditions_temperature_cycle
+alphaij 11 22(1) 295 308 1
+alphaij 22 22(1) 295 308 1
+alphaij 33 67.4(2.3) 295 308 1

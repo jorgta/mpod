@@ -1,0 +1,57 @@
+#------------------------------------------------------------------------------
+#$Date: 2011-03-28 22:05:00 +0000 $
+#$Revision: 001 $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Material Properties Open Database (MPOD),
+# http://www.materialproperties.org/
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_1000141
+_cod_database_code               1000037
+_structure_refined 'no'
+_phase_name baryte
+_phase_formula 'BaSO4'
+_chemical_formula_sum 'Ba S O4'
+_symmetry_point_group_name_H-M 'm m m'
+_cell_length_a  8.884
+_cell_length_b  5.458
+_cell_length_c  7.153
+_cell_angle_alpha  90
+_cell_angle_beta   90
+_cell_angle_gamma  90
+loop_
+_publ_author_name
+'Bergmann, L.'
+_publ_section_title
+;
+ Ultrasonics
+;
+_journal_name_full               'J. Wiley & Sons, London'
+_journal_volume                  ?
+_journal_issue                   ?
+_journal_page_first              ?
+_journal_page_last               ?
+_journal_year                    1938
+_prop_measurement_method '?'
+_prop_conditions_temperature ?
+_prop_elastic_compliance_sij 'sij'
+loop_
+_prop_data_label
+_prop_data_tensorial_index
+_prop_data_value
+sij 11 17.2
+sij 12 -9.9
+sij 13 -1.7
+sij 14 0
+sij 22 19.9
+sij 23 -3.0
+sij 24 0
+sij 33 10.9
+sij 44 85.5
+sij 55 35.8
+sij 56 0
+sij 66 39.2

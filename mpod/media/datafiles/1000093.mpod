@@ -1,0 +1,46 @@
+#------------------------------------------------------------------------------
+#$Date: 2010-10-14 21:23:00 +0000 $
+#$Revision: 002 $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Material Properties Open Database (MPOD),
+# http://www.mpod.net/
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_1000093
+_cod_database_code 9008460
+_structure_refined 'no'
+_phase_name 'Aluminum'
+_phase_formula Al
+_chemical_formula_sum 'Al'
+_symmetry_point_group_name_H-M 'm 3 m'
+_cell_length_a  4.04958
+loop_
+_publ_author_name
+'Goens, E.'
+_publ_section_title
+;
+ Elastic constants of aluminum single crystals
+;
+_journal_name_full               'Annalen der Physik'
+_journal_volume                  17
+_journal_page_first              233
+_journal_year                    1933
+_prop_elastic_compliance_sij 'sij'
+loop_
+_prop_data_label
+_prop_data_tensorial_index
+_prop_data_value
+sij 11 15.9
+sij 12 -5.8
+sij 13 -5.8
+sij 22 15.9
+sij 23 -5.8
+sij 33 15.9
+sij 44 35.2
+sij 55 35.2
+sij 66 35.2
+

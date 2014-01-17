@@ -1,0 +1,56 @@
+#------------------------------------------------------------------------------
+#$Date: 2011-06-4 23:20:00 +0000 $
+#$Revision: 002 $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Material Properties Open Database (MPOD),
+# http://www.materialproperties.org/
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_1000253
+_cod_database_code               9008694
+_structure_refined 'no'
+_phase_name 'galena'
+_phase_formula 'PbS'
+_chemical_formula_sum 'Fe S2'
+_symmetry_point_group_name_H-M 'm -3 m'
+_cell_length_a  5.9362
+_cell_length_b  5.9362
+_cell_length_c  5.9362
+_cell_angle_alpha  90
+_cell_angle_beta   90
+_cell_angle_gamma  90
+loop_
+_publ_author_name
+'Bhagavantam, S.'
+'Bhimasenachar, J.'
+_publ_section_title
+;
+ Elastic constants of crystals. A new method and its application to pyrites and galena
+;
+_journal_name_full               'Proceedings of the Indian Academy of Sciences A'
+_journal_volume                  20
+_journal_issue                   5
+_journal_page_first              298
+_journal_page_last               303
+_journal_year                    1944
+_phase_density 7564
+_prop_measurement_method 'Wedge'
+_prop_elastic_stiffness_cij 'cij'
+loop_
+_prop_data_label
+_prop_data_tensorial_index
+_prop_data_value
+_prop_conditions_temperature
+cij 11 26.5 ?
+cij 12 69.9 ?
+cij 13 69.9 ?
+cij 22 26.5 ?
+cij 23 69.9 ?
+cij 33 26.5 ?
+cij 44 44.7 ?
+cij 55 44.7 ?
+cij 66 44.7 ?

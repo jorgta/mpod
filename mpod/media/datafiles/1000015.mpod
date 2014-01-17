@@ -1,0 +1,51 @@
+#------------------------------------------------------------------------------
+#$Date: 2010-09-30 10:46:17 +0000 (Thu, 30 Sep 2010) $
+#$Revision: 001 $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Material Properties Open Database (MPOD),
+# http://www.mpod.net/
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_1000015
+_cod_database_code               9013014
+_structure_refined 'no'
+_phase_name copper
+_chemical_formula_sum 'Cu'
+_symmetry_point_group_name_H-M m3m
+_cell_length_a  3.613
+loop_
+_publ_author_name
+'Ogi H.'
+'Ledbetter H.'
+'Kim S.' 
+'Hirao M.'
+_publ_section_title
+;
+Contactless mode-selective resonance ultrasound spectroscopy: Electromagnetic acoustic resonance
+;
+_journal_name_full               'Journal of the Acoustical Society of America'
+_journal_volume                  106
+_journal_issue                   2
+_journal_page_first              660
+_journal_page_last               665
+_journal_year                    1999
+_prop_measurement_method 'EMAR'
+_prop_conditions_temperature ?
+_prop_elastic_stiffness_cij 'cij'
+loop_
+_prop_data_label
+_prop_data_tensorial_index
+_prop_data_value
+cij 11 167
+cij 12 120.9
+cij 13 120.9
+cij 22 167
+cij 23 120.9
+cij 33 167
+cij 44 74.64
+cij 55 74.64
+cij 66 74.64

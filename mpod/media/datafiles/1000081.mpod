@@ -1,0 +1,49 @@
+#------------------------------------------------------------------------------
+#$Date: 2010-10-15 17:17:00 +0000 $
+#$Revision: 001 $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Material Properties Open Database (MPOD),
+# http://www.mpod.net/
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_1000081
+_cod_database_code 9008540
+_structure_refined 'no'
+_phase_name 'Potassium'
+_phase_formula K
+_chemical_formula_sum 'K'
+_symmetry_point_group_name_H-M 'm 3 m'
+_cell_length_a  5.247
+loop_
+_publ_author_name
+'Seitz, F.'
+'Read, T.A.'
+_publ_section_title
+;
+ Theory of the plastic properties of solids
+;
+_journal_name_full               'Journal of Applied Physics'
+_journal_volume                  12
+_journal_issue                   2
+_journal_page_first              100
+_journal_page_last               118
+_journal_year                    1941
+_prop_elastic_compliance_sij 'sij'
+loop_
+_prop_data_label
+_prop_data_tensorial_index
+_prop_data_value
+sij 11 833
+sij 12 -370
+sij 13 -370
+sij 22 833
+sij 23 -370
+sij 33 833
+sij 44 380
+sij 55 380
+sij 66 380
+

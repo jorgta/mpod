@@ -1,0 +1,63 @@
+#------------------------------------------------------------------------------
+#$Date: 2013-07-19 23:05:00 +0000 $
+#$Revision: 001 $ Daniel Chateigner
+#------------------------------------------------------------------------------
+#
+# This file is available in the Material Properties Open Database (MPOD),
+# http://www.mpod.net/
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_1000319
+_cod_database_code 2105478
+_structure_refined 'no'
+_phase_name 'epsilon gallium selenide'
+_phase_formula 'GaSe'
+_chemical_formula_sum 'Ga Se'
+_symmetry_point_group_name_H-M '-6 m 2'
+_cell_length_a                     3.743
+_cell_length_b                     3.743
+_cell_length_c                     15.919
+_cell_angle_alpha                  90.
+_cell_angle_beta                   90.
+_cell_angle_gamma                  120.
+
+loop_
+_publ_author_name
+'Cenzual, K.'
+'Gelato, L.M.'
+'Penzo, M.'
+'Parthe, E.'
+_publ_section_title
+;
+Inorganic structure types with revised space groups.I.
+;
+_journal_name_full               'Acta Crystallographica B'
+_journal_volume                  47
+_journal_page_first              433
+_journal_page_last               439
+_journal_year                    1991
+
+_phase_density 5003
+
+_prop_measurement_method 'BS'
+
+_prop_elastic_stiffness_cij 'cij'
+
+
+loop_
+_prop_data_label
+_prop_data_tensorial_index
+_prop_data_value
+cij 11 105
+cij 12 32.5
+cij 13 12.6
+cij 22 105
+cij 23 12.6
+cij 33 35.1
+cij 44 104
+cij 55 104
+cij 66 36.25
+

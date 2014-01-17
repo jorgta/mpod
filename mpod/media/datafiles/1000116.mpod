@@ -1,0 +1,63 @@
+#------------------------------------------------------------------------------
+#$Date: 2011-3-14 21:02:00 +0000 $
+#$Revision: 001 $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Material Properties Open Database (MPOD),
+# http://www.materialproperties.org/
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_1000116
+_cod_database_code ?
+_structure_refined 'yes'
+_phase_name 'sodium silicon clathrate'
+_phase_formula Na8Si46
+_chemical_formula_sum 'Na8 Si46'
+_symmetry_point_group_name_H-M 'm3m'
+_cell_length_a  10.1973(1)
+_cell_length_b  10.1973(1)
+_cell_length_c  10.1973(1)
+_cell_angle_alpha  90
+_cell_angle_beta   90
+_cell_angle_gamma  90
+loop_
+_publ_author_name
+'Stefanoski, S.'
+'Martin, J.'
+'Nolas, G.S.'
+_publ_section_title
+;
+ Low temperature transport properties and heat capacity of single-crystal Na8Si46
+;
+_journal_name_full               'Journal of Physics: Condensed Matter'
+_journal_volume                  22
+_journal_issue                   ?
+_journal_article_reference       485404
+_journal_pages_number            5
+_journal_year                    2010
+_phase_density ?
+_prop_residual_resistivity_ratio 36
+_prop_residual_resistivity_ratio_high_temperature 300
+_prop_residual_resistivity_ratio_low_temperature 12
+_prop_electric_resistivity_rhoeij 'rhoeij'
+_prop_thermoelectric_Seebeck_Seij 'Seij'
+_prop_thermal_conductivity_kappaij 'kappaij'
+
+loop_
+_prop_data_label
+_prop_data_tensorial_index
+_prop_data_value
+_prop_conditions_temperature
+_prop_measurement_method
+rhoeij 11 98 300 FP
+rhoeij 22 98 300 FP
+rhoeij 33 98 300 FP
+Seij 11 -4.2 300 ?
+Seij 22 -4.2 300 ?
+Seij 33 -4.2 300 ?
+kappaij 11 25.2 300 ?
+kappaij 22 25.2 300 ?
+kappaij 33 25.2 300 ?

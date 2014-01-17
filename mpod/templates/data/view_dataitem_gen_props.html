@@ -1,0 +1,21 @@
+{% if gen_props_dict %}
+{% if header %}
+   {{header|safe}}
+{% endif %}
+<div class="module" id="changelist">
+<table>
+<tbody>
+{% for key, value in gen_props_dict.items %}
+<tr class="{% cycle 'row1' 'row2' %}">
+<td> {{key}} </td><td>:</td> <td> {{value}} </td>
+</tr>
+{% endfor %}
+</tbody>
+</table>
+</div>
+
+{% if footer %}
+   {{footer|safe}}
+{% endif %}
+<br />
+{% endif %}

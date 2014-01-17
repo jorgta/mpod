@@ -1,0 +1,53 @@
+#------------------------------------------------------------------------------
+#$Date: 2011-1-11 14:36:00 +0000 $
+#$Revision: 001 $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Material Properties Open Database (MPOD),
+# http://www.materialproperties.org/
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_1000106
+_cod_database_code ?
+_structure_refined 'no'
+_phase_name 'iron pnictide oxide'
+_phase_formula Fe2As2Ca6(Al0.33Ti0.67)4O11
+_chemical_formula_sum ' Fe2 As2 Ca6 Al1.33 Ti2.67 O11'
+_symmetry_point_group_name_H-M '4/n m m'
+_cell_length_a  3.8
+_cell_length_b  3.8
+_cell_length_c  22.572
+_cell_angle_alpha  90
+_cell_angle_beta   90
+_cell_angle_gamma  90
+loop_
+_publ_author_name
+'Ogino, Hiraku'
+'Machida, Kenji'
+'Yamamoto, Akiyasu'
+'Kishio, Kohji'
+'Shimoyama, Jun-ichi'
+'Tohei, Tetsuya'
+'Ikuhara, Yuichi'
+_publ_section_title
+;
+ A new homologous series of iron pnictide oxide superconductors (Fe2As2)(Can+2(Al, Ti)nOy) (n = 2, 3, 4)
+;
+_journal_name_full               'Superconductor Science and Technology'
+_journal_volume                  23
+_journal_issue                   11
+_journal_article_reference       115005
+_journal_pages_number            5
+_journal_year                    2010
+_phase_density ?
+_prop_measurement_method 'RC'
+_prop_superconducting_critical_temperature_onset 39
+_prop_superconducting_critical_temperature_onset_90 ?
+_prop_superconducting_critical_temperature_mid_50 ?
+_prop_superconducting_critical_temperature_offset_10 ?
+_prop_superconducting_critical_temperature_thermodynamic ?
+_prop_superconducting_zero_resistivity_temperature 25
+_prop_superconducting_resistivity_transition_width 15

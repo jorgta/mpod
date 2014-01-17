@@ -1,0 +1,28 @@
+{% extends "mpod_base_text.html" %}
+
+{% block title %}MPOD - Article View{% endblock %}
+
+{% block central_column %}  
+
+<div class="central_column">
+
+    {% if publi_table %}
+		{{publi_table|escape}}
+	 {% else %}
+Sorry! Article not found
+    {% endif %}
+    
+    {% if associated_datafiles %}
+		{{associated_datafiles|escape}}
+	 {% else %}
+No Associated datafiles
+    {% endif %}
+
+
+</div>
+{% endblock %}
+
+{% block footer %} 
+{% include "mpod_footer_1.html" %}
+
+{% endblock %}

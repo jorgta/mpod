@@ -1,0 +1,52 @@
+#------------------------------------------------------------------------------
+#$Date: 2011-06-28 6:56:00 +0000 $
+#$Revision: 001 $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Material Properties Open Database (MPOD),
+# http://www.materialproperties.org/
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_1000273
+_cod_database_code               ?
+_structure_refined 'yes'
+_phase_name 'YBaCuO'
+_phase_formula 'YBa2Cu3O7'
+_chemical_formula_sum 'Y Ba2 Cu3 O7'
+_symmetry_point_group_name_H-M 'm m m'
+_cell_length_a  3.8124(2)
+_cell_length_b  3.8807(2)
+_cell_length_c  11.6303(5)
+_cell_angle_alpha  90
+_cell_angle_beta   90
+_cell_angle_gamma  90
+loop_
+_publ_author_name
+'Capponi, J.J.'
+'Chaillout, C.'
+'Hewat, A.W.'
+'Lejay, P.'
+'Marezio, M.'
+'Nguyen, N.'
+'Raveau, B.'
+'Soubeyroux, J.L.'
+'Tholence, J.L.'
+'Tournier, R.'
+_publ_section_title
+;
+ Sructure of the 100K superconductor Ba2YCu3O7 between (5-300) K by neutron powder diffraction
+;
+_journal_name_full               'Europhysics Letters'
+_journal_volume                  3
+_journal_issue                   12
+_journal_page_first              1301
+_journal_page_last               1307
+_journal_year                    1987
+_phase_density ?
+_prop_measurement_method 'AC_S'
+_prop_conditions_temperature ?
+_prop_conditions_magnetic_field 0.02
+_prop_superconducting_critical_temperature_onset 100

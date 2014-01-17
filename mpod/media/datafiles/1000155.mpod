@@ -1,0 +1,56 @@
+#------------------------------------------------------------------------------
+#$Date: 2011-03-29 23.23:00 +0000 $
+#$Revision: 001 $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Material Properties Open Database (MPOD),
+# http://www.materialproperties.org/
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_1000155
+_cod_database_code               5000215
+_structure_refined 'no'
+_phase_name bismuth
+_chemical_formula_sum 'Bi'
+_symmetry_point_group_name_H-M '-3 m'
+_cell_length_a  4.535
+_cell_length_b  4.535
+_cell_length_c  11.814
+_cell_angle_alpha  90
+_cell_angle_beta   90
+_cell_angle_gamma  120
+loop_
+_publ_author_name
+'Bridgman, P.W.'
+_publ_section_title
+;
+ Some properties of single metal crystals
+;
+_journal_name_full               'Proceedings of the National Academy of Sciences of the United States of America'
+_journal_volume                  10
+_journal_issue                   ?
+_journal_page_first              411
+_journal_page_last               415
+_journal_year                    1924
+_prop_measurement_method '?'
+_prop_conditions_temperature ?
+_prop_elastic_compliance_sij 'sij'
+loop_
+_prop_data_label
+_prop_data_tensorial_index
+_prop_data_value
+sij 11 26.9
+sij 12 -14.0
+sij 13 -6.2
+sij 14 16.0
+sij 22 26.9
+sij 23 -6.2
+sij 24 -16.0
+sij 33 28.7
+sij 44 104.8
+sij 55 104.8
+sij 56 32.0
+sij 66 81.8

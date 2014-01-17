@@ -1,0 +1,55 @@
+#------------------------------------------------------------------------------
+#$Date: 2011-06-13 00:15:00 +0000 $
+#$Revision: 001 $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Material Properties Open Database (MPOD),
+# http://www.materialproperties.org/
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_1000263
+_cod_database_code               5000115
+_structure_refined 'no'
+_phase_name 'pyrite'
+_phase_formula 'FeS2'
+_chemical_formula_sum 'Fe S2'
+_symmetry_point_group_name_H-M 'm 3'
+_cell_length_a  5.4179
+_cell_length_b  5.4179
+_cell_length_c  5.4179
+_cell_angle_alpha  90
+_cell_angle_beta   90
+_cell_angle_gamma  90
+loop_
+_publ_author_name
+'Doraiswami, M.S.'
+_publ_section_title
+;
+ Elastic constants of magnetite, pyrite and chromite
+;
+_journal_name_full               ' Proceedings of the Indian Academy of Sciences, Section A'
+_journal_volume                  25
+_journal_issue                   ?
+_journal_page_first              413
+_journal_page_last               416
+_journal_year                    1947
+_phase_density ?
+_prop_measurement_method 'Wedge'
+_prop_conditions_temperature ?
+_prop_elastic_stiffness_cij 'cij'
+loop_
+_prop_data_label
+_prop_data_tensorial_index
+_prop_data_value
+cij 11 361.6
+cij 12 -44.4
+cij 13 -44.4
+cij 22 361.6
+cij 23 -44.4
+cij 33 361.6
+cij 44 108.4
+cij 55 108.4
+cij 66 108.4

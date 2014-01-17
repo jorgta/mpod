@@ -1,0 +1,82 @@
+#------------------------------------------------------------------------------
+#$Date: 2013-07-06 23:05:00 +0000 $
+#$Revision: 001 $ Daniel Chateigner
+#------------------------------------------------------------------------------
+#
+# This file is available in the Material Properties Open Database (MPOD),
+# http://www.mpod.net/
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_1000318
+_cod_database_code 9008840
+_structure_refined 'no'
+_phase_name 'cadmium telluride'
+_phase_formula 'CdTe'
+_chemical_formula_sum 'Cd Te'
+_symmetry_point_group_name_H-M '-4 3 m'
+_cell_length_a  6.48
+_cell_length_b  6.48
+_cell_length_c  6.48
+_cell_angle_alpha  90
+_cell_angle_beta   90
+_cell_angle_gamma  90
+
+loop_
+_publ_author_name
+'Slack, Glen A.'
+_publ_section_title
+;
+ Thermal conductivity of II-VI compounds and phonon scattering by Fe2+ impurities
+;
+_journal_name_full               'Physical Review B'
+_journal_volume                  6
+_journal_issue                   10
+_journal_page_first              3791
+_journal_page_last               3800
+_journal_year                    1972
+
+
+_prop_measurement_method 'SST'
+
+_prop_thermal_conductivity_kappaij 'kappaij'
+
+
+loop_
+_prop_data_label
+_prop_data_tensorial_index
+_prop_data_value
+_prop_conditions_temperature
+kappaij 11 180 30
+kappaij 22 180 30
+kappaij 33 180 30
+kappaij 11 117 40
+kappaij 22 117 40
+kappaij 33 117 40
+kappaij 11 84 50
+kappaij 22 84 50
+kappaij 33 84 50
+kappaij 11 57 65
+kappaij 22 57 65
+kappaij 33 57 65
+kappaij 11 44 80
+kappaij 22 44 80
+kappaij 33 44 80
+kappaij 11 31 100
+kappaij 22 31 100
+kappaij 33 31 100
+kappaij 11 18.4 150
+kappaij 22 18.4 150
+kappaij 33 18.4 150
+kappaij 11 12.7 200
+kappaij 22 12.7 200
+kappaij 33 12.7 200
+kappaij 11 9.5 250
+kappaij 22 9.5 250
+kappaij 33 9.5 250
+kappaij 11 7.5 300
+kappaij 22 7.5 300
+kappaij 33 7.5 300
+

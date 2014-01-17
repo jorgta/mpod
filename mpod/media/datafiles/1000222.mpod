@@ -1,0 +1,164 @@
+#------------------------------------------------------------------------------
+#$Date: 2011-06-2 22:45:00 +0000 $
+#$Revision: 002 $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Material Properties Open Database (MPOD),
+# http://www.materialproperties.org/
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_1000222
+_cod_database_code 1010057
+_structure_refined 'no'
+_phase_name 'Sodium chlorate'
+_phase_formula 'NaClO3'
+_chemical_formula_sum 'Na1 Cl1 O3'
+_symmetry_point_group_name_H-M '2 3'
+_cell_length_a  6.55
+_cell_length_b  6.55
+_cell_length_c  6.55
+_cell_angle_alpha  90
+_cell_angle_beta   90
+_cell_angle_gamma  90
+loop_
+_publ_author_name
+'Bhagavantam, S.'
+_publ_section_title
+;
+ Elastic properties of single crystals and polycrystalline aggregates
+;
+_journal_name_full               'Proceedings of the Indian Academy of Sciences A'
+_journal_volume                  41
+_journal_issue                   ?
+_journal_page_first              72
+_journal_page_last               90
+_journal_year                    1955
+_phase_density ?
+_prop_measurement_method 'COM'
+_prop_elastic_stiffness_cij 'cij'
+_prop_elastic_compliance_sij 'sij'
+loop_
+_prop_data_label
+_prop_data_tensorial_index
+_prop_data_value
+_prop_conditions_temperature
+cij 11 50.9 ?
+cij 12 15.5 ?
+cij 13 15.5 ?
+cij 22 50.9 ?
+cij 23 15.5 ?
+cij 33 50.9 ?
+cij 44 11.8 ?
+cij 55 11.8 ?
+cij 66 11.8 ?
+sij 11 23.5 303
+sij 12 -5.2 303
+sij 13 -5.2 303
+sij 22 23.5 303
+sij 23 -5.2 303
+sij 33 23.5 303
+sij 44 84.8 303
+sij 55 84.8 303
+sij 66 84.8 303
+sij 11 23.81 313
+sij 12 -5.2 313
+sij 13 -5.2 313
+sij 22 23.81 313
+sij 23 -5.2 313
+sij 33 23.81 313
+sij 44 85.6 313
+sij 55 85.6 313
+sij 66 85.6 313
+sij 11 24.39 333
+sij 12 -5.25 333
+sij 13 -5.25 333
+sij 22 24.39 333
+sij 23 -5.25 333
+sij 33 24.39 333
+sij 44 87 333
+sij 55 87 333
+sij 66 87 333
+sij 11 25.65 373
+sij 12 -5.3 373
+sij 13 -5.3 373
+sij 22 25.65 373
+sij 23 -5.3 373
+sij 33 25.65 373
+sij 44 90 373
+sij 55 90 373
+sij 66 90 373
+sij 11 26.65 403
+sij 12 -5.85 403
+sij 13 -5.85 403
+sij 22 26.65 403
+sij 23 -5.85 403
+sij 33 26.65 403
+sij 44 92.4 403
+sij 55 92.4 403
+sij 66 92.4 403
+sij 11 27.31 423
+sij 12 -5.95 423
+sij 13 -5.95 423
+sij 22 27.31 423
+sij 23 -5.95 423
+sij 33 27.31 423
+sij 44 94.2 423
+sij 55 94.2 423
+sij 66 94.2 423
+sij 11 28.53 443
+sij 12 -6.4 443
+sij 13 -6.4 443
+sij 22 28.53 443
+sij 23 -6.4 443
+sij 33 28.53 443
+sij 44 96.5 443
+sij 55 96.5 443
+sij 66 96.5 443
+sij 11 29.5 473
+sij 12 -6.5 473
+sij 13 -6.5 473
+sij 22 29.5 473
+sij 23 -6.5 473
+sij 33 29.5 473
+sij 44 100.7 473
+sij 55 100.7 473
+sij 66 100.7 473
+sij 11 29.97 483
+sij 12 -6.7 483
+sij 13 -6.7 483
+sij 22 29.97 483
+sij 23 -6.7 483
+sij 33 29.97 483
+sij 44 102.3 483
+sij 55 102.3 483
+sij 66 102.3 483
+sij 11 30.98 503
+sij 12 -6.8 503
+sij 13 -6.8 503
+sij 22 30.98 503
+sij 23 -6.8 503
+sij 33 30.98 503
+sij 44 106.5 503
+sij 55 106.5 503
+sij 66 106.5 503
+sij 11 32.85 513
+sij 12 -7.1 513
+sij 13 -7.1 513
+sij 22 32.85 513
+sij 23 -7.1 513
+sij 33 32.85 513
+sij 44 108.6 513
+sij 55 108.6 513
+sij 66 108.6 513
+sij 11 33.4 523
+sij 12 -7.2 523
+sij 13 -7.2 523
+sij 22 33.4 523
+sij 23 -7.2 523
+sij 33 33.4 523
+sij 44 111.2 523
+sij 55 111.2 523
+sij 66 111.2 523

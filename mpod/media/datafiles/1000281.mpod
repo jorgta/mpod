@@ -1,0 +1,65 @@
+#------------------------------------------------------------------------------
+#$Date: 2011-07-30 15:15:00 +0000$
+#$Revision: 001 $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Material Properties Open Database (MPOD),
+# http://www.mpod.net/
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_1000281
+_cod_database_code ?
+_structure_refined 'yes'
+_phase_name 'BNTK'
+_phase_formula '[Bi0.5(Na0.5K0.5)0.5]TiO3'
+_chemical_formula_sum 'Bi0.5 Na0.25 K0.25 Ti1 O3'
+_symmetry_point_group_name_H-M '4 m m'
+_cell_length_a  3.917
+_cell_length_b  3.917
+_cell_length_c  4.011
+_cell_angle_alpha  90
+_cell_angle_beta   90
+_cell_angle_gamma  90
+loop_
+_publ_author_name
+'Yi, Xiujie'
+'Chen, Huanchu'
+'Cao, Wenwu'
+'Zhao, Minglei'
+'Yang, Dongmei'
+'Ma, Guangpen'
+'Yang, Changhong'
+'Han, Jianru'
+_publ_section_title
+;
+ Flux growth and characterization of lead-free piezoelectric single crystal [Bi0.5(Na1-xKx)0.5]TiO3
+;
+_journal_name_full               'Journal of Crystal Growth'
+_journal_volume                  281
+_journal_issue                   ?
+_journal_page_first              364
+_journal_page_last               369
+_journal_year                    2005
+_phase_density ?
+_phase_transition_temperature_melting 1552.85
+_phase_transition_temperature_ferroelectric_curie 638.15
+_prop_measurement_method '?'
+_prop_piezoelectric_dij 'dij'
+_prop_electromechanical_coupling_kij 'kij'
+loop_
+_prop_data_label
+_prop_data_tensorial_index
+_prop_data_value
+dij 15 ?
+dij 24 ?
+dij 31 ?
+dij 32 ?
+dij 33 160
+kij 15 ?
+kij 24 ?
+kij 31 ?
+kij 32 ?
+kij 33 0.52

@@ -1,0 +1,55 @@
+#------------------------------------------------------------------------------
+#$Date: 2010-09-30 10:46:17 +0000 (Thu, 30 Sep 2010) $
+#$Revision: 001 $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Material Properties Open Database (MPOD),
+# http://www.mpod.net/
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_1000029
+_cod_database_code               2101845
+_structure_refined 'no'
+_phase_name LiNbO3
+_chemical_formula_sum 'Li Nb O3'
+_symmetry_point_group_name_H-M 3m
+_cell_length_a  5.148
+_cell_length_c  13.863
+loop_
+_publ_author_name
+'Ogi H.'
+'Kawasaki Y.'
+'Hirao M.'
+'Ledbetter H.'
+_publ_section_title
+;
+Acoustic spectroscopy of lithium niobate: Elastic and piezoelectric coefficients
+;
+_journal_name_full               'Journal of Applied Physics'
+_journal_volume                  92
+_journal_issue                   5
+_journal_page_first              2451
+_journal_page_last               2456
+_journal_year                    2002
+_prop_measurement_method 'RUS-Laser-Doppler'
+_prop_conditions_temperature 397
+_prop_elastic_stiffness_cij 'cij'
+loop_
+_prop_data_label
+_prop_data_tensorial_index
+_prop_data_value
+cij 11 199.5
+cij 12 55.27
+cij 13 67.67
+cij 14 8.7
+cij 22 199.5
+cij 23 67.67
+cij 24 -8.7
+cij 33 235.2
+cij 44 59.48
+cij 55 59.48
+cij 56 17.4
+cij 66 72.115

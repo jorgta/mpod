@@ -1,0 +1,67 @@
+#------------------------------------------------------------------------------
+#$Date: 2011-04-18 21:32:00 +0000$
+#$Revision: 001 $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Material Properties Open Database (MPOD),
+# http://www.mpod.net/
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_1000189
+_cod_database_code 9001408
+_structure_refined 'no'
+_phase_name 'Sillimanite'
+_phase_formula '(Al2O3)-(Si02)'
+_chemical_formula_sum 'Al2 Si O5'
+_symmetry_point_group_name_H-M 'm m m'
+_cell_length_a 7.4841
+_cell_length_b 7.672
+_cell_length_c 5.7707
+_cell_angle_alpha  90
+_cell_angle_beta   90
+_cell_angle_gamma  90
+loop_
+_publ_author_name
+'Vaughan, M.T.'
+'Weidner, D.J.'
+_publ_section_title
+;
+ The relationship of elasticity and crystal structure in andalusite and sillimanite
+;
+_journal_name_full               'Physics and Chemistry of Minerals'
+_journal_volume                  3
+_journal_issue                   ?
+_journal_page_first              133
+_journal_page_last               144
+_journal_year                    1978
+_phase_density 3241
+_prop_elastic_stiffness_cij 'cij'
+_prop_elastic_compliance_sij 'sij'
+
+loop_
+_prop_data_label
+_prop_data_tensorial_index
+_prop_data_value
+_prop_conditions_temperature
+_prop_measurement_method 
+cij 11 287.3 293 BS
+cij 12 94.7 293 BS 
+cij 13 83.4 293 BS 
+cij 22 231.9 293 BS 
+cij 23 158.6 293 BS 
+cij 33 388.4 293 BS 
+cij 44 122.4 293 BS 
+cij 55 80.7 293 BS 
+cij 66 89.3 293 BS 
+sij 11 4.042 293 BS 
+sij 12 -1.467 293 BS 
+sij 13 -0.269 293 BS 
+sij 22 6.515 293 BS 
+sij 23 -2.346 293 BS 
+sij 33 3.590 293 BS 
+sij 44 2.043 293 BS 
+sij 55 3.098 293 BS 
+sij 66 2.800 293 BS

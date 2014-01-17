@@ -1,0 +1,106 @@
+#------------------------------------------------------------------------------
+#$Date: 2012-12-13 20:42:00 +0000 $
+#$Revision: 001 $ Daniel Chateigner
+#------------------------------------------------------------------------------
+#
+# This file is available in the Material Properties Open Database (MPOD),
+# http://www.mpod.net/
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_1000308
+_cod_database_code 1508502
+_structure_refined 'no'
+_phase_name 'Lithium Dithioindate'
+_phase_formula 'LiInS2'
+_chemical_formula_sum 'Li1 In1 S2'
+_symmetry_point_group_name_H-M 'm m 2'
+_cell_length_a  6.8945
+_cell_length_b  8.0584
+_cell_length_c  6.4823
+_cell_angle_alpha  90
+_cell_angle_beta   90
+_cell_angle_gamma  90
+
+loop_
+_publ_author_name
+'Wang, Shanpeng'
+'Gao, Zeliang'
+'Yin, Xin'
+'Liu, Guandong'
+'Ruan, Huapeng'
+'Zhang, Guodong'
+'Shi, Qiong'
+'Dong, Chunming'
+'Tao, Xutang'
+_publ_section_title
+;
+ Crystal growth and piezoelectric, elastic and dielectric properties of novel LiInS2 crystal
+;
+_journal_name_full               'Journal of Crystal Growth'
+_journal_volume                  362
+_journal_issue                   ?
+_journal_page_first              308
+_journal_page_last               311
+_journal_year                    2013
+
+_prop_dielectric_permittivity_relative_epsrij 'epsrij'
+_prop_elastic_compliance_sij 'sij'
+_prop_elastic_stiffness_cij 'cij'
+_prop_piezoelectric_dij 'dij'
+_prop_piezoelectric_eij 'eij'
+_prop_thermoelastic_compliance_1storder_sij1T 'sij1T'
+_prop_conditions_frequency 1
+
+loop_
+_prop_data_label
+_prop_data_tensorial_index
+_prop_data_value
+_prop_measurement_method
+epsrij 11 12.01 CAP
+epsrij 22 10.96 CAP
+epsrij 33 12.77 CAP
+sij 11 21.53 RT
+sij 12 6.22 RT
+sij 13 2.2 RT
+sij 22 25.3 RT
+sij 23 4.3 RT
+sij 33 17.0 RT
+sij 44 48.0 RT
+sij 55 52.0 RT
+sij 66 27.5 RT
+cij 11 50.1 RT
+cij 12 -11.7 RT
+cij 13 -3.5 RT
+cij 22 44.0 RT
+cij 23 -9.6 RT
+cij 33 61.7 RT
+cij 44 20.8 RT
+cij 55 19.2 RT
+cij 66 36.4 RT
+dij 11 0 RT
+dij 12 0 RT
+dij 13 0 RT
+dij 15 -10.2 RT
+dij 24 -13.3 RT
+dij 26 0 RT
+dij 31 -4.6 RT
+dij 32 -6.3 RT
+dij 33 9.6 RT
+dij 35 0 RT
+eij 31 -0.19 RT
+eij 32 -0.31 RT
+eij 33 0.67 RT
+eij 15 -0.19 RT
+eij 24 -0.28 RT
+sij1T 11 ? RT
+sij1T 12 ? RT
+sij1T 13 ? RT
+sij1T 22 ? RT
+sij1T 23 ? RT
+sij1T 33 ? RT
+sij1T 44 6.6 RT
+sij1T 55 ? RT
+sij1T 66 ? RT

@@ -1,0 +1,42 @@
+#------------------------------------------------------------------------------
+#$Date: 2011-3-16 20:20:00 +0000 $
+#$Revision: 001 $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Material Properties Open Database (MPOD),
+# http://www.materialproperties.org/
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_1000117
+_cod_database_code ?
+_structure_refined 'yes'
+_phase_name 'sodium silicon clathrate'
+_phase_formula 'K0.26ZrNCl'
+_chemical_formula_sum 'K0.26 Zr N Cl'
+_symmetry_point_group_name_H-M '-3m'
+_cell_length_a  3.6295(3)
+_cell_length_b  3.6295(3)
+_cell_length_c  10.9650(11)
+_cell_angle_alpha  90
+_cell_angle_beta   90
+_cell_angle_gamma  120
+loop_
+_publ_author_name
+'Zheng, Zhangfeng'
+'Yamanaka, Shoji'
+_publ_section_title
+;
+ Preparation and superconductivity of new stage and polytypic phases in potassium-intercalated zirconium nitride chloride (KxZrNCl)
+;
+_journal_name_full               'Chemistry of Materials'
+_journal_volume                  23
+_journal_issue                   ?
+_journal_page_first              1558
+_journal_page_last               1563
+_journal_year                    2011
+_phase_density ?
+_prop_measurement_method SQUID-ZFC
+_prop_superconducting_critical_temperature_onset 11.5

@@ -1,0 +1,53 @@
+#------------------------------------------------------------------------------
+#$Date: 2012-04-06 8:18:00 +0000 (Thu, 30 Sep 2010) $
+#$Revision: 001 $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Material Properties Open Database (MPOD),
+# http://www.mpod.net/
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_1000284
+_cod_database_code 2310001
+_structure_refined 'yes'
+_phase_name 'uranium dioxide'
+_phase_formula 'UO2'
+_chemical_formula_sum 'U O2'
+_symmetry_point_group_name_H-M 'm -3 m'
+_cell_length_a  5.512
+_cell_length_b  5.512
+_cell_length_c  5.512
+_cell_angle_alpha  90
+_cell_angle_beta   90
+_cell_angle_gamma  90
+_cell_measurement_temperature 993
+
+loop_
+_publ_author_name
+'Thewlis, J.'
+_publ_section_title
+;
+ An x-ray powder study of beta-uranium
+;
+_journal_name_full               'Acta Crystallographica'
+_journal_volume                  5
+_journal_issue                   ?
+_journal_page_first              790
+_journal_page_last               794
+_journal_year                    1952
+_phase_density ?
+_prop_thermal_expansion_alphaij 'alphaij'
+_prop_conditions_temperature_range_begin 293(10)
+_prop_conditions_temperature_range_end 993(10)
+
+loop_
+_prop_data_label
+_prop_data_tensorial_index
+_prop_data_value
+_prop_measurement_method
+alphaij 11 11.5 'PXD'
+alphaij 22 11.5 'PXD'
+alphaij 33 11.5 'PXD'

@@ -1,0 +1,42 @@
+{% extends "mpod_base_text.html" %}
+
+{% block title %}Material Property Datafile Search{% if query %} Results{% endif %}{% endblock %}
+
+{% block central_column %}  
+
+<div class="central_column">
+
+  <h2>Input search parameters</h2>
+  <form action="/data/search/" method="GET">
+    <label for="phase_name">Phase Name: </label>
+    <input type="text" name="phase_name" value="{{ query_phase_name|escape }}">
+    <br />
+    <label for="formula">Formula contains: </label>
+    <input type="text" name="formula" value="{{ query_formula|escape }}">
+     <br />
+    <label for="cod_code"> COD code:</label>
+    <input type="text" name="cod_code" value="{{ query_cod_code|escape }}">
+    <br />
+    <label for="publ_author"> Publication author:</label>
+    <input type="text" name="publ_author" value="{{ query_publ_author|escape }}">
+    <input type="submit" value="Submit">
+    <br />
+  </form>
+  <br />
+  {% if results %}
+    <h2>Search Results:</h2>
+		{{results|escape}}
+  {% else %}
+      {% if query_phase_name or query_formula or query_cod_code %}
+      <h2>Sorry, no datafiles found</h2>
+      {% endif %}
+  {% endif %}
+  
+
+</div>
+{% endblock %}
+
+{% block footer %} 
+{% include "mpod_footer_1.html" %}
+
+{% endblock %}

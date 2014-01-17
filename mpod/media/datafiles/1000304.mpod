@@ -1,0 +1,95 @@
+#------------------------------------------------------------------------------
+#$Date: 2012-11-25 18:49:00 +0000 $
+#$Revision: 001 $ Daniel Chateigner
+#------------------------------------------------------------------------------
+#
+# This file is available in the Material Properties Open Database (MPOD),
+# http://www.mpod.net/
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_1000304
+_cod_database_code 2100858
+_structure_refined 'no'
+_phase_name 'barium titanate'
+_phase_formula 'BaTiO3'
+_chemical_formula_sum 'Ba1 Ti1 O3'
+_symmetry_point_group_name_H-M '4 m m'
+_cell_length_a  3.9998
+_cell_length_b  3.9998
+_cell_length_c   4.018
+_cell_angle_alpha  90
+_cell_angle_beta   90
+_cell_angle_gamma  90
+
+loop_
+_publ_author_name
+'Berlincourt, Don'
+'Jaffe,Hans'
+_publ_section_title
+;
+ Elastic and piezoelectric coefficients of single-crystal barium titanate
+;
+_journal_name_full               'Physical Review'
+_journal_volume                  111
+_journal_issue                   1
+_journal_page_first              143
+_journal_page_last               148
+_journal_year                    1958
+
+_prop_measurement_method 'RT'
+_prop_dielectric_permittivity_relative_epsrijS 'epsrijS'
+_prop_dielectric_permittivity_relative_epsrijT 'epsrijT'
+_prop_elastic_compliance_sijD 'sijD'
+_prop_elastic_compliance_sijE 'sijE'
+_prop_electromechanical_coupling_kij 'kij'
+_prop_piezoelectric_dij 'dij'
+_prop_piezoelectric_gij 'gij'
+_prop_conditions_temperature 298
+
+loop_
+_prop_data_label
+_prop_data_tensorial_index
+_prop_data_value
+epsrijT 11 2920
+epsrijT 22 2920
+epsrijT 33 168
+epsrijS 11 1970
+epsrijS 22 1970
+epsrijS 33 109
+sijD 11 7.25
+sijD 12 -3.15
+sijD 13 -3.26
+sijD 22 7.25
+sijD 23 -3.26
+sijD 33 10.8
+sijD 44 12.4
+sijD 55 12.4
+sijD 66 8.84
+sijE 11 8.05
+sijE 12 -2.35
+sijE 13 -5.24
+sijE 22 8.05
+sijE 23 -5.24
+sijE 33 15.7
+sijE 44 18.4
+sijE 55 18.4
+sijE 66 8.84
+kij 15 0.570
+kij 24 0.570
+kij 31 0.315
+kij 32 0.315
+kij 33 0.560
+dij 15 392
+dij 24 392
+dij 31 -34.5
+dij 32 -34.5
+dij 33 85.6
+gij 15 1.52
+gij 24 1.52
+gij 31 -2.3
+gij 32 5.75
+gij 33 5.75
+

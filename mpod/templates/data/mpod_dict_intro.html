@@ -1,0 +1,21 @@
+{% extends "mpod_base_text.html" %}
+{% block title %}MPOD - Material Properties Dictionary {% endblock %}
+
+{% block central_column %}
+<div class="central_column">
+<p>
+As its inspirer, MPOD files use a Starfile syntax used and developed for the 
+Crystallographic Information Files (CIF). 
+</p><p>
+For the structural information, available items in the 
+<a href="http://www.iucr.org/resources/cif/dictionaries/cif_core" target="_blank" name="core_cif">CORE CIF dictionary</a>
+are used. 
+A dictionary containing new definitions for the material properties has been written 
+according to the 
+<a href="http://www.iucr.org/resources/cif/ddl/ddl1" target="_blank" name="DDL1">Dictionary Definition Language DDL1</a>.
+</p><p>
+Units are univocally defined in the dictionary itself.
+The current version of the dictionary can be downloaded <a href="/dictionary/get"  name="get_dictionary">here</a>.
+</p>
+</div>
+{% endblock %}

@@ -1,0 +1,45 @@
+#------------------------------------------------------------------------------
+#$Date: 2010-10-15 17:24:00 +0000 $
+#$Revision: 001 $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Material Properties Open Database (MPOD),
+# http://www.mpod.net/
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_1000080
+_cod_database_code 9013045
+_structure_refined 'no'
+_phase_name 'Silver'
+_phase_formula Ag
+_chemical_formula_sum 'Ag'
+_symmetry_point_group_name_H-M 'm 3 m'
+_cell_length_a  4.086
+loop_
+_publ_author_name
+'Rölh, H.'
+_publ_section_title
+;
+ Elastic constants of gold-silver single crystals
+;
+_journal_name_full               'Annalen der Physik'
+_journal_volume                  16
+_journal_page_first              887
+_journal_year                    1933
+_prop_elastic_compliance_sij 'sij'
+loop_
+_prop_data_label
+_prop_data_tensorial_index
+_prop_data_value
+sij 11 23.2
+sij 12 -9.9
+sij 13 -9.9
+sij 22 23.2
+sij 23 -9.9
+sij 33 23.2
+sij 44 22.9
+sij 55 22.9
+sij 66 22.9

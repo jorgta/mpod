@@ -1,0 +1,71 @@
+#------------------------------------------------------------------------------
+#$Date: 2011-04-08 15:27:30 +0000 $
+#$Revision: 001 $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Material Properties Open Database (MPOD),
+# http://www.materialproperties.org/
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_1000181
+_cod_database_code 9011343
+_structure_refined 'no'
+_phase_name 'Barium nitrate'
+_phase_formula 'Ba(NO3)2'
+_chemical_formula_sum 'Ba N2 O6'
+_symmetry_point_group_name_H-M 'm -3'
+_cell_length_a  8.1184
+_cell_length_b  8.1184
+_cell_length_c  8.1184
+_cell_angle_alpha  90
+_cell_angle_beta   90
+_cell_angle_gamma  90
+loop_
+_publ_author_name
+'Bhagavantam, S.'
+'Krishna Rao, K.V.'
+_publ_section_title
+;
+ Photo-elastic behaviour of barium nitrate and lead nitrate crystals
+;
+_journal_name_full               'Acta Crystallographica'
+_journal_volume                  6
+_journal_issue                   ?
+_journal_page_first              799
+_journal_page_last               801
+_journal_year                    1953
+_prop_measurement_method '?'
+_prop_conditions_temperature 298
+_prop_photoelastic_pij 'pij'
+_prop_piezooptic_piij 'piij'
+loop_
+_prop_data_label
+_prop_data_tensorial_index
+_prop_data_value
+pij 11 2.49
+pij 12 3.40
+pij 13 3.20
+pij 21 3.20
+pij 22 2.49
+pij 23 3.40
+pij 31 3.40
+pij 32 3.20
+pij 33 2.49
+pij 44 -0.0205
+pij 55 -0.0205
+pij 66 -0.0205
+piij 11 18.11
+piij 12 40
+piij 13 35.2
+piij 21 35.2
+piij 22 18.11
+piij 23 40
+piij 31 40
+piij 32 35.2
+piij 33 18.11
+piij 44 -1.69
+piij 55 -1.69
+piij 66 -1.69

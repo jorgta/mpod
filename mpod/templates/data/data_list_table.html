@@ -1,0 +1,22 @@
+{% if header %}
+   {{header|safe}}
+{% endif %}
+<div class="module" id="changelist">
+<table>
+<th>
+{% if caption %}
+<caption> {{caption|safe}} </caption>
+{% endif %}
+<tr> {% for hor_header in hor_headers_list %}<th> {{hor_header}} </th> {% endfor %} </tr>
+</th>
+<tbody>
+{% for riga in data_matrix %}
+<tr class="{% cycle 'row1' 'row2' %}">{%for ele in riga%}<td>{{ele}}</td>{% endfor %}</tr>
+{% endfor %}
+</tbody>
+</table>
+{% if footer %}
+   {{footer|safe}}
+{% endif %}
+<br />
+</div>

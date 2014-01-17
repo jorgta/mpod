@@ -1,0 +1,57 @@
+#------------------------------------------------------------------------------
+#$Date: 2011-04-08 14:08:30 +0000 $
+#$Revision: 001 $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Material Properties Open Database (MPOD),
+# http://www.materialproperties.org/
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_1000179
+_cod_database_code               2217854
+_structure_refined 'no'
+_phase_name 'Rochelle salt'
+_phase_formula 'KNa(C4H4O6);4H2O' 
+_chemical_formula_sum 'K Na C4 H12 O10'
+_symmetry_point_group_name_H-M '2 2 2'
+_cell_length_a  11.7859
+_cell_length_b  14.1972
+_cell_length_c  6.1875
+_cell_angle_alpha  90
+_cell_angle_beta   90
+_cell_angle_gamma  90
+loop_
+_publ_author_name
+'Hinz, H.'
+_publ_section_title
+;
+ Elastic deformation in Rochelle salt
+;
+_journal_name_full               'Zeitschrift für Physik'
+_journal_volume                  111
+_journal_issue                   ?
+_journal_page_first              617
+_journal_page_last               ?
+_journal_year                    1939
+_prop_measurement_method '?'
+_prop_conditions_temperature ?
+_prop_elastic_compliance_sij 'sij'
+loop_
+_prop_data_label
+_prop_data_tensorial_index
+_prop_data_value
+sij 11 52.3
+sij 12 -21.8
+sij 13 -16.9
+sij 14 0
+sij 22 34.3
+sij 23 -13.3
+sij 24 0
+sij 33 32.4
+sij 44 96.3
+sij 55 338
+sij 56 0
+sij 66 118

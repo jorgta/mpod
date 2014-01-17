@@ -1,0 +1,63 @@
+#------------------------------------------------------------------------------
+#$Date: 2010-09-30 21:41:00 +0000 (Thu, 30 Sep 2010) $
+#$Revision: 001 $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Material Properties Open Database (MPOD),
+# http://www.mpod.net/
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_1000100
+_cod_database_code 9001037
+_structure_refined 'no'
+_phase_name 'Mullite 2:1'
+_chemical_formula_sum 'Al2.62 Si0.69 O5.31'
+_symmetry_point_group_name_H-M 'm m m'
+_cell_length_a 7.5785
+_cell_length_b 7.6817
+_cell_length_c 2.8864
+loop_
+_publ_author_name
+'Hildmann Bernd'
+'Ledbetter Hassel'
+'Kim Sudook'
+'Schneider Hartmut'
+_publ_section_title
+;
+ Structural control of elastic constants of mullite in comparison to sillimanite
+;
+_journal_name_full               'Journal of the American Ceramic Society'
+_journal_volume                  84
+_journal_issue                   10
+_journal_page_first              2409
+_journal_page_last               2414
+_journal_year                    2001
+_phase_density 3096
+_prop_measurement_method 'RUS'
+_prop_elastic_stiffness_cij 'cij'
+_prop_elastic_compliance_sij 'sij'
+loop_
+_prop_data_label
+_prop_data_tensorial_index
+_prop_data_value
+cij 11 291.3
+cij 12 112.9
+cij 13 96.22
+cij 22 232.9
+cij 23 121.9
+cij 33 352.1
+cij 44 110.3
+cij 55 77.39
+cij 66 79.90
+sij 11 4.314
+sij 12 -1.800
+sij 13 -0.555
+sij 22 5.995
+sij 23 -1.584
+sij 33 3.541
+sij 44 9.070
+sij 55 12.92
+sij 66 12.52

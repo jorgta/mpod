@@ -1,0 +1,62 @@
+#------------------------------------------------------------------------------
+#$Date: 2011-04-10 22:33:00 +0000 $
+#$Revision: 001 $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Material Properties Open Database (MPOD),
+# http://www.materialproperties.org/
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_1000186
+_cod_database_code ?
+_structure_refined 'no'
+_phase_name 'Aluminum oxynitride'
+_phase_formula '9Al2O3_5AlN'
+_chemical_formula_sum 'Al23 N5 O27'
+_symmetry_point_group_name_H-M '-4 3 m'
+_cell_length_a  ?
+_cell_length_b  ?
+_cell_length_c  ?
+_cell_angle_alpha  90
+_cell_angle_beta   90
+_cell_angle_gamma  90
+
+loop_
+_publ_author_name
+'McCauley, James W.'
+'Patel, Parimal'
+'Chen, Mingwei'
+'Gilde, Gary'
+'Strassburger, Elmar'
+'Paliwal, Bhasker'
+'Ramesh, K.T.'
+'Dandekar, Dattatraya P.'
+_publ_section_title
+;
+ ALON: a brief history of its emergence and evolution
+;
+_journal_name_full               'Journal of the European Ceramic Society'
+_journal_volume                  29
+_journal_issue                   2
+_journal_page_first              223
+_journal_page_last               236
+_journal_year                    2009
+_prop_measurement_method '?'
+_prop_conditions_temperature ?
+_prop_elastic_stiffness_cij 'cij'
+loop_
+_prop_data_label
+_prop_data_tensorial_index
+_prop_data_value
+cij 11 387
+cij 12 ?
+cij 13 ?
+cij 22 387
+cij 23 ?
+cij 33 387
+cij 44 129
+cij 55 129
+cij 66 129

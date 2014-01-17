@@ -1,0 +1,81 @@
+#------------------------------------------------------------------------------
+#$Date: 2010-11-26 22:27:17 +0000 (Thu, 30 Sep 2010) $
+#$Revision: 001 $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Material Properties Open Database (MPOD),
+# http://www.materialproperties.org/
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_1000068
+_cod_database_code               1009000
+_structure_refined 'no'
+_phase_name 'gallium arsenate'
+_chemical_formula_sum 'Ga As O4'
+_symmetry_point_group_name_H-M 32
+_cell_length_a  4.994
+_cell_length_c  11.3871
+loop_
+_publ_author_name
+'Bhalerao, Gopalkrishna M.'
+'Cambon, Olivier'
+'Haines, Julien'
+'Levelut, Claire'
+'Mermet, Alain'
+'Sirotkin, Sergey'
+'Mênaert, Bertrand'
+'Debray, Jérôme'
+'Baraille, Isabelle'
+'Darrigan, Clovis'
+'Rérat, Michel'
+_publ_section_title
+;
+ Brillouin Spectroscopy, Calculated Elastic and Bond Properties of GaAsO4
+;
+_journal_name_full               'Inorganic Chemisty'
+_journal_volume                  49
+_journal_issue                   ?
+_journal_page_first              9470
+_journal_page_last               9478
+_journal_year                    2010
+_phase_density 4230
+_prop_measurement_method 'BS'
+_prop_elastic_stiffness_cij 'cij'
+loop_
+_prop_data_label
+_prop_data_tensorial_index
+_prop_data_value
+_prop_conditions_temperature
+cij 11 59.32(3) 298
+cij 12 21.08(13) 298
+cij 13 ? 298
+cij 14 1.7(5) 298
+cij 22 59.32(3) 298
+cij 23 ? 298
+cij 24 -1.7(5) 298
+cij 33 103.54(3) 298
+cij 44 30.70(3) 298
+cij 55 30.70(3) 298
+cij 56 -3.4(10) 298
+cij 66 19.12(5) 298
+cij 11 59.75(3) 293
+cij 11 59.40(3) 373
+cij 11 59.05(2) 457
+cij 11 58.71(2) 542
+cij 11 58.51(2) 584
+cij 11 58.31(2) 627
+cij 11 58.09(2) 670
+cij 11 57.95(2) 712
+cij 11 57.72(2) 754
+cij 11 57.49(2) 797
+cij 11 57.25(2) 840
+cij 11 57.01(2) 882
+cij 11 57.02(2) 925
+cij 11 56.52(2) 967
+cij 11 56.68(2) 1052
+cij 11 56.37(2) 1095
+cij 11 56.05(3) 1137
+

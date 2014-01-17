@@ -1,0 +1,64 @@
+#------------------------------------------------------------------------------
+#$Date: 2011-04-06 21.50:00 +0000 $
+#$Revision: 001 $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Material Properties Open Database (MPOD),
+# http://www.materialproperties.org/
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_1000163
+_cod_database_code 9008834
+_structure_refined 'yes'
+_phase_name 'Boron nitride'
+_phase_formula 'BN'
+_chemical_formula_sum 'B N'
+_symmetry_point_group_name_H-M '-4 3 m'
+_cell_length_a 3.6157(8)
+_cell_length_b 3.6157(8)
+_cell_length_c 3.6157(8)
+_cell_angle_alpha  90
+_cell_angle_beta   90
+_cell_angle_gamma  90
+loop_
+_publ_author_name
+'Zhang, Jin S.'
+'Bass, Jay D.'
+'Tanigushi, Takashi'
+'Goncharov, Alexander F.'
+'Chang, Yun-Yuan'
+'Jacobsen, Steven D.'
+_publ_section_title
+;
+ Elasticity of cubic boron nitride under ambient conditions
+;
+_journal_name_full               'Journal of Applied Physics'
+_journal_volume                  109
+_journal_issue                   6
+_journal_article_reference       063521
+_journal_pages_number            5
+_journal_year                    2011
+_phase_density 3487(3)
+_prop_conditions_temperature ?
+_prop_elastic_stiffness_cij 'cij'
+_prop_conditions_wavelength ?
+_prop_measurement_method 'BS'
+loop_
+_prop_data_label
+_prop_data_tensorial_index
+_prop_data_value
+cij 11 798.4(1.7)
+cij 12 172.4(1.1)
+cij 13 172.4(1.1)
+cij 14 0
+cij 22 798.4(1.7)
+cij 23 172.4(1.1)
+cij 24 0
+cij 33 798.4(1.7)
+cij 44 469.0(1.0)
+cij 55 469.0(1.0)
+cij 56 0
+cij 66 469.0(1.0)

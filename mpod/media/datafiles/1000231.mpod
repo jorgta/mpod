@@ -1,0 +1,155 @@
+#------------------------------------------------------------------------------
+#$Date: 2011-06-2 22:23:00 +0000 $
+#$Revision: 002 $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Material Properties Open Database (MPOD),
+# http://www.materialproperties.org/
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_1000231
+_cod_database_code               5000115
+_structure_refined 'no'
+_phase_name 'iron pyrite'
+_phase_formula 'FeS2'
+_chemical_formula_sum 'Fe S2'
+_symmetry_point_group_name_H-M 'm 3'
+_cell_length_a  5.4179
+_cell_length_b  5.4179
+_cell_length_c  5.4179
+_cell_angle_alpha  90
+_cell_angle_beta   90
+_cell_angle_gamma  90
+loop_
+_publ_author_name
+'Bhagavantam, S.'
+_publ_section_title
+;
+ Elastic properties of single crystals and polycrystalline aggregates
+;
+_journal_name_full               'Proceedings of the Indian Academy of Sciences A'
+_journal_volume                  41
+_journal_issue                   ?
+_journal_page_first              72
+_journal_page_last               90
+_journal_year                    1955
+_phase_density ?
+_prop_measurement_method 'COM'
+_prop_elastic_stiffness_cij 'cij'
+_prop_elastic_compliance_sij 'sij'
+loop_
+_prop_data_label
+_prop_data_tensorial_index
+_prop_data_value
+_prop_conditions_temperature
+cij 11 362 ?
+cij 12 -46.4 ?
+cij 13 -46.4 ?
+cij 22 362 ?
+cij 23 -46.4 ?
+cij 33 362 ?
+cij 44 105.2 ?
+cij 55 105.2 ?
+cij 66 105.2 ?
+sij 11 2.623 301
+sij 12 0.2 301
+sij 13 0.2 301
+sij 22 2.623 301
+sij 23 0.2 301
+sij 33 2.623 301
+sij 44 9.361 301
+sij 55 9.361 301
+sij 66 9.361 301
+sij 11 2.632 323
+sij 12 0.22 323
+sij 13 0.22 323
+sij 22 2.632 323
+sij 23 0.22 323
+sij 33 2.632 323
+sij 44 9.406 323
+sij 55 9.406 323
+sij 66 9.406 323
+sij 11 2.642 353
+sij 12 0.25 353
+sij 13 0.25 353
+sij 22 2.642 353
+sij 23 0.25 353
+sij 33 2.642 353
+sij 44 9.475 353
+sij 55 9.475 353
+sij 66 9.475 353
+sij 11 2.651 373
+sij 12 0.25 373
+sij 13 0.25 373
+sij 22 2.651 373
+sij 23 0.25 373
+sij 33 2.651 373
+sij 44 9.517 373
+sij 55 9.517 373
+sij 66 9.517 373
+sij 11 2.662 398
+sij 12 0.26 398
+sij 13 0.26 398
+sij 22 2.662 398
+sij 23 0.26 398
+sij 33 2.662 398
+sij 44 9.581 398
+sij 55 9.581 398
+sij 66 9.581 398
+sij 11 2.674 423
+sij 12 0.28 423
+sij 13 0.28 423
+sij 22 2.674 423
+sij 23 0.28 423
+sij 33 2.674 423
+sij 44 9.627 423
+sij 55 9.627 423
+sij 66 9.627 423
+sij 11 2.688 453
+sij 12 0.29 453
+sij 13 0.29 453
+sij 22 2.688 453
+sij 23 0.29 453
+sij 33 2.688 453
+sij 44 9.674 453
+sij 55 9.674 453
+sij 66 9.674 453
+sij 11 2.696 473
+sij 12 0.30 473
+sij 13 0.30 473
+sij 22 2.696 473
+sij 23 0.30 473
+sij 33 2.696 473
+sij 44 9.745 473
+sij 55 9.745 473
+sij 66 9.745 473
+sij 11 2.720 523
+sij 12 0.32 523
+sij 13 0.32 523
+sij 22 2.720 523
+sij 23 0.32 523
+sij 33 2.720 523
+sij 44 9.835 523
+sij 55 9.835 523
+sij 66 9.835 523
+sij 11 2.730 543
+sij 12 0.34 543
+sij 13 0.34 543
+sij 22 2.730 543
+sij 23 0.34 543
+sij 33 2.730 543
+sij 44 9.890 543
+sij 55 9.890 543
+sij 66 9.890 543
+sij 11 2.743 573
+sij 12 0.35 573
+sij 13 0.35 573
+sij 22 2.743 573
+sij 23 0.35 573
+sij 33 2.743 573
+sij 44 9.950 573
+sij 55 9.950 573
+sij 66 9.950 573

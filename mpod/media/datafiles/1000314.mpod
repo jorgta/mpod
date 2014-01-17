@@ -1,0 +1,67 @@
+#------------------------------------------------------------------------------
+#$Date: 2013-06-03 11:22:00 +0000 $
+#$Revision: 001 $ Daniel Chateigner
+#------------------------------------------------------------------------------
+#
+# This file is available in the Material Properties Open Database (MPOD),
+# http://www.mpod.net/
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_1000314
+_cod_database_code 1511976
+_structure_refined 'no'
+_phase_name 'Bismuth selenido-telluride'
+_phase_formula 'BiTe2.4Se0.6'
+_chemical_formula_sum 'Bi Se0.6 Te2.4'
+_symmetry_point_group_name_H-M '-3 m'
+_cell_length_a  4.33
+_cell_length_b  4.33
+_cell_length_c  30.16
+_cell_angle_alpha  90
+_cell_angle_beta   90
+_cell_angle_gamma  120
+
+loop_
+_publ_author_name
+'Scherrer, H.'
+'Scherrer, S'
+_publ_section_title
+;
+ Bismuth telluride, antimony telluride, and their solid solutions
+;
+_book_title               'handbook of thermoelectrics'
+_book_publisher           'CRC press'
+_book_publisher_city      'Boca Raton'
+_book_id_ISBN             '0-8493-0146-7'
+_book_editor_name              'Rowe, M.'
+_journal_page_first              211
+_journal_page_last               237
+_journal_year                    1995
+
+
+
+_prop_electric_charge_carrier_concentration_n 5.7
+_prop_thermal_conductivity_kappaij 'kappaij'
+_prop_electric_resistivity_rhoeij 'rhoeij'
+_prop_thermoelectric_Seebeck_Seij 'Seij'
+
+_prop_conditions_temperature 300
+
+loop_
+_prop_data_label
+_prop_data_tensorial_index
+_prop_data_value
+_prop_measurement_method
+kappaij 11 1.70 ?
+kappaij 22 1.70 ?
+kappaij 33 3.86 ?
+rhoeij 11 980 ?
+rhoeij 22 980 ?
+rhoeij 33 5400 ?
+Seij 11 207 ?
+Seij 22 207 ?
+Seij 33 219.4 ?
+

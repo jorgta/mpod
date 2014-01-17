@@ -1,0 +1,56 @@
+{% if header %}
+   {{header|safe}}
+{% endif %}
+<br />
+{% if non_looped_props %}
+	<div class="module" id="changelist">
+	<table>
+	<tbody>
+	{% for nlp in non_looped_props %}
+	<tr class="{% cycle 'row1' 'row2' %}">
+	<td> <a href="/properties/{{nlp.0}}">{{nlp.1}}</a> </td><td>:</td> <td> {{nlp.2}} </td>
+	</tr>
+	{% endfor %}
+	</tbody>
+	</table>
+	</div>
+	<br />
+{% endif %}
+{% for sec in tables %}
+	{% if sec.specific_exp_conds %}
+	<br />
+	<div class="module" id="changelist">
+	<table>
+	<th>experimental conditions</th>
+	<tbody>
+	{% for sp_k, sp_v in sec.specific_exp_conds.items %}
+		<tr class="{% cycle 'row1' 'row2' %}">
+		<td> {{sp_k}} </td><td>:</td> <td> {{sp_v}} </td>
+		</tr>
+	{% endfor %}
+	</tbody>
+	</table>
+	</div>
+	{% endif %}
+	
+	{% for tab in sec.tables %}
+		<br />
+		<a href="/properties/{{tab.1}}">{{tab.0}}</a><br />
+		<div class="module" id="changelist">
+		<table>
+		<tbody>
+		{% for tens_row in tab.2 %}
+			<tr class="{% cycle 'row1' 'row2' %}">
+			{% for tens_val in tens_row %}<td> {{tens_val}} </td>{% endfor %}
+			</tr>
+		{% endfor %}	
+		</tbody>
+		</table>
+		</div>
+	{% endfor %}
+{% endfor %}
+
+{% if footer %}
+   {{footer|safe}}
+{% endif %}
+<br />

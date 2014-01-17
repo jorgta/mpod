@@ -1,0 +1,53 @@
+#------------------------------------------------------------------------------
+#$Date: 2011-04-07 23:11:00 +0000 $
+#$Revision: 001 $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Material Properties Open Database (MPOD),
+# http://www.materialproperties.org/
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_1000174
+_cod_database_code               9008522
+_structure_refined 'no'
+_phase_name 'zinc'
+_chemical_formula_sum 'Zn'
+_symmetry_point_group_name_H-M '6/m m m'
+_cell_length_a  2.6648
+_cell_length_b  2.6648
+_cell_length_c  4.9467
+_cell_angle_alpha  90
+_cell_angle_beta   90
+_cell_angle_gamma  120
+loop_
+_publ_author_name
+'Hanson, A.W.'
+_publ_section_title
+;
+ Elastic behaviour and elastic constants of zinc single crystals
+;
+_journal_name_full               'Physical Review'
+_journal_volume                  45
+_journal_issue                   ?
+_journal_page_first              324
+_journal_page_last               ?
+_journal_year                    1934
+_prop_measurement_method '?'
+_prop_conditions_temperature ?
+_prop_elastic_compliance_sij 'sij'
+loop_
+_prop_data_label
+_prop_data_tensorial_index
+_prop_data_value
+sij 11 7.70
+sij 12 0.45
+sij 13 -6.4
+sij 22 7.70
+sij 23 -6.4
+sij 33 27.7
+sij 44 24.4
+sij 55 24.4
+sij 66 14.5

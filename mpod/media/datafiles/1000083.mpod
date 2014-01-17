@@ -1,0 +1,47 @@
+#------------------------------------------------------------------------------
+#$Date: 2010-10-15 14:57:00 +0000 $
+#$Revision: 001 $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Material Properties Open Database (MPOD),
+# http://www.mpod.net/
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_1000083
+_cod_database_code 9008477
+_structure_refined 'no'
+_phase_name 'Lead'
+_phase_formula Pb
+_chemical_formula_sum 'Pb'
+_symmetry_point_group_name_H-M 'm 3 m'
+_cell_length_a  4.9505
+loop_
+_publ_author_name
+'Goens, E.'
+'Weerts, J.'
+_publ_section_title
+;
+ Elastic constants of single crystals of copper, gold, and lead
+;
+_journal_name_full               'Physikalische Zeitschrift'
+_journal_volume                  37
+_journal_page_first              321
+_journal_year                    1936
+_prop_elastic_compliance_sij 'sij'
+loop_
+_prop_data_label
+_prop_data_tensorial_index
+_prop_data_value
+sij 11 93
+sij 12 -42.6
+sij 13 -42.6
+sij 22 93
+sij 23 -42.6
+sij 33 93
+sij 44 69.4
+sij 55 69.4
+sij 66 69.4
+

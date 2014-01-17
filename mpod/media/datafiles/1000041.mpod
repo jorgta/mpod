@@ -1,0 +1,160 @@
+#------------------------------------------------------------------------------
+#$Date: 2010-09-30 10:46:17 +0000 (Thu, 30 Sep 2010) $
+#$Revision: 001 $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Material Properties Open Database (MPOD),
+# http://www.mpod.net/
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_1000041
+_cod_database_code               ?
+_structure_refined 'no'
+_phase_name Pb(In1/2Nb1/2)O3(0.26)-Pb(Mg1/3Nb2/3)O3(0.46)-PbTiO3(0.28)
+_chemical_formula_sum 'Pb In0.13 Nb0.436 Mg0.153 Ti0.28 O3'
+_phase_generic 'PIN-PMN-PT'
+_symmetry_point_group_name_H-M 3m
+_cell_length_a  ?
+_cell_length_c  ?
+loop_
+_publ_author_name
+'Liu Xiaozhou'
+'Zhang Shujun'
+'Luo Jun'
+'Shrout Thomas R.'
+'Cao Wenwu'
+_publ_section_title
+;
+Erratum: "A complete set of material properties of single domain 0.26Pb(In1/2Nb1/2)O3-0.46Pb(Mg1/3Nb2/3)O3-0.28PbTiO3 single crystals" [Appl. Phys. Lett. 96, 012907 (2010)]
+;
+_journal_name_full               'Applied Physics Letters'
+_journal_volume                  97
+_journal_issue                   1
+_journal_article_reference       019901
+_journal_pages_number             2
+_journal_year                    2010
+_phase_density 8102
+_phase_transition_temperature_rhomb_tetra 396
+_phase_transition_temperature_curie 440
+_prop_measurement_poling '[111]c'
+_prop_symmetry_point_group_name_H-M 3m
+_prop_frame '1=[0-11]c 2=[011]c 3=[111]c'
+_prop_elastic_compliance_sijD 'sijD'
+_prop_elastic_compliance_sijE 'sijE'
+_prop_elastic_stiffness_cijD 'cijD'
+_prop_elastic_stiffness_cijE 'cijE'
+_prop_electromechanical_coupling_kij 'kij'
+_prop_piezoelectric_dij 'dij'
+_prop_piezoelectric_eij 'eij'
+_prop_piezoelectric_gij 'gij'
+_prop_piezoelectric_hij 'hij'
+_prop_dielectric_permittivity_relative_epsrijS 'epsrijS'
+_prop_dielectric_stiffness_relative_betrijS 'betrijS'
+_prop_dielectric_permittivity_relative_epsrijT 'epsrijT'
+_prop_dielectric_stiffness_relative_betrijT 'betrijT'
+loop_
+_prop_data_label
+_prop_data_tensorial_index
+_prop_data_value
+_prop_measurement_method
+_prop_conditions_frequency
+cijE 11 209.6 'PEM' ?
+cijE 12 82.9 'PEM' ?
+cijE 13 64.6 'PEM' ?
+cijE 14 -26.6 'PEM' ?
+cijE 22 209.6 'PEM' ?
+cijE 23 64.6 'PEM' ?
+cijE 24 26.6 'PEM' ?
+cijE 33 176.5 'PEM' ?
+cijE 44 21 'PEM' ?
+cijE 55 21 'PEM' ?
+cijE 56 -26.6 'PEM' ?
+cijE 66 63.3 'PEM' ?
+cijD 11 220.1 'PEM' ?
+cijD 12 82.5 'PEM' ?
+cijD 13 56.1 'PEM' ?
+cijD 14 -1.08 'PEM' ?
+cijD 22 220.1 'PEM' ?
+cijD 23 56.1 'PEM' ?
+cijD 24 1.08 'PEM' ?
+cijD 33 198.1 'PEM' ?
+cijD 44 66.8 'PEM' ?
+cijD 55 66.8 'PEM' ?
+cijD 56 -1.08 'PEM' ?
+cijD 66 68.8 'PEM' ?
+sijE 11 10.43 'PEM' ?
+sijE 12 -6.4 'PEM' ?
+sijE 13 -1.49 'PEM' ?
+sijE 14 21.38 'PEM' ?
+sijE 22 10.43 'PEM' ?
+sijE 23 -1.49 'PEM' ?
+sijE 24 -21.38 'PEM' ?
+sijE 33 6.76 'PEM' ?
+sijE 44 101.85 'PEM' ?
+sijE 55 101.85 'PEM' ?
+sijE 56 1.38 'PEM' ?
+sijE 66 33.75 'PEM' ?
+sijD 11 5.58 'PEM' ?
+sijD 12 -1.87 'PEM' ?
+sijD 13 -1.09 'PEM' ?
+sijD 14 1.21 'PEM' ?
+sijD 22 5.58 'PEM' ?
+sijD 23 1.09 'PEM' ?
+sijD 24 -1.21 'PEM' ?
+sijD 33 5.88 'PEM' ?
+sijD 44 15.36 'PEM' ?
+sijD 55 15.36 'PEM' ?
+sijD 56 1.21 'PEM' ?
+sijD 66 14.91 'PEM' ?
+dij 15 2190 'PEM' ?
+dij 16 1022 'PEM' ?
+dij 21 511 'PEM' ?
+dij 22 -511 'PEM' ?
+dij 24 2190 'PEM' ?
+dij 31 -34 'PEM' ?
+dij 32 -34 'PEM' ?
+dij 33 74 'PEM' ?
+eij 15 18.78 'PEM' ?
+eij 16 12.96 'PEM' ?
+eij 21 6.48 'PEM' ?
+eij 22 -6.48 'PEM' ?
+eij 24 18.78 'PEM' ?
+eij 31 -5.19 'PEM' ?
+eij 32 -5.19 'PEM' ?
+eij 33 8.72 'PEM' ?
+gij 15 0.393 'PEM' ?
+gij 16 0.184 'PEM' ?
+gij 21 0.092 'PEM' ?
+gij 22 -0.092 'PEM' ?
+gij 24 0.393 'PEM' ?
+gij 31 -0.055 'PEM' ?
+gij 32 -0.055 'PEM' ?
+gij 33 0.12 'PEM' ?
+hij 15 24.39 'PEM' ?
+hij 16 16.82 'PEM' ?
+hij 21 8.41 'PEM' ?
+hij 22 -8.41 'PEM' ?
+hij 24 24.39 'PEM' ?
+hij 31 -9.74 'PEM' ?
+hij 32 -9.74 'PEM' ?
+hij 33 16.38 'PEM' ?
+kij 15 0.92 'PEM' ?
+kij 24 0.92 'PEM' ?
+kij 31 0.13 'PEM' ?
+kij 32 0.13 'PEM' ?
+kij 33 0.36 'PEM' ?
+epsrijS 11 870 'CAP' ?
+epsrijS 22 870 'CAP' ?
+epsrijS 33 601 'CAP' ?
+betrijS 11 11.49 'CAP' ?
+betrijS 22 11.49 'CAP' ?
+betrijS 33 16.63 'CAP' ?
+epsrijT 11 6286 'CAP' ?
+epsrijT 22 6286 'CAP' ?
+epsrijT 33 702 'CAP' ?
+betrijT 11 15.91 'CAP' ?
+betrijT 22 15.91 'CAP' ?
+betrijT 33 14.24 'CAP' ?

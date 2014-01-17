@@ -1,0 +1,67 @@
+#------------------------------------------------------------------------------
+#$Date: 2010-10-19 00:03:00 +0000 $
+#$Revision: 001 $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Material Properties Open Database (MPOD),
+# http://www.mpod.net/
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_1000074
+_cod_database_code 2102560
+_structure_refined 'no'
+_phase_name 'KMnF3'
+_phase_formula KMnF3
+_chemical_formula_sum 'K Mn F3'
+_symmetry_point_group_name_H-M 'm 3 m'
+_cell_length_a  4.185
+loop_
+_publ_author_name
+'Sun, Y.'
+'Cao, W.W.'
+'Pan, W.Y.'
+'Chang, Z.P.'
+'Cross, L.E.'
+_publ_section_title
+;
+ Complete determination of electrostriction tensor components of KMnF3 single crystals at room temperature
+;
+_journal_name_full               'Journal of Materials Science Letters'
+_journal_volume                  7
+_journal_page_first              327
+_journal_page_last               330
+_journal_year                    1988
+_prop_electrostriction_Dij 'Dij'
+_prop_electrostriction_Dprimeij 'Dprimeij'
+loop_
+_prop_data_label
+_prop_data_tensorial_index
+_prop_data_value
+Dij 11 0.272
+Dij 12 -0.0538
+Dij 13 -0.0538
+Dij 21 -0.0538
+Dij 22 0.272
+Dij 23 -0.0538
+Dij 31 -0.0538
+Dij 32 -0.0538
+Dij 33 0.272
+Dij 44 0.658
+Dij 55 0.658
+Dij 66 0.658
+Dprimeij 11 0.453
+Dprimeij 12 -0.0896
+Dprimeij 13 -0.0896
+Dprimeij 21 -0.0896
+Dprimeij 22 0.453
+Dprimeij 23 -0.0896
+Dprimeij 31 -0.0896
+Dprimeij 32 -0.0896
+Dprimeij 33 0.453
+Dprimeij 44 1.10
+Dprimeij 55 1.10
+Dprimeij 66 1.10
+

@@ -1,0 +1,61 @@
+#------------------------------------------------------------------------------
+#$Date: 2010-10-13 07:59:00 +0000 $
+#$Revision: 001 $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Material Properties Open Database (MPOD),
+# http://www.mpod.net/
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_1000094
+_cod_database_code 9008860
+_structure_refined 'no'
+_phase_name 'Aluminum nitride'
+_phase_formula AlN
+_chemical_formula_sum 'Al N'
+_symmetry_point_group_name_H-M '6 m m'
+_cell_length_a 3.111
+_cell_length_c 4.978
+loop_
+_publ_author_name
+'Bu, G.'
+'Ciplys, D.'
+'Shur, M.'
+'Schowalter, L.J.'
+'Schulman, S.'
+'Gaska, R.'
+_publ_section_title
+;
+ Electromechanical coupling coefficient for surface acoustic waves in single-crystal bulk aluminum nitride
+;
+_journal_name_full               'Applied Physics Letters'
+_journal_volume                  84
+_journal_issue                   23
+_journal_page_first              4611
+_journal_page_last               4613
+_journal_year                    2004
+
+_phase_density 3260
+_prop_frame '1=[100] 2=[1-20] 3=[001]'
+_prop_measurement_method 'SAW'
+_prop_measurement_poling '?'
+_prop_piezoelectric_dij 'dij'
+_prop_piezoelectric_eij 'eij'
+
+loop_
+_prop_data_label
+_prop_data_tensorial_index
+_prop_data_value
+eij 15 -0.29(6)
+eij 24 -0.29(6)
+eij 31 -0.58(23)
+eij 32 -0.58(23)
+eij 33 1.39(22)
+dij 15 -2.42(50)
+dij 24 -2.42(50)
+dij 31 -1.88(57)
+dij 32 -1.88(57)
+dij 33 4.53(86)

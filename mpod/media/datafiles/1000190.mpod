@@ -1,0 +1,52 @@
+#------------------------------------------------------------------------------
+#$Date: 2011-04-18 21:46:00 +0000$
+#$Revision: 001 $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Material Properties Open Database (MPOD),
+# http://www.mpod.net/
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_1000190
+_cod_database_code 9001037
+_structure_refined 'no'
+_phase_name 'Mullite 2:1'
+_phase_formula '(Al2O3)0.655-(Si02)0.345'
+_chemical_formula_sum 'Al4.78 Si1.22 O9.61'
+_symmetry_point_group_name_H-M 'm m m'
+_cell_length_a 7.5823(6)
+_cell_length_b 7.6819(5)
+_cell_length_c 2.8865(2)
+_cell_angle_alpha  90
+_cell_angle_beta   90
+_cell_angle_gamma  90
+loop_
+_publ_author_name
+'Schneider, H.'
+'Eberhard, E.'
+_publ_section_title
+;
+ Thermal expansion of mullite
+;
+_journal_name_full               'Journal of the American Ceramic Society'
+_journal_volume                  73
+_journal_issue                   ?
+_journal_page_first              2073
+_journal_page_last               2076
+_journal_year                    1990
+_phase_density ?
+_prop_thermal_expansion_alphaij 'alphaij'
+_prop_measurement_method 'PXD'
+
+loop_
+_prop_data_label
+_prop_data_tensorial_index
+_prop_data_value
+_prop_conditions_temperature_range_begin
+_prop_conditions_temperature_range_end
+alphaij 11 4.1 573 1173
+alphaij 22 5.6 573 1173
+alphaij 33 6.1 573 1173

@@ -1,0 +1,61 @@
+#------------------------------------------------------------------------------
+#$Date: 2012-09-20 21:12:00 +0000$
+#$Revision: 001 $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Material Properties Open Database (MPOD),
+# http://www.materialproperties.org/
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_1000290
+_cod_database_code 1000032
+_structure_refined 'no'
+_phase_name 'corundum'
+_phase_formula 'alpha-Al2O3'
+_chemical_formula_sum 'Al2 O3'
+_symmetry_point_group_name_H-M '-3 m'
+_cell_length_a  4.7605
+_cell_length_b  4.7605
+_cell_length_c  12.9956
+_cell_angle_alpha  90
+_cell_angle_beta   90
+_cell_angle_gamma  120
+_phase_cell_temperature ?
+
+loop_
+_publ_author_name
+'Mayer, Walter G.'
+'Hiedemann, E.A.'
+_publ_section_title
+;
+ Corrected values of elastic constants of sapphire
+;
+_journal_name_full               'Acta Crystallographica'
+_journal_volume                  14
+_journal_issue                   3
+_journal_page_first              323
+_journal_page_last               323
+_journal_year                    1961
+_phase_density 3986
+_prop_conditions_temperature ?
+_prop_measurement_method TRT
+_prop_elastic_stiffness_cij 'cij'
+loop_
+_prop_data_label
+_prop_data_tensorial_index
+_prop_data_value
+cij 11 496
+cij 12 135
+cij 13 117
+cij 14 -23
+cij 22 496
+cij 23 117
+cij 24 23
+cij 33 502
+cij 44 141
+cij 55 141
+cij 56 -46
+cij 66 180.5

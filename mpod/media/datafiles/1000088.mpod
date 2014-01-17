@@ -1,0 +1,49 @@
+#------------------------------------------------------------------------------
+#$Date: 2010-10-15 14:13:00 +0000 $
+#$Revision: 001 $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Material Properties Open Database (MPOD),
+# http://www.mpod.net/
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_1000088
+_cod_database_code 9013035
+_structure_refined 'no'
+_phase_name 'Gold'
+_phase_formula Au
+_chemical_formula_sum 'Au'
+_symmetry_point_group_name_H-M 'm 3 m'
+_cell_length_a  4.072
+loop_
+_publ_author_name
+'Seitz, F.'
+'Read, T.A.'
+_publ_section_title
+;
+ Theory of the plastic properties of solids
+;
+_journal_name_full               'Journal of Applied Physics'
+_journal_volume                  12
+_journal_issue                   2
+_journal_page_first              100
+_journal_page_last               118
+_journal_year                    1941
+_prop_elastic_compliance_sij 'sij'
+loop_
+_prop_data_label
+_prop_data_tensorial_index
+_prop_data_value
+sij 11 23.3
+sij 12 -10.7
+sij 13 -10.7
+sij 22 23.3
+sij 23 -10.7
+sij 33 23.3
+sij 44 23.8
+sij 55 23.8
+sij 66 23.8
+

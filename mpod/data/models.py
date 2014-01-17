@@ -1,0 +1,69 @@
+from django.db import models
+from django import forms
+from django.utils.html import escape
+
+#from views import datafiles_path
+import os
+# Create your models here.
+
+datafiles_path=os.path.join(os.path.dirname(__file__),'media/datafiles').replace('\\','/')
+
+class PublArticle(models.Model):
+    title = models.CharField(max_length=255)
+    authors = models.CharField(max_length=255)
+    journal = models.CharField(max_length=127)
+    year = models.IntegerField(max_length=4, null=True)
+    volume = models.CharField(max_length=6)
+    issue = models.IntegerField(max_length=6, null=True, blank=True)
+    first_page = models.IntegerField(max_length=6, null=True, blank=True)
+    last_page = models.IntegerField(max_length=6, null=True, blank=True)
+    reference = models.CharField(max_length=14, blank=True)
+    pages_number = models.IntegerField(max_length=3, null=True, blank=True)
+
+    def __unicode__(self):
+        return str(self.title)+", "+str(self.journal)
+
+class Property(models.Model):
+    tag = models.CharField(max_length=255)
+    name = models.CharField(max_length=255)
+    description = models.CharField(max_length=511)
+    tensor_dimensions = models.CharField(max_length=10)
+    units = models.CharField(max_length=25)
+    units_detail = models.CharField(max_length=60)
+
+    def __unicode__(self):
+        return str(self.name) +", "+  str(self.units)
+
+class ExperimentalParCond(models.Model):
+    tag = models.CharField(max_length=255)
+    name = models.CharField(max_length=255)
+    description = models.CharField(max_length=511)
+    units = models.CharField(max_length=25)
+    units_detail = models.CharField(max_length=60)
+
+    def __unicode__(self):
+        return str(self.name) +", "+  str(self.units)
+
+class DataFile(models.Model):
+    code = models.IntegerField(max_length=8, primary_key=True)
+    filename = models.CharField(max_length=13)
+    cod_code = models.IntegerField(max_length=8, null=True, blank=True)
+    phase_generic = models.CharField(max_length=255, null=True, blank=True)
+    phase_name = models.CharField(max_length=255)
+    chemical_formula = models.CharField(max_length=255)
+    publication = models.ForeignKey(PublArticle)
+    properties = models.ManyToManyField(Property, null=True, blank=True, db_table = 'data_datafile_property')
+
+    def ret_link_to_file(self):
+        return os.path.join(datafiles_path, self.filename)
+
+    def __unicode__(self):
+        return str(self.code)+", "+str(self.phase_generic)+", "+str(self.phase_name)
+
+
+##class DataFile_Property(models.Model):
+##    datafile = models.ForeignKey(DataFile)
+##    property = models.ForeignKey(Property)
+##    
+##    def __unicode__(self):
+##        return str(self.datafile)+", "+str(self.property)

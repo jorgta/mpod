@@ -1,0 +1,74 @@
+#------------------------------------------------------------------------------
+#$Date: 2012-11-10 20:45:00 +0000 $
+#$Revision: 001 $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Material Properties Open Database (MPOD),
+# http://www.mpod.net/
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_1000299
+_cod_database_code 2101499
+_structure_refined 'no'
+_phase_name 'diamond'
+_phase_formula 'C'
+_chemical_formula_sum 'C1'
+_symmetry_point_group_name_H-M 'm -3 m'
+_cell_length_a  3.56658
+_cell_length_b  3.56658
+_cell_length_c  3.56658
+_cell_angle_alpha  90
+_cell_angle_beta   90
+_cell_angle_gamma  90
+
+loop_
+_publ_author_name
+'Grimsditch, M.H.'
+'Ramdas, A.K.'
+_publ_section_title
+;
+ Brillouin scattering in diamond
+;
+_journal_name_full               'Physical Review B'
+_journal_volume                  11
+_journal_issue                   8
+_journal_page_first              3139
+_journal_page_last               3148
+_journal_year                    1975
+
+_phase_debye_temperature 2246(5)
+_phase_density 3512
+_prop_measurement_method 'BS'
+_prop_elastic_stiffness_cij 'cij'
+_prop_photoelastic_pij 'pij'
+_prop_conditions_temperature 295
+
+loop_
+_prop_data_label
+_prop_data_tensorial_index
+_prop_data_value
+cij 11 1076.4(2)
+cij 12 125.2(23)
+cij 13 125.2(23)
+cij 22 1076.4(2)
+cij 23 125.2(23)
+cij 33 1076.4(2)
+cij 44 577.4(14)
+cij 55 577.4(14)
+cij 66 577.4(14)
+pij 11 0.26(6)
+pij 12 0.05(9)
+pij 13 0.05(9)
+pij 21 0.05(9)
+pij 22 0.26(6)
+pij 23 0.05(9)
+pij 31 0.05(9)
+pij 32 0.05(9)
+pij 33 0.26(6)
+pij 44 -0.18(4)
+pij 55 -0.18(4)
+pij 66 -0.18(4)
+

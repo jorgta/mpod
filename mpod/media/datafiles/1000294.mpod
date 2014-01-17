@@ -1,0 +1,104 @@
+#------------------------------------------------------------------------------
+#$Date: 2012-09-26 11:09:00 +0000 (Thu, 30 Sep 2010) $
+#$Revision: 001 $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Material Properties Open Database (MPOD),
+# http://www.mpod.net/
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_1000294
+_cod_database_code 9011192
+_structure_refined 'yes'
+_phase_name 'PbTiO3'
+_phase_formula 'PbTiO3'
+_chemical_formula_sum 'Pb0.99 Ti1 O3'
+_symmetry_point_group_name_H-M '4 m m'
+_cell_length_a  3.896
+_cell_length_b  3.896
+_cell_length_c  4.158
+_cell_angle_alpha  90
+_cell_angle_beta   90
+_cell_angle_gamma  90
+loop_
+_publ_author_name
+'Kalinichev, A.G.'
+'Bass, J.D.'
+'Sun, B.N.'
+'Payne, D.A.'
+_publ_section_title
+;
+ Elastic properties of tetragonal PbTiO3 single crystals by Brillouin scattering
+;
+_journal_name_full               'Journal of Materials Research'
+_journal_volume                  12
+_journal_issue                   10
+_journal_page_first              2623
+_journal_page_last               2627
+_journal_year                    1997
+_phase_density 7970
+_phase_transition_temperature_rhomb_tetra ?
+_phase_transition_temperature_curie 764
+_prop_measurement_poling '?'
+_prop_symmetry_point_group_name_H-M '4 m m'
+_prop_frame '?'
+_prop_elastic_compliance_sijD 'sijD'
+_prop_elastic_compliance_sijE 'sijE'
+_prop_elastic_stiffness_cijD 'cijD'
+_prop_elastic_stiffness_cijE 'cijE'
+_prop_electromechanical_coupling_kij 'kij'
+_prop_piezoelectric_dij 'dij'
+_prop_piezoelectric_eij 'eij'
+_prop_piezoelectric_gij 'gij'
+_prop_piezoelectric_hij 'hij'
+_prop_dielectric_permittivity_relative_epsrijT 'epsrijT'
+_prop_dielectric_stiffness_relative_betrijT 'betrijT'
+_prop_dielectric_permittivity_relative_epsrijS 'epsrijS'
+_prop_dielectric_stiffness_relative_betrijS 'betrijS'
+loop_
+_prop_data_label
+_prop_data_tensorial_index
+_prop_data_value
+_prop_measurement_method
+cijE 11 237(3) 'BS'
+cijE 12 90(5) 'BS'
+cijE 13 100(10) 'BS'
+cijE 22 237(3) 'BS'
+cijE 23 100(10) 'BS'
+cijE 33 90(10) 'BS'
+cijE 44 69(1) 'BS'
+cijE 55 69(1) 'BS'
+cijE 66 104(1) 'BS'
+sijE 11 8.2 'BS'
+sijE 12 1.4 'BS'
+sijE 13 -10.6 'BS'
+sijE 22 8.2 'BS'
+sijE 23 -10.6 'BS'
+sijE 33 34.7 'BS'
+sijE 44 14.5 'BS'
+sijE 55 14.5 'BS'
+sijE 66 9.6 'BS'
+dij 15 69.6 'BS'
+dij 24 69.6 'BS'
+dij 31 -49.9 'BS'
+dij 32 -49.9 'BS'
+dij 33 156.4 'BS'
+eij 15 4.8 'BS'
+eij 24 4.8 'BS'
+eij 31 -0.67 'BS'
+eij 32 -0.67 'BS'
+eij 33 4.1 'BS'
+kij 15 0.52 'BS'
+kij 24 0.52 'BS'
+kij 31 ? 'BS'
+kij 32 ? 'BS'
+kij 33 0.62 'BS'
+epsrijT 11 139 '?'
+epsrijT 22 139 '?'
+epsrijT 33 114 '?'
+epsrijS 11 102 '?'
+epsrijS 22 102 '?'
+epsrijS 33 34 '?'

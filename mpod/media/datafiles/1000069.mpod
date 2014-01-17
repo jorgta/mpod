@@ -1,0 +1,50 @@
+#------------------------------------------------------------------------------
+#$Date: 2010-11-19 12:04:00 +0000 $
+#$Revision: 001 $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Material Properties Open Database (MPOD),
+# http://www.mpod.net/
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_1000069
+_cod_database_code 1010458
+_structure_refined 'no'
+_phase_name 'Mn-doped potassium dihydrogen phosphate'
+_phase_generic 'KDP'
+_phase_formula 'K H2 P O4 Mn0.009'
+_symmetry_point_group_name_H-M '-4 2 m'
+_cell_length_a 7.43
+_cell_length_c 6.97
+loop_
+_publ_author_name
+'Gomes, E.J.L.'
+'Moreira, S.G.C.'
+'de Menezes, A.S.'
+'dos Santos, A.O.'
+'Pereira, D.P.'
+'de Oliveira, P.C.'
+'Remédios, C.M.R.'
+_publ_section_title
+;
+ KDP:Mn piezoelectric coefficients obtained by x-ray diffraction
+;
+_journal_name_full               'Journal of Synchrotron Radiation'
+_journal_volume                  17
+_journal_issue            6
+_journal_page_first            810
+_journal_page_last             812
+_journal_year                    2010
+_phase_density ?
+_prop_piezoelectric_dij 'dij'
+loop_
+_prop_data_label
+_prop_data_tensorial_index
+_prop_data_value
+_prop_measurement_method
+dij 14 2.3(1) XRD
+dij 25 2.3(1) XRD
+dij 36 47(2) XRD

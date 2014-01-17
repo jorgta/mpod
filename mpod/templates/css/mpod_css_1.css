@@ -1,0 +1,185 @@
+<style type="text/css">
+
+div
+{
+}
+
+div.header
+{
+width:100%;
+height:100px;
+background-image:url('/images/mpod_logo_1.gif');
+background-repeat:no-repeat;
+padding:3px 3px 3px 3px;
+color:black;
+background-color:white;
+}
+
+div.hor_menu
+{
+position: absolute;
+right: -20px;
+width: 260px;
+padding: 15px;
+margin: 3px 5px 5px 5px;
+background: #fff;
+clear:both;
+}
+
+div.ver_menu
+{
+float:left;
+position:relative;
+left: 25px;
+width: 200px;
+padding: 15px;
+margin: 5px 5px 5px 5px;
+background: white;
+clear:both;
+}
+
+div.central_column
+{
+color:black;
+position:relative;
+top:40px;
+margin-top: 40px;
+margin-left:240px;
+margin-bottom:40px;
+padding:3px 3px 3px 3px;
+padding-right:50px;
+}
+
+div.right_column
+{
+float:right;
+color:black;
+position:relative;
+top:40px;
+margin-top: 40px;
+margin-right:5px;
+margin-bottom:40px;
+padding:3px 3px 3px 3px;
+}
+
+div.footer
+{
+height:3em;
+padding: 3px 3px 3px 3px;
+margin: 20px 5px 5px 5px;
+color:black;
+background-color:#a7c6ff;
+clear:left;
+font-size:11px;
+}
+
+
+
+p
+{ 
+text-align: justify;
+}
+
+
+ul {
+	background-color: white;
+	list-style: none;
+	}
+
+
+#menu1 {
+	margin-left:-40px;	
+	padding-left:0px;
+	width: 185px;
+	<!-- border-left: 2px solid #637800; -->
+	}
+	
+#menu1 li a {	
+	font-size: 12px;
+	text-align: left;
+	font-weight: bold;	
+  	voice-family: "\"}\""; 
+  	voice-family: inherit;
+  	height: 20px;
+	text-decoration: none;
+	vertical-align:bottom;
+	padding: 5px 5px 5px 5px;
+	margin-bottom: 8px;
+	}	
+	
+#menu1 li a:link, #menu1 li a:visited {
+	font-weight: bold;	
+	color: #000;
+	display: block;
+	background:  url('/images/mpod_menu_s1.png') no-repeat top left;
+	background-color: #fff;
+	<!-- border-bottom: 2px solid #637800; -->
+	}
+
+#menu1 li a:link.active, #menu1 li a:visited.active {
+	font-weight: bold;	
+	color: #000;
+	display: block;
+	background:  url('/images/mpod_menu_s3.png') no-repeat top left;
+	background-color: #fff;
+	}
+
+#menu1 li a:hover {
+	font-weight: bold;		
+	color: #080808;
+	background:  url('/images/mpod_menu_s2.png') no-repeat top left;
+	background-color: #fff;
+	}
+	
+#nav {
+	position: relative;
+	right: 10px;
+	margin: 0;
+	padding: 0px 0px 20px 10px;
+	border-bottom: 1px solid #a7c6ff;
+	}
+
+#nav li {
+	margin: 0; 
+	padding: 0;
+	display: inline;
+	list-style-type: none;
+	}
+	
+#nav a:link, #nav a:visited {
+	float: left;
+	font-size: 12px;
+	line-height: 14px;
+	font-weight: bold;
+	padding: 0 12px 6px 12px;
+	text-decoration: none;
+	color: #7f9edc;
+	}
+
+#nav a:link.active, #nav a:visited.active, #nav a:hover {
+	color: #000;
+	background: url('/images/mpod_menu_s3.png') no-repeat bottom center;
+	}
+
+/*  dataLIST TABLES  */
+#datalist table thead th { white-space:nowrap; }
+#datalist table tbody td { border-left: 1px solid #ddd; }
+#datalist table tfoot { color: #666; }
+
+/* TABLES */
+table { border-collapse:collapse; border-color:#ccc; }
+td, th { font-size:11px; line-height:13px; border-bottom:1px solid #eee; vertical-align:top; padding:5px; font-family:"Lucida Grande", Verdana, Arial, sans-serif; }
+th { text-align:left; font-size:12px; font-weight:bold; }
+thead th, 
+tfoot td { color:#666; padding:2px 5px; font-size:11px; background:#e1e1e1 url(../img/admin/nav-bg.gif) top left repeat-x; border-left:1px solid #ddd; border-bottom:1px solid #ddd; }
+tfoot td { border-bottom:none; border-top:1px solid #ddd; }
+thead th:first-child, 
+tfoot td:first-child { border-left:none !important; }
+thead th.optional { font-weight:normal !important; }
+fieldset table { border-right:1px solid #eee; }
+tr.row-label td { font-size:9px; padding-top:2px; padding-bottom:0; border-bottom:none; color:#666; margin-top:-1px; }
+tr.alt { background:#f6f6f6; }
+.row1 { background:#EDF3FE; }
+.row2 { background:white; }
+
+</style>

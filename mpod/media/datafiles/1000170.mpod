@@ -1,0 +1,54 @@
+#------------------------------------------------------------------------------
+#$Date: 2011-04-07 22:34:00 +0000 $
+#$Revision: 001 $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Material Properties Open Database (MPOD),
+# http://www.materialproperties.org/
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_1000170
+_cod_database_code               9008490
+_structure_refined 'no'
+_phase_name 'cadmium'
+_chemical_formula_sum 'Cd'
+_symmetry_point_group_name_H-M '6/m m m'
+_cell_length_a  2.97887
+_cell_length_b  2.97887
+_cell_length_c  5.61765
+_cell_angle_alpha  90
+_cell_angle_beta   90
+_cell_angle_gamma  120
+loop_
+_publ_author_name
+'Grüneisen, E.'
+'Goens, E.'
+_publ_section_title
+;
+ Researches on metal crystals-I. Elastic constants of zinc and cadmium
+;
+_journal_name_full               'Zeitschrift für Physik'
+_journal_volume                  26
+_journal_issue                   ?
+_journal_page_first              235
+_journal_page_last               ?
+_journal_year                    1924
+_prop_measurement_method '?'
+_prop_conditions_temperature ?
+_prop_elastic_compliance_sij 'sij'
+loop_
+_prop_data_label
+_prop_data_tensorial_index
+_prop_data_value
+sij 11 12.3
+sij 12 -1.5
+sij 13 -9.3
+sij 22 12.3
+sij 23 -9.3
+sij 33 35.5
+sij 44 54
+sij 55 54
+sij 66 27.6

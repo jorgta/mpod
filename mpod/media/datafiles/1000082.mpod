@@ -1,0 +1,49 @@
+#------------------------------------------------------------------------------
+#$Date: 2010-10-15 15:01:00 +0000 $
+#$Revision: 001 $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Material Properties Open Database (MPOD),
+# http://www.mpod.net/
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_1000082
+_cod_database_code 9008477
+_structure_refined 'no'
+_phase_name 'Lead'
+_phase_formula Pb
+_chemical_formula_sum 'Pb'
+_symmetry_point_group_name_H-M 'm 3 m'
+_cell_length_a  4.9505
+loop_
+_publ_author_name
+'Swift, Irvin H.'
+'Tyndall, E.P.T.'
+_publ_section_title
+;
+ Elasticity and creep of Pb single crystals
+;
+_journal_name_full               'Physical Review'
+_journal_volume                  61
+_journal_issue            5-6
+_journal_page_first              359
+_journal_page_last               364
+_journal_year                    1942
+_prop_elastic_compliance_sij 'sij'
+loop_
+_prop_data_label
+_prop_data_tensorial_index
+_prop_data_value
+sij 11 92.8
+sij 12 -42.4
+sij 13 -42.4
+sij 22 92.8
+sij 23 -42.4
+sij 33 92.8
+sij 44 69.4
+sij 55 69.4
+sij 66 69.4
+

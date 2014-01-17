@@ -1,0 +1,64 @@
+#------------------------------------------------------------------------------
+#$Date: 2011-04-08 11:08:00 +0000 $
+#$Revision: 001 $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Material Properties Open Database (MPOD),
+# http://www.materialproperties.org/
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_1000177
+_cod_database_code               2217854
+_structure_refined 'no'
+_phase_name 'Rochelle salt'
+_phase_formula 'KNa(C4H4O6);4H2O' 
+_chemical_formula_sum 'K Na C4 H12 O10'
+_symmetry_point_group_name_H-M '2 2 2'
+_cell_length_a  11.7859
+_cell_length_b  14.1972
+_cell_length_c  6.1875
+_cell_angle_alpha  90
+_cell_angle_beta   90
+_cell_angle_gamma  90
+loop_
+_publ_author_name
+'Mandell, W.'
+_publ_section_title
+;
+ Determination of the elastic moduli of the piezo-electric crystal Rochelle salt by a statical method
+;
+_journal_name_full               'Proceedings of the Royal Society A'
+_journal_volume                  116
+_journal_issue                   775
+_journal_page_first              623
+_journal_page_last               636
+_journal_year                    1927
+_prop_measurement_method 'Static'
+_prop_conditions_temperature ?
+_prop_elastic_compliance_sij 'sij'
+_prop_elastic_stiffness_cij 'cij'
+loop_
+_prop_data_label
+_prop_data_tensorial_index
+_prop_data_value
+sij 11 46.9
+sij 12 -7.95
+sij 13 -21.8
+sij 22 32.05
+sij 23 -16.9
+sij 33 28.15
+sij 44 60.6
+sij 55 306
+sij 66 80.2
+cij 11 34.7
+cij 12 -8.05
+cij 13 31.6
+cij 22 47.3
+cij 23 -34.4
+cij 33 80.6
+cij 44 16.35
+cij 55 3.24
+cij 66 12.42

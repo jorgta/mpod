@@ -1,0 +1,71 @@
+#------------------------------------------------------------------------------
+#$Date: 2011-05-21 22:28:00 +0000 $
+#$Revision: 001 $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Material Properties Open Database (MPOD),
+# http://www.materialproperties.org/
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_1000216
+_cod_database_code 9008081
+_structure_refined 'no'
+_phase_name 'Corundum'
+_phase_formula 'alpha-Al2O3'
+_chemical_formula_sum 'Al2 O3'
+_symmetry_point_group_name_H-M '-3 m'
+_cell_length_a  4.7589
+_cell_length_b  4.7589
+_cell_length_c  12.991
+_cell_angle_alpha  90
+_cell_angle_beta   90
+_cell_angle_gamma  120
+loop_
+_publ_author_name
+'Bhimasenachar, J.'
+_publ_section_title
+;
+ Elastic constants of corundum
+;
+_journal_name_full               'Proceedings of the National Institute of Science of India'
+_journal_volume                  16
+_journal_issue                   4
+_journal_page_first              241
+_journal_page_last               243
+_journal_year                    1950
+_phase_density 3810
+_prop_measurement_method 'AWP'
+_prop_conditions_temperature ?
+_prop_elastic_stiffness_cij 'cij'
+_prop_elastic_compliance_sij 'sij'
+loop_
+_prop_data_label
+_prop_data_tensorial_index
+_prop_data_value
+cij 11 465
+cij 12 124
+cij 13 117
+cij 14 101
+cij 22 465
+cij 23 117
+cij 24 -101
+cij 33 563
+cij 44 233
+cij 55 233
+cij 56 202
+cij 66 170.5
+sij 11 46.5
+sij 12 -1.05
+sij 14 0.855
+sij 13 -0.38
+sij 22 46.5
+sij 23 -0.38
+sij 24 -0.855
+sij 33 1.93
+sij 44 1.4425
+sij 55 1.4425
+sij 56 1.71
+sij 66 95.1

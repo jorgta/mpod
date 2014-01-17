@@ -1,0 +1,149 @@
+#------------------------------------------------------------------------------
+#$Date: 2011-07-27 14:34:00 +0000 $
+#$Revision: 001 $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Material Properties Open Database (MPOD),
+# http://www.materialproperties.org/
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_1000279
+_cod_database_code ?
+_structure_refined 'no'
+_phase_name 'PMN-PT'
+_phase_formula Pb(Mg1/3Nb2/3)O3(0.58)-PbTiO3(0.42)
+_chemical_formula_sum 'Pb Nb0.387 Mg0.193 Ti0.42 O3'
+_symmetry_point_group_name_H-M '4 m m'
+_cell_length_a  ?
+_cell_length_b  ?
+_cell_length_c  ?
+_cell_angle_alpha  90
+_cell_angle_beta   90
+_cell_angle_gamma  90
+loop_
+_publ_author_name
+'Cao, Hu'
+'Schmidt, Hugo'
+'Zhang, Rui'
+'Cao, Wenwu'
+'Luo, Haosu'
+_publ_section_title
+;
+ Elastic, piezoelectric, and dielectric properties of 0.58Pb(Mg1/3Nb2/3)O3-0.42PbTiO3 single crystal
+;
+_journal_name_full               'Journal of Applied Physics'
+_journal_volume                  96
+_journal_issue                   1
+_journal_page_first              549
+_journal_page_last               554
+_journal_year                    2004
+_phase_density 8100
+_phase_transition_temperature_rhomb_tetra ?
+_phase_transition_temperature_curie ?
+_prop_measurement_poling '[001]c'
+_prop_symmetry_point_group_name_H-M '4 m m'
+_prop_frame '?'
+_prop_electric_remnant_polarisation_Pri 'Pri'
+_prop_electric_coercive_field_Eci 'Eci'
+_prop_elastic_compliance_sijE 'sijE'
+_prop_elastic_compliance_sijD 'sijD'
+_prop_elastic_stiffness_cijE 'cijE'
+_prop_elastic_stiffness_cijD 'cijD'
+_prop_electromechanical_coupling_kij 'kij'
+_prop_piezoelectric_dij 'dij'
+_prop_piezoelectric_eij 'eij'
+_prop_piezoelectric_gij 'gij'
+_prop_piezoelectric_hij 'hij'
+_prop_dielectric_permittivity_relative_epsrijT 'epsrijT'
+_prop_dielectric_permittivity_relative_epsrijS 'epsrijS'
+_prop_dielectric_stiffness_relative_betrijT 'betrijT'
+_prop_dielectric_stiffness_relative_betrijS 'betrijS'
+
+loop_
+_prop_data_label
+_prop_data_tensorial_index
+_prop_data_value
+_prop_measurement_method
+_prop_conditions_frequency
+cijE 11 175.1 'RUS' ?
+cijE 12 85.1 'RUS' ?
+cijE 13 83 'RUS' ?
+cijE 22 175.1 'RUS' ?
+cijE 23 83 'RUS' ?
+cijE 33 105 'RUS' ?
+cijE 44 285 'RUS' ?
+cijE 55 285 'RUS' ?
+cijE 66 80 'RUS' ?
+cijD 11 177 'RUS' ?
+cijD 12 87 'RUS' ?
+cijD 13 71.8 'RUS' ?
+cijD 22 177 'RUS' ?
+cijD 23 71.8 'RUS' ?
+cijD 33 169.9 'RUS' ?
+cijD 44 80.5 'RUS' ?
+cijD 55 80.5 'RUS' ?
+cijD 66 80 'RUS' ?
+sijE 11 9.43 'RUS' ?
+sijE 12 -1.68 'RUS' ?
+sijE 13 -613 'RUS' ?
+sijE 22 9.43 'RUS' ?
+sijE 23 -6.13 'RUS' ?
+sijE 33 19.21 'RUS' ?
+sijE 44 35.09 'RUS' ?
+sijE 55 35.09 'RUS' ?
+sijE 66 12.5 'RUS' ?
+sijD 11 8.02 'RUS' ?
+sijD 12 -3.1 'RUS' ?
+sijD 13 -2.08 'RUS' ?
+sijD 22 8.02 'RUS' ?
+sijD 23 -2.08 'RUS' ?
+sijD 33 7.64 'RUS' ?
+sijD 44 12.42 'RUS' ?
+sijD 55 12.42 'RUS' ?
+sijD 66 12.5 'RUS' ?
+dij 15 131 'RUS' ?
+dij 24 131 'RUS' ?
+dij 31 -91 'RUS' ?
+dij 32 -91 'RUS' ?
+dij 33 260 'RUS' ?
+eij 15 37.5 'RUS' ?
+eij 24 37.5 'RUS' ?
+eij 31 -2.1 'RUS' ?
+eij 32 -2.1 'RUS' ?
+eij 33 12.2 'RUS' ?
+gij 15 1.723 'RUS' ?
+gij 24 1.723 'RUS' ?
+gij 31 -1.557 'RUS' ?
+gij 32 -1.557 'RUS' ?
+gij 33 4.45 'RUS' ?
+hij 15 13.87 'RUS' ?
+hij 24 13.87 'RUS' ?
+hij 31 -9.16 'RUS' ?
+hij 32 -9.16 'RUS' ?
+hij 33 53.22 'RUS' ?
+kij 15 0.80 'RUS' ?
+kij 24 0.80 'RUS' ?
+kij 31 0.39 'RUS' ?
+kij 32 0.39 'RUS' ?
+kij 33 0.78 'RUS' ?
+epsrijT 11 8627 'CAP' 1
+epsrijT 22 8627 'CAP' 1
+epsrijT 33 660 'CAP' 1
+epsrijS 11 3054 'CAP' 1
+epsrijS 22 3054 'CAP' 1
+epsrijS 33 259 'CAP' 1
+betrijT 11 1.16 'CAP' 1
+betrijT 22 1.16 'CAP' 1
+betrijT 33 15.15 'CAP' 1
+betrijS 11 3.27 'CAP' 1
+betrijS 22 3.27 'CAP' 1
+betrijS 33 38.61 'CAP' 1
+Pri 1 ? '?' ?
+Pri 2 ? '?' ?
+Pri 3 42.0 '?' ?
+Eci 1 ? '?' ?
+Eci 2 ? '?' ?
+Eci 3 5.3 '?' ?

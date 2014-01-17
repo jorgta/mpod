@@ -1,0 +1,26 @@
+{% extends "mpod_base_text.html" %}
+
+{% block title %}MPOD - Material Property Open Database {% endblock %}
+
+{% block central_column %}
+<div class="central_column">
+<p>
+The Material Properties Open Database was initiated by Daniel Chateigner in July 2010.
+</p><p>
+The MPOD was inspired by the 
+<a href="http://www.crystallography.net/" target="_blank" name="COD_home">Crystallography Open Database</a>.
+</p><p>
+Crystallographic structures affect microscopic properties 
+of the phases constituting a given material which has consequences 
+at the macroscopic scale. Knowledge about the structure can also be used 
+to make predictions about such properties, e.g. with a simulation approach 
+(DFT, Molecular dynamics, …). </p><p>
+Knowledge about experimentally measured crystallite properties, however, 
+is of key importance for counter-checking theoretical studies 
+and also to better define fitting models for the structure determination itself.
+</p><p>
+The MPOD also tries to comply with the CIF format 
+although some tricks have been adopted to allow the insertion 
+of tensor data into the rigid structure of the STAR File.
+</p>
+{% endblock %}

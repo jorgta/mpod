@@ -1,0 +1,71 @@
+#------------------------------------------------------------------------------
+#$Date: 2010-10-06 22:33:00 +0000 $
+#$Revision: 001 $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Material Properties Open Database (MPOD),
+# http://www.mpod.net/
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_1000097
+_cod_database_code 9088326
+_structure_refined 'no'
+_phase_name LiFeAs
+_chemical_formula_sum 'Li Fe As'
+_symmetry_point_group_name_H-M '4/m m m'
+_cell_length_a 3.776
+_cell_length_c 6.349
+loop_
+_publ_author_name
+'Lee, Bumsung'
+'Khim, Seunghyun'
+'Kim, Jung Soo'
+'Stewart, G.R.'
+'Kim, Kee Hoon'
+_publ_section_title
+;
+ Single-crystal growth and superconducting properties of LiFeAs
+;
+_journal_name_full               'European Physics Journal'
+_journal_volume                  91
+_journal_article_reference       67002
+_journal_pages_number             6
+_journal_year                    2010
+
+data_1000097a
+_prop_superconducting_critical_temperature_onset Tco
+_prop_superconducting_critical_temperature_thermodynamic Tcth
+_prop_superconducting_zero_resistivity_temperature Tr0
+_prop_superconducting_resistivity_transition_width Rtw
+_prop_residual_resistivity_ratio RRR
+_prop_residual_resistivity_ratio_high_temperature RRTh
+_prop_residual_resistivity_ratio_low_temperature RRTl
+
+loop_
+_prop_data_label
+_prop_data_value
+Tco 18.2
+Tcth 16.8
+Tr0 17.1
+Rtw 1.1
+RRR 24
+RRTh 300
+RRTl 0
+
+data_1000097b
+_prop_superconducting_critical_field2_Hc2i 'Hc2i'
+_prop_superconducting_coherence_length_ksii 'ksii'
+loop_
+_prop_data_label
+_prop_data_tensorial_index
+_prop_data_value
+_prop_conditions_temperature
+Hc2i 1 36.9 0
+Hc2i 2 36.9 0
+Hc2i 3 17.2 0
+ksii 1 4.4 0
+ksii 2 4.4 0
+ksii 3 2.0 0

@@ -1,0 +1,46 @@
+#------------------------------------------------------------------------------
+#$Date: 2010-10-14 22:34:00 +0000 $
+#$Revision: 001 $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Material Properties Open Database (MPOD),
+# http://www.mpod.net/
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_1000092
+_cod_database_code 9013014
+_structure_refined 'no'
+_phase_name 'Copper'
+_phase_formula Cu
+_chemical_formula_sum 'Cu'
+_symmetry_point_group_name_H-M 'm 3 m'
+_cell_length_a  3.613
+loop_
+_publ_author_name
+'Kimura, R.'
+_publ_section_title
+;
+ Elastic constants of single crystals of copper
+;
+_journal_name_full               'Tokohu University Science Report'
+_journal_volume                  22
+_journal_page_first              553
+_journal_year                    1933
+_prop_elastic_compliance_sij 'sij'
+loop_
+_prop_data_label
+_prop_data_tensorial_index
+_prop_data_value
+sij 11 12.9
+sij 12 -5.2
+sij 13 -5.2
+sij 22 12.9
+sij 23 -5.2
+sij 33 12.9
+sij 44 16.4
+sij 55 16.4
+sij 66 16.4
+

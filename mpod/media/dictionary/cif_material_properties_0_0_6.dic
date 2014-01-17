@@ -1,0 +1,1697 @@
+##############################################################################
+#                                                                            #
+#                      MATERIAL PROPERTIES CIF DEFINITIONS                   #
+#                      -----------------------------------                   #
+#                                                                            #
+# This dictionary contains the names and definitions of the Material         #
+# properties data items used in the Material Properties Open Database        #
+# for the exchange of data between laboratories and submissions to the       #
+# database                                                                   #
+#                                                                            #
+#                                                                            #
+# Copyright 2010 - 2013 MPOD                                                 #
+##############################################################################
+
+
+data_on_this_dictionary
+    _dictionary_name            cif_material_properties.dic
+    _dictionary_version         0.0.6
+    _dictionary_update          2013-10-01
+    _dictionary_history
+;
+   2010-09-02  Dictionary created from first set of properties collected by Daniel Chateigner
+   2010-09-02  Dictionary changed with looping over properties
+   2010-10-11  Dictionary update with superconducting properties and thermal expansion
+   2010-10-12  Added phase_transition temperatures
+               Added some dielectric properties (relative permittivity and stiffness)
+   2010-10-30  Added electrostriction properties (Dij, Dprimeij)
+               Added piezooptic properties (piij)
+               Added photoelastic properties (pij)
+   2010-12-01  Added optical properties group, birefringence (ordinary 
+               and extraordinary indexes)
+               Added wavelength as experimental condition/paramenter
+               Added heat capacity
+               Added superconducting_critical_temperature_onset_90
+               added superconducting_critical_temperature_mid_50
+               added superconducting_critical_temperature_offset_10
+   2010-12-05  Added method cij, CPO, Composite Piezoelectric Oscillator
+   2011-02-01  Added property lambdai, superconducting penetration depth
+               Added method, Tc, SQUID-ZFC, Zero-Field Cooled SQUID magnetometry
+               Added method, Hc2i, MagTorque, Magnetic Torque Measurements
+               Added method, lambdai, MagTorque, Magnetic Torque Measurements
+   2011-02-01  Added method, PI, BS, DIL, DC_MS, muSR
+               Added property, TN, DeltaTN,
+               added property _magnetic_antiferromagnetic_ordering_temperature_Neel
+               corrected units for _prop_piezooptic_piij MPa^-1
+   2012-05-25  Added property, data_phase_transition_temperature_melting
+               Added property, data_phase_transition_temperature_curie_ferroelectric
+               Added property, data_phase_debye_temperature
+               Added property, data_prop_electric_remnant_polarisation_Pri
+               Added property, data_prop_electric_coercive_field_Eci
+   2012-09-21  Added property, data_phase_temperature_cell
+   2012-09-21  Added data_uncertainty
+   2013-10-01  Added _book data item
+               added thermoelestic properties
+               added third order elastic coefficients
+               
+
+;
+
+##########
+## BOOK ##
+##########
+
+data_book_[]
+    _name                      '_book_[]'
+    _category                    category_overview
+    _type                        null
+
+    _definition
+;              The citation data_item from the cif core contains book but obliges it into a list.
+               Here the a book category is created as reference for the data reported. 
+;
+
+
+data_book_id_ISBN
+    _name                      '_book_id_ISBN'
+    _category                    book
+    _type                        char
+    _list                        no
+    _definition
+;              The International Standard Book Number (ISBN) code assigned to
+               the book cited;  relevant for books or book chapters.
+;
+
+data_book_publisher
+    _name                      '_book_publisher'
+    _category                    book
+    _type                        char
+    _list                        no
+    _example                    'John Wiley'
+    _definition
+;              The name of the publisher of the citation; relevant
+               for books or book chapters.
+;
+
+data_book_publisher_city
+    _name                      '_book_publisher_city'
+    _category                    book
+    _type                        char
+    _list                        no
+    _example                    'New York'
+    _definition
+;              The location of the publisher of the citation; relevant
+               for books or book chapters.
+;
+
+data_book_title
+    _name                      '_book_title'
+    _category                    book
+    _type                        char
+    _list                        no
+    _definition
+;              The title of the book in which the citation appeared;  relevant
+               for books or book chapters.
+;
+
+data_book_editor_name
+    _name                      '_book_editor_name'
+    _category                    book
+    _type                        char
+    _list                        no
+    _definition
+;              The title of the book in which the citation appeared;  relevant
+               for books or book chapters.
+;
+
+#############
+## JOURNAL ##
+#############
+
+data_journal_[]
+    _name                      '_journal_[]'
+    _category                    category_overview
+    _type                        null
+
+    _definition
+;              Two tags are added to the cif_core _journal definition
+;
+
+data_journal_article_reference
+    _name                      '_journal_article_reference'
+    _category                    journal
+    _type                        char
+
+    _definition
+;              often now the articles are given a number, like in Phys. Rev. B or J. Appl. Phys.
+               and the number of pages
+;
+
+data_journal_pages_number
+    _name                      '_journal_pages_number'
+    _category                    journal
+    _type                        numb
+
+    _definition
+;              often now the articles are given a number, like in Phys. Rev. B or J. Appl. Phys.
+               and the number of pages
+;
+
+###########
+## PHASE ##
+###########
+
+data_phase_[]
+    _name                      '_phase_[]'
+    _category                    category_overview
+    _type                        null
+
+      _definition
+;              Data items in the PHASE category record details about
+               the phase for which the properties are determined
+;
+
+data_phase_name
+    _name                      '_phase_name'
+    _category                    phase
+    _type                        char
+
+    _definition
+;              name of the phase for which the properties were determined:
+it can be the element name for pure elements, the mineral name for natural minerals
+or a compound formula for compounds that do not have a name
+;
+
+data_phase_generic
+    _name                      '_phase_generic'
+    _category                    phase
+    _type                        char
+
+    _definition
+;              generic name for the compound family of the phase for which the properties were determined
+;
+
+data_phase_formula
+    _name                      '_phase_formula'
+    _category                    phase
+    _type                        char
+
+    _definition
+;              generic chemical formula of the phase for which the properties were determined
+;
+
+data_phase_density
+    _name                      '_phase_density'
+    _category                    phase
+    _type                        numb
+    _type_conditions             esd
+    _units                       kg/m^3
+    _units_detail              'kilogramm per cubic metre'
+
+    _definition
+;              material's density given by the authors
+;
+
+data_phase_density_temperature
+    _name                      '_phase_density_temperature'
+    _category                    phase
+    _type                        numb
+    _type_conditions             esd
+    _units                       K
+    _units_detail              'kelvin'
+
+    _definition
+;              temperature of determination of material's density given by the authors
+;
+
+data_phase_transition_temperature_melting
+    _name                      '_phase_transition_temperature_melting'
+    _category                    phase
+    _type                        numb
+    _type_conditions             esd
+    _units                       K
+    _units_detail              'kelvin'
+
+    _definition
+;              Tm = melting phase transition temperature (in K)
+;
+
+data_phase_transition_temperature_rhomb_tetra
+    _name                      '_phase_transition_temperature_rhomb_tetra'
+    _category                    phase
+    _type                        numb
+    _type_conditions             esd
+    _units                       K
+    _units_detail              'kelvin'
+
+    _definition
+;              RT = rhombohedral-tetragonal phase transition temperature (in K)
+;
+
+data_phase_transition_temperature_rhomb_ortho
+    _name                      '_phase_transition_temperature_rhomb_ortho'
+    _category                    phase
+    _type                        numb
+    _type_conditions             esd
+    _units                       K
+    _units_detail              'kelvin'data_phase_transition_temperature_ferroelectric_curie
+
+    _definition
+;              RT = rhombohedral-orthogonal phase transition temperature (in K)
+;
+
+data_phase_transition_temperature_ortho_tetra
+    _name                      '_phase_transition_temperature_ortho_tetra'
+    _category                    phase
+    _type                        numb
+    _type_conditions             esd
+    _units                       K
+    _units_detail              'kelvin'
+
+    _definition
+;              RT = orthogonal-tetragonal phase transition temperature (in K)
+;
+
+data_phase_transition_temperature_curie
+    _name                      '_phase_transition_temperature_curie'
+    _category                    phase
+    _type                        numb
+    _type_conditions             esd
+    _units                       K
+    _units_detail              'kelvin'
+
+    _definition
+;              TC = Curie temperature (in K)
+;
+
+data_phase_transition_temperature_curie_ferroelectric
+    _name                      '_phase_transition_temperature_curie_ferroelectric'
+    _category                    phase
+    _type                        numb
+    _type_conditions             esd
+    _units                       K
+    _units_detail              'kelvin'
+
+    _definition
+;              TC = ferroelectric Curie temperature (in K)
+;
+
+data_phase_cell_temperature
+    _name                      '_phase_cell_temperature'
+    _category                    phase
+    _type                        numb
+    _type_conditions             esd
+    _units                       K
+    _units_detail              'kelvin'
+
+    _definition
+;              TCell = phase cell temperature
+;
+
+data_phase_debye_temperature
+    _name                      '_phase_debye_temperature'
+    _category                    phase
+    _type                        numb
+    _type_conditions             esd
+    _units                       K
+    _units_detail              'kelvin'
+
+    _definition
+;
+the temperature of a crystal's highest normal mode of vibration, i.e., the highest temperature that can be achieved due to a single normal vibration
+              TD = Debye temperature (in K)
+;
+
+#########
+## COD ##
+#########
+
+data_cod_[]
+    _name                      '_cod_[]'
+    _category                    category_overview
+    _type                        null
+
+      _definition
+;             Data items in the COD category record details about
+              references to the Crystrallography Open Database COD.
+               If there has been structural refinement of the same crystal which served the
+               property measurements, then the cod_database_code refers to it.
+               If the structure has not been determined on the sample where the 
+               properties waere measured, the code points to an example of cif file for the structure.
+;
+
+data_cod_database_code
+    _name                      '_cod_database_code'
+    _category                    cod
+    _type                        char
+
+    _definition
+;              cod 
+;
+
+###################################
+## SYMMETRY_POINT_GROUP_NAME_H-M ##
+###################################
+
+data_symmetry_point_group_name_H-M
+    _name                      '_symmetry_point_group_name_H-M'
+    _category                    symmetry_point_group_name_H-M
+    _type                        char
+
+    _definition
+;              Properties are typically related to the point group of the phase
+It is one of
+pg = 1, -1, 2, m, 2/m, 222, mm2, mmm, 4, -4, 4/m, 422, 4mm, -42m, 4/mmm, 3, -3, 32, 3m, -3m, 6, -6, 6/m, 622, 6mm, -6m2, 6/mmm, 23, m3, 432, -43m, m3m,  ... Quasicrystal groupoids:	5mm, 8mm, 10mm, 12mm ...
+;
+
+#######################
+## STRUCTURE_REFINED ##
+#######################
+
+data_structure_refined
+    _name                      '_structure_refined'
+    _category                    structure
+    _type                        char
+
+    _definition
+;              If there has been structural refinement of the same crystal which served the
+               property measurements, then the answer is 'yes', and the cod_database_code refers to it.
+               If 'no', the cod_database_code points to an example of cif file for the structure.
+;
+
+##########
+## PROP ##
+##########
+data_prop_[]
+    _name                      '_prop_[]'
+    _category                    category_overview
+    _type                        null
+
+      _definition
+;              Data items in the PROP category record all details about
+               properties, from experimental methods, to conditions, to the values itselves
+;
+
+#####################
+## PROP_CONDITIONS ##
+#####################
+##
+##data_prop_conditions_[]
+##    _name                      '_prop_conditions_[]'
+##    _category                    category_overview
+##    _type                        null
+##
+##      _definition
+##;              Data items in the PROP_CONDITIONS category record details about
+##               the experimental conditions during the measurements
+##;
+
+data_prop_conditions_temperature
+    _name                      '_prop_conditions_temperature'
+    _category                    prop
+    _type                        numb
+    _type_conditions             esd
+    _list                        both
+    _units                       K
+    _units_detail              'kelvin'
+
+    _definition
+;              Temperature at which the properties were determined.
+Physical conditions are not always indicated when a property is measured. Sometimes only "room temperature" is mentioned in the corresponding literature, which may range from 20 to 25 °C.
+;
+
+data_prop_conditions_temperature_range_begin
+    _name                      '_prop_conditions_temperature_range_begin'
+    _category                    prop
+    _type                        numb
+    _type_conditions             esd
+    _list                        both
+    _units                       K
+    _units_detail              'kelvin'
+
+    _definition
+;              First value of the temperature range for which the properties are given.
+Defined in couple with data_prop_conditions_temperature_range_end. When temperature dependencies are measured, the first value does not have to be the lower, but first and last values define also the increasing or decreasing temperatures.
+Temperature units are K
+;
+
+data_prop_conditions_temperature_range_end
+    _name                      '_prop_conditions_temperature_range_end'
+    _category                    prop
+    _type                        numb
+    _type_conditions             esd
+    _list                        both
+    _units                       K
+    _units_detail              'kelvin'
+
+    _definition
+;              Last value of the temperature range for which the properties are given.
+Defined in couple with data_prop_conditions_temperature_range_begin. When temperature dependencies are measured, the first value does not have to be the lower, but first and last values define also the increase or decrease of temperature.
+;
+
+data_prop_conditions_temperature_cycle
+    _name                      '_prop_conditions_temperature_cycle'
+    _category                    prop
+    _type                        numb
+    _list                        both
+    _units                       1
+    _units_detail              'pure number'
+
+    _definition
+;              when measuring temperature dependency of properties the temperature may be cycled several times to determine possible histeresys. data_prop_conditions_temperature_range_ (begin/end) defines the range of the cycle (and the direction). Here the cycle is given (1, 2, 3, ... )
+;
+
+data_prop_conditions_pressure
+    _name                      '_prop_conditions_pressure'
+    _category                    prop
+    _type                        numb
+    _list                        both
+    _units                       Pa
+    _units_detail              'pascal'
+
+    _definition
+;              Pressure at which the properties were determined
+;
+
+data_prop_conditions_frequency
+    _name                      '_prop_conditions_frequency'
+    _category                    prop
+    _type                        numb
+    _list                        both
+    _units                       s^-1
+    _units_detail              'hertz'
+
+    _definition
+;              Frequency at which the properties were determined
+It is indicated in electrical/optical properties 
+;
+
+data_prop_conditions_magnetic_field
+    _name                      '_prop_conditions_magnetic_field'
+    _category                    prop
+    _type                        numb
+    _list                        both
+    _units                       T
+    _units_detail              'tesla'
+
+    _definition
+;              Magnetic Field at which the properties were determined
+;
+
+data_prop_conditions_wavelength
+    _name                      '_prop_conditions_wavelength'
+    _category                    prop
+    _type                        numb
+    _list                        both
+    _units                       10^-6.metre
+    _units_detail              'micrometre'
+
+    _definition
+;              Wavelength at which the properties were determined
+It is typically indicated in optical properties 
+;
+
+data_prop_conditions_reference_temperature_thermoelastic_non_linear_fit
+    _name                      '_prop_conditions_reference_temperature_thermoelastic_non_linear_fit'
+    _category                    prop
+    _type                        numb
+    _type_conditions             esd
+    _list                        both
+    _units                       K
+    _units_detail              'kelvin'
+
+    _definition
+;              reference temperature T0 taken for the non linear fit of elastic compliances and stiffnesses (in K)
+;
+
+######################
+## PROP_MEASUREMENT ##
+######################
+##
+##data_prop_measurement_[]
+##    _name                      '_prop_measurement_[]'
+##    _category                    category_overview
+##    _type                        null
+##
+##      _definition
+##;              Data items in the PROP_MEASUREMENT category record details about
+##               the measurement
+##;
+
+data_prop_measurement_method
+    _name                      '_prop_measurement_method'
+    _category                    prop
+    _type                        char
+    _list                        both
+
+    _definition
+;              Method used to determine the considered properties
+It is one of
+epsrij		CAP			Capacitance measurements
+alphaij		PND			Powder Neutron Diffraction
+alphaij		PXD			Powder X-ray Diffraction
+alphaij		SCXD			Single-Crystal X-ray Diffraction
+alphaij		DIL			Single-Crystal Dilatometry
+cij		RT			Resonnance Technique
+cij		PEM			Pulse-Echo Measurements
+cij		RUS			Resonance Ultrasound Spectroscopy
+cij		RUS-Laser-Doppler	RUS assisted by Laser-Doppler interferometry
+cij		EMAR			ElectroMagnetic Acoustic Resonance
+cij		mB			micro-Brillouin Scattering
+cij		ISS			Impulsive Stimulated Scattering
+cij		CPO			Composite Piezoelectric Oscillator
+cij		ST			Static Torsion
+cij		IXRS			Inelastic X-Ray Scattering
+cij		BS			Brillouin Scattering
+cij		PI			Pulsed Interferometry
+Qij-1		EMAR			ElectroMagnetic Acoustic Resonance
+dij		BTM			Berlincourt-Type Meter
+dij		XRD			X-ray Diffraction
+kij		SAW			Surface Acoustic Waves
+kappadij	LPM			Laser Pulse Method
+C		DSC			Differential Scanning Calorimetry
+no		MDT			Minimum Deviation Technique
+no		FT-IRRef		Fourier Transformed InfRared Reflectivity
+ne		MDT			Minimum Deviation Technique
+ne		FT-IRRef		Fourier Transformed InfRared Reflectivity
+Tc		RFS			LCR Resonance Frequency Shift
+Tc		RC			Resistivity Curve
+Tc		MI			Mutual Inductance
+Tc		SQUID-ZFC		Zero-Field Cooled SQUID magnetometry
+Tc		AC_S			AC Susceptibility
+Hc2i		MagTorque		Magnetic Torque Measurements
+lambdai		MagTorque		Magnetic Torque Measurements
+raueij		FPP			Four Point Probe
+TN		muSR			muon Spin Resonance
+DeltaTN		muSR			muon Spin Resonance
+TN_AFM		DC-MS			DC Magnetic Susceptibility
+;
+
+data_prop_measurement_poling
+    _name                      '_prop_measurement_poling'
+    _category                    prop
+    _type                        char
+    _list                        both
+
+    _definition
+;              In piezoelectric measurements, the poling direction is of importance, particularly for multidomain situation. We refer to it with the index [hkl] of the pseudo-cubic crystal directions.
+;
+
+################
+## PROP_FRAME ##
+################
+
+data_prop_frame
+    _name                      '_prop_frame'
+    _category                    prop
+    _type                        char
+
+    _definition
+;              Indicates the axes numbers used in tensor description of the property, in their intrinsic macroscopic reference frame,
+while the Miller indices refer to the pseudo-cubic crystal symmetry.
+e.g. 1=[0-11]c 2=[100]c 3=[011]c
+;
+
+###################
+## PROP_SYMMETRY ##
+###################
+
+data_prop_symmetry_[]
+    _name                      '_prop_symmetry_[]'
+    _category                    category_overview
+    _type                        null
+
+      _definition
+;              Data items in the PROP_SYMMETRY category record all details about
+               symmetry of the properties determined int he specific material
+;
+
+data_prop_symmetry_point_group_name_H-M
+    _name                      '_prop_symmetry_point_group_name_H-M'
+    _category                    prop_symmetry
+    _type                        char
+
+    _definition
+;              The macroscopic property symmetry can differ from that of the crystal point group. For instance, poling in ferroelectric single crystals can modify the global symmetry of dipoles depending on the poling direction.
+;
+
+###############
+## PROP_DATA ##
+###############
+##
+##data_prop_data_[]
+##    _name                      '_prop_data_[]'
+##    _category                    category_overview
+##    _type                        null
+##
+##      _definition
+##;              Data items in the PROP_PROPDATA category include general 
+##               data tags to include in loops in order to adapt 
+##               theCIF structure ti properties
+##;
+
+data_prop_data_label
+    _name                      '_prop_data_label'
+    _category                    prop
+    _type                        char
+    _list                        yes
+    _list_mandatory              yes
+
+    _definition
+;              label defined through a specific property tag:
+               e.g.: _prop_thermal_expansion_Tij 'Tij' (the label is Tij)
+;
+
+data_prop_data_value
+    _name                      '_prop_data_value'
+    _category                    prop
+    _type                        numb
+    _type_conditions             esd
+    _list                        yes
+    _list_mandatory              yes
+
+    _definition
+;              ther values of the property defined with the property label
+               _propdata_value      
+               and the tensorial index
+               _propdata_tensorial_index
+;
+
+data_prop_data_uncertainty
+    _name                      '_prop_data_uncertainty'
+    _category                    prop
+    _type                        numb
+    _type_conditions             esd
+    _list                        yes
+    _list_mandatory              no
+
+    _definition
+;              this allows the insertion of a standard uncertainty 
+this extends the capabilities of the cif for which a single digit can be indicated
+e.g. 123(5) but more complicated values are not allowed e.g. 7.5(1.5)
+;
+
+data_prop_data_tensorial_index
+    _name                      '_prop_data_tensorial_index'
+    _category                    prop
+    _type                        numb
+    _list                        yes
+    _list_mandatory              no
+
+    _definition
+;              tensorial index for the property
+;
+
+#####################
+## PROP_DIELECTRIC ##
+#####################
+##
+##data_prop_dielectric_[]
+##    _name                      '_prop_dielectric_[]'
+##    _category                    category_overview
+##    _type                        null
+##
+##      _definition
+##;              The PROP_DIELECTRIC category groups dielectric properties
+##;
+
+
+data_prop_dielectric_permittivity_relative_epsrij
+    _name                      '_prop_dielectric_permittivity_relative_epsrij'
+    _category                    prop
+    _type                        char
+    _units                       1
+    _units_detail              'pure number'
+
+    _definition
+;              relative dielectric permittivity epsrij
+               ij = 11 – 33
+;
+
+data_prop_dielectric_permittivity_relative_epsrijS
+    _name                      '_prop_dielectric_permittivity_relative_epsrijS'
+    _category                    prop
+    _type                        char
+    _units                       1
+    _units_detail              'pure number'
+
+    _definition
+;              relative dielectric permittivity epsrijS
+               ij = 11 – 33
+;
+
+data_prop_dielectric_permittivity_relative_epsrijT
+    _name                      '_prop_dielectric_permittivity_relative_epsrijT'
+    _category                    prop
+    _type                        char
+    _units                       1
+    _units_detail              'pure number'
+
+    _definition
+;              relative dielectric permittivity epsrijT
+               ij = 11 – 33
+;
+
+data_prop_dielectric_stiffness_relative_betrijS
+    _name                      '_prop_dielectric_stiffness_relative_betrijS'
+    _category                    prop
+    _type                        char
+    _units                       10^-4
+    _units_detail              'pure number'
+
+    _definition
+;              relative dielectric stiffness betrijS
+               ij = 11 – 33
+;
+
+data_prop_dielectric_stiffness_relative_betrijT
+    _name                      '_prop_dielectric_stiffness_relative_betrijT'
+    _category                    prop
+    _type                        char
+    _units                       10^-4
+    _units_detail              'pure number'
+
+    _definition
+;              relative dielectric stiffness betrijT
+               ij = 11 – 33
+;
+
+##################
+## PROP_ELASTIC ##
+##################
+##
+##data_prop_elastic_[]
+##    _name                      '_prop_elastic_[]'
+##    _category                    category_overview
+##    _type                        null
+##
+##      _definition
+##;              The PROP_ELASTIC category groups elastic properties
+##;
+
+data_prop_elastic_stiffness_cij
+    _name                      '_prop_elastic_stiffness_cij'
+    _category                    prop
+    _type                        char
+    _units                       GPa
+    _units_detail              'giga Pascal'
+
+    _definition
+;              If the indices are from 1-6, then Voigt notation is used. In the above notation, i,j, should take the values of 1-3, not 1-6. Also, for piezoelectric materials, we have to write elastic constants and piezoelectric constants in the same equation because the elastic constants have constant D and constant E difference. It depends on the electric boundary condition when the elastic properties are measured. The same is true also for the piezoelectric coefficients defined below.
+               elastic stiffness
+               ij = 11 – 66
+;
+
+data_prop_elastic_stiffness_cijD
+    _name                      '_prop_elastic_stiffness_cijD'
+    _category                    prop
+    _type                        char
+    _units                       GPa
+    _units_detail              'giga Pascal'
+
+    _definition
+;              elastic stiffness cijD
+               ij = 11 – 66
+;
+
+data_prop_elastic_stiffness_cijE
+    _name                      '_prop_elastic_stiffness_cijE'
+    _category                    prop
+    _type                        char
+    _units                       GPa
+    _units_detail              'giga Pascal'
+
+    _definition
+;              elastic stiffness cijE
+               ij = 11 – 66
+;
+
+data_prop_elastic_stiffness_cijS
+    _name                      '_prop_elastic_stiffness_cijS'
+    _category                    prop
+    _type                        char
+    _units                       GPa
+    _units_detail              'giga Pascal'
+
+    _definition
+;              elastic stiffness cijS
+               ij = 11 – 66
+;
+
+data_prop_elastic_compliance_sij
+    _name                      '_prop_elastic_compliance_sij'
+    _category                    prop
+    _type                        char
+    _units                       10^-12.m^2.Pa^-1
+    _units_detail              'metre square over tera pascal'
+
+    _definition
+;              elastic compliance sij
+               ij = 11 – 66
+;
+
+data_prop_elastic_compliance_sijD
+    _name                      '_prop_elastic_compliance_sijD'
+    _category                    prop
+    _type                        char
+    _units                       10^-12.m^2.Pa^-1
+    _units_detail              'metre square over tera pascal'
+
+    _definition
+;              elastic compliance sijD
+               ij = 11 – 66
+;
+
+data_prop_elastic_compliance_sijE
+    _name                      '_prop_elastic_compliance_sijE'
+    _category                    prop
+    _type                        char
+    _units                       10^-12.m^2.Pa^-1
+    _units_detail              'metre square over tera pascal'
+
+    _definition
+;              elastic compliance sijE
+               ij = 11 – 66
+;
+
+
+##########################################
+## THIRD ORDER ELASTIC CONSTANTS (TOEC) ##
+##########################################
+
+data_prop_elastic_TOEC_stiffness_cijk
+    _name                      '_prop_elastic_TOEC_stiffness_cijk'
+    _category                    prop
+    _type                        char
+    _units                       GPa
+    _units_detail              'giga pascal'
+
+    _definition
+;              third order elastic constants
+               ij = 111 – 666
+;
+
+
+###################
+## PROP_ELECTRIC ##
+###################
+##
+##data_prop_electric_[]
+##    _name                      '_prop_electric_[]'
+##    _category                    category_overview
+##    _type                        null
+##
+##      _definition
+##;              The PROP_ELECTRIC category groups electric properties
+##;
+
+
+data_prop_electric_charge_carrier_concentration_n
+    _name                      '_prop_electric_charge_carrier_concentration_n'
+    _category                    prop
+    _type                        numb
+    _type_conditions             esd
+    _list                        both
+    _units                       '10^19 cm-3'
+    _units_detail              'atoms per cubic centimetre'
+
+    _definition
+;              ther values of the property defined with the property label
+               _propdata_value      
+               and the tensorial index
+               _propdata_tensorial_index
+;
+
+data_prop_electric_resistivity_rhoeij
+    _name                      '_prop_electric_resistivity_rhoeij'
+    _category                    prop
+    _type                        char
+    _units                       '10^-6 Ohm.cm'
+    _units_detail              'micro Ohm per centimetre'
+
+    _definition
+;              electric resistivity tensor rhoeij
+               ij = 11 – 33
+;
+
+data_prop_electric_remnant_polarisation_Pri
+    _name                      '_prop_electric_remnant_polarisation_Pri'
+    _category                    prop
+    _type                        char
+    _units                       '10^-6 Ohm.cm^-2'
+    _units_detail              'micro Ohm per square centimetre'
+
+    _definition
+;              electric remnant polarisation Pri 
+               i = 1 – 3
+;
+
+data_prop_electric_coercive_field_Eci
+    _name                      '_prop_electric_coercive_field_Eci'
+    _category                    prop
+    _type                        char
+    _units                       'kV.cm^-1'
+    _units_detail              'kilovolts per centimetre'
+
+    _definition
+;              electric coercive field Pri 
+               i = 1 – 3
+;
+
+##########################
+## PROP_HEAT_CAPACITY_C ##
+##########################
+
+data_prop_heat_capacity_C
+    _name                      '_prop_heat_capacity_C'
+    _category                    prop
+    _type                        char
+    _units                       Jg^-1K^-1
+    _units_detail              'joules per gram per kelvin'
+
+    _definition
+;              heat capacity C
+;
+
+##################################
+## PROP_INTERNAL_FRICTION_Qij-1 ##
+##################################
+
+data_prop_internal_friction_Qij-1
+    _name                      '_prop_internal_friction_Qij-1'
+    _category                    prop
+    _type                        char
+    _units                       10^-4
+    _units_detail              'pure number'
+
+    _definition
+;              internal frinction Qij
+               ij = 11 – 66
+;
+
+#########################################
+## PROP_ELECTROMECHANICAL_COUPLING_Kij ##
+#########################################
+
+data_prop_electromechanical_coupling_kij
+    _name                      '_prop_electromechanical_coupling_kij'
+    _category                    prop
+    _type                        char
+    _units                       1
+    _units_detail              'pure number'
+
+    _definition
+;              electromechanical coupling
+               ij = 11 – 36
+;
+
+##################
+## PROP_OPTICAL ##
+##################
+##
+##data_prop_optical_[]
+##    _name                      '_prop_optical_[]'
+##    _category                    category_overview
+##    _type                        null
+##
+##      _definition
+##;              The PROP_OPTICAL category groups optical properties
+##;
+
+data_prop_optical_index_ordinary_no
+    _name                      '_prop_optical_index_ordinary_no'
+    _category                    prop
+    _type                        char
+    _units                       1
+    _units_detail              'pure number'
+
+    _definition
+;              ordinary optical index in linear birefringence
+;
+
+data_prop_optical_index_extraordinary_ne
+    _name                      '_prop_optical_index_extraordinary_ne'
+    _category                    prop
+    _type                        char
+    _units                       1
+    _units_detail              'pure number'
+
+    _definition
+;              extraordinary optical index in linear birefringence
+;
+
+data_prop_optical_index_principal_Ni
+    _name                      '_prop_optical_index_principal_Ni'
+    _category                    prop
+    _type                        char
+    _units                       1
+    _units_detail              'pure number'
+
+    _definition
+;              principal optical index in birefringence
+;
+
+
+########################
+## PROP_PIEZOELECTRIC ##
+########################
+##
+##data_prop_piezoelectric_[]
+##    _name                      '_prop_piezoelectric_[]'
+##    _category                    category_overview
+##    _type                        null
+##
+##      _definition
+##;              The PROP_PIEZOELECTRIC category groups piezoelectric properties
+##;
+
+data_prop_piezoelectric_gij
+    _name                      '_prop_piezoelectric_gij'
+    _category                    prop
+    _type                        char
+    _units                       C.m^-2
+    _units_detail              'coulomb oer square metre'
+
+    _definition
+;              piezoelectric gij
+               ij = 11 – 36
+;
+
+data_prop_piezoelectric_eij
+    _name                      '_prop_piezoelectric_eij'
+    _category                    prop
+    _type                        char
+    _units                       C.N^-1
+    _units_detail              'coulomb per newton'
+
+    _definition
+;              
+               ij = 11 – 36
+;
+
+data_prop_piezoelectric_hij
+    _name                      '_prop_piezoelectric_hij'
+    _category                    prop
+    _type                        char
+    _units                       V.m.N^-1
+    _units_detail              'volt metre per newton'
+
+    _definition
+;              piezoelectric hij
+               ij = 11 – 36
+;
+
+data_prop_piezoelectric_dij
+    _name                      '_prop_piezoelectric_dij'
+    _category                    prop
+    _type                        char
+    _units                       m.V^-1
+    _units_detail              'meter per volt'
+
+    _definition
+;              piezoelectric dij
+               ij = 11 – 36
+;
+
+#####################
+## PROP_PIEZOOPTIC ##
+#####################
+##
+##data_prop_piezooptic_[]
+##    _name                      '_prop_piezooptic_[]'
+##    _category                    category_overview
+##    _type                        null
+##
+##      _definition
+##;              The PROP_PIEZOOPTIC category groups piezooptic properties
+##;
+
+data_prop_piezooptic_piij
+    _name                      '_prop_piezooptic_piij'
+    _category                    prop
+    _type                        char
+    _units                       MPa^-1
+    _units_detail              'one over mega Pascal'
+
+    _definition
+;              piezooptic piij
+               ij = 11 – 66
+;
+
+###############################
+## PROP_RESIDUAL_RESISTIVITY ##
+###############################
+##
+##data_prop_residual_resistivity_[]
+##    _name                      '_prop_residual_resistivity_[]'
+##    _category                    category_overview
+##    _type                        null
+##
+##      _definition
+##;              The PROP_RESIDUAL_RESISTIVITY category groups properties related to the 
+##residaul resistivity, typically the ratio, typically for superconducting materials
+##;
+
+data_prop_residual_resistivity_ratio
+    _name                      '_prop_residual_resistivity_ratio'
+    _category                    prop
+    _type                        char
+    _units                       1
+    _units_detail              'pure number'
+
+    _definition
+;              The residual resistivity ratio: 
+ratio of resistivities measured at temperatures
+prop_residual_resistivity_ratio_high_temperature
+prop_residual_resistivity_ratio_low_temperature
+;
+
+data_prop_residual_resistivity_ratio_high_temperature
+    _name                      '_prop_residual_resistivity_ratio_high_temperature'
+    _category                    prop
+    _type                        char
+    _units                       K
+    _units_detail              'kelvin'
+
+    _definition
+;              The higher temperature where the resistivity is measured to determine
+residual resistivity ratio. Typical temperatures are 293K or 300K
+;
+
+data_prop_residual_resistivity_ratio_low_temperature
+    _name                      '_prop_residual_resistivity_ratio_low_temperature'
+    _category                    prop
+    _type                        char
+    _units                       K
+    _units_detail              'kelvin'
+
+    _definition
+;              The lower temperature where the resistivity is measured to determine
+residual resistivity ratio.
+;
+
+##########################
+## PROP_SUPERCONDUCTING ##
+##########################
+##
+##data_prop_superconducting_[]
+##    _name                      '_prop_superconducting_[]'
+##    _category                    category_overview
+##    _type                        null
+##
+##      _definition
+##;              The PROP_SUPERCONDUCTING category groups superconduction properties
+##;
+
+data_prop_superconducting_critical_temperature_thermodynamic
+    _name                      '_prop_superconducting_critical_temperature_thermodynamic'
+    _category                    prop
+    _type                        char
+    _units                       K
+    _units_detail              'kelvin'
+    _list                        both
+    _definition
+;              Thermodynamic critical temperature for superconduction
+;
+
+data_prop_superconducting_critical_temperature_onset
+    _name                      '_prop_superconducting_critical_temperature_onset'
+    _category                    prop
+    _type                        char
+    _units                       K
+    _units_detail              'kelvin'
+
+    _definition
+;              Temperature in the resistivity curve where the transition to superconduction begins
+;
+
+data_prop_superconducting_critical_temperature_onset_90
+    _name                      '_prop_superconducting_critical_temperature_onset_90'
+    _category                    prop
+    _type                        char
+    _units                       K
+    _units_detail              'kelvin'
+
+    _definition
+;              Temperature in the resistivity curve where the transition to superconduction begins
+measured at 90% of the normal state resistivity
+;
+
+data_prop_superconducting_critical_temperature_mid_50
+    _name                      '_prop_superconducting_critical_temperature_mid_50'
+    _category                    prop
+    _type                        char
+    _units                       K
+    _units_detail              'kelvin'
+
+    _definition
+;              Temperature in the resistivity curve where the transition to superconduction is
+ at 50% of the normal state resistivity
+;
+
+data_prop_superconducting_critical_temperature_offset_10
+    _name                      '_prop_superconducting_critical_temperature_offset_10'
+    _category                    prop
+    _type                        char
+    _units                       K
+    _units_detail              'kelvin'
+
+    _definition
+;              Temperature in the resistivity curve where the transition to superconduction is basically complete, that is at 10% of the normal state resistivity
+;
+
+data_prop_superconducting_zero_resistivity_temperature
+    _name                      '_prop_superconducting_zero_resistivity_temperature'
+    _category                    prop
+    _type                        char
+    _units                       K
+    _units_detail              'kelvin'
+
+    _definition
+;              temperature for zero resistivity
+;
+
+data_prop_superconducting_resistivity_transition_width
+    _name                      '_prop_superconducting_resistivity_transition_width'
+    _category                    prop
+    _type                        char
+    _units                       K
+    _units_detail              'kelvin'
+
+    _definition
+;              width in temperature of the transition to superconduction 
+;
+
+data_prop_superconducting_critical_field1_Hc1i
+    _name                      '_prop_superconducting_critical_field1_Hc1i'
+    _category                    prop
+    _type                        char
+    _units                       T
+    _units_detail              'tesla'
+
+    _definition
+;              superconducting critical field1 Hc1i
+               i = 1 - 3
+;
+
+data_prop_superconducting_critical_field2_Hc2i
+    _name                      '_prop_superconducting_critical_field2_Hc2i'
+    _category                    prop
+    _type                        char
+    _units                       T
+    _units_detail              'tesla'
+
+    _definition
+;              superconducting critical field2 Hc2i
+               i = 1 - 3
+;
+
+data_prop_superconducting_irreversibility_field_Hirri
+    _name                      '_prop_superconducting_irreversibility_field_Hirri'
+    _category                    prop
+    _type                        char
+    _units                       T
+    _units_detail              'tesla'
+
+    _definition
+;              superconducting irreversibility field Hirri
+               i = 1 - 3
+;
+
+data_prop_superconducting_coherence_length_ksii
+    _name                      '_prop_superconducting_coherence_length_ksii'
+    _category                    prop
+    _type                        char
+    _units                       nm
+    _units_detail              'nanometre'
+
+    _definition
+;              superconducting coherence length ksii
+               i = 1 - 3
+;
+
+data_prop_superconducting_penetration_depth_lambdai
+    _name                      '_prop_superconducting_penetration_depth_lambdai'
+    _category                    prop
+    _type                        char
+    _units                       nm
+    _units_detail              'nanometre'
+
+    _definition
+;              superconducting penetration depth lambdai
+               penetration depth along direction i
+               i = 1 - 3
+;
+
+###########################
+## PROP_ELECTROSTRICTION ##
+###########################
+##
+##data_prop_electrostriction_[]
+##    _name                      '_prop_electrostriction_[]'
+##    _category                    category_overview
+##    _type                        null
+##
+##      _definition
+##;              The PROP_ELECTROSTRICTION category groups electrostriction properties
+##;
+
+data_prop_electrostriction_Dij
+    _name                      '_prop_electrostriction_Dij'
+    _category                    prop
+    _type                        char
+    _units                       '10^-20.m^2.V^-2 and m^4.C^-2'
+    _units_detail              '10^-20.m^2V^-2 and m^4.C^-2'
+
+    _definition
+;              electrostriction Dij
+               ij = 11 – 66
+;
+
+data_prop_electrostriction_Dprimeij
+    _name                      '_prop_electrostriction_Dprimeij'
+    _category                    prop
+    _type                        char
+    _units                       '10^-20.m^2.V^-2 and m^4.C^-2'
+    _units_detail              '10^-20.m^2V^-2 and m^4.C^-2'
+
+    _definition
+;              electrostriction D'ij
+               ij = 11 – 66
+;
+
+#######################
+## PROP_PHOTOELASTIC ##
+#######################
+##
+##data_prop_photoelastic_[]
+##    _name                      '_prop_photoelastic_[]'
+##    _category                    category_overview
+##    _type                        null
+##
+##      _definition
+##;              The PROP_PHOTOELASTIC category groups photoelastic properties
+##;
+
+data_prop_photoelastic_pij
+    _name                      '_prop_photoelastic_pij'
+    _category                    prop
+    _type                        char
+    _units                       1
+    _units_detail              'pure number'
+
+    _definition
+;              photoelastic pij
+               ij = 11 – 66
+;
+
+data_prop_photoelastic_pijE
+    _name                      '_prop_photoelastic_pijE'
+    _category                    prop
+    _type                        char
+    _units                       1
+    _units_detail              'pure number'
+
+    _definition
+;              photoelastic pijE
+               ij = 11 – 66
+;
+
+##################
+## PROP_THERMAL ##
+##################
+##
+##data_prop_thermal_[]
+##    _name                      '_prop_thermal_[]'
+##    _category                    category_overview
+##    _type                        null
+##
+##      _definition
+##;              The PROP_THERMAL category groups thermal properties
+##;
+
+data_prop_thermal_conductivity_kappaij
+    _name                      '_prop_thermal_conductivity_kappaij'
+    _category                    prop
+    _type                        char
+    _units                       W.K^-1.m^-1
+    _units_detail              'watt per kelvin per metre'
+
+    _definition
+;              thermal conductivity kappaij
+               ij = 11 – 33
+;
+
+data_prop_thermal_diffusivity_kappadij
+    _name                      '_prop_thermal_diffusivity_kappadij'
+    _category                    prop
+    _type                        char
+    _units                       m^2.s^-1
+    _units_detail              'metre squared per second'		
+
+    _definition
+;              thermal diffusivity kappadij
+               ij = 11 – 33
+;
+
+data_prop_thermal_expansion_alphaij
+    _name                      '_prop_thermal_expansion_alphaij'
+    _category                    prop
+    _type                        char
+    _units                       10^-6.K^-1
+    _units_detail              'parts per million per kelvin'
+
+    _definition
+;              thermal expansion alphaij
+               ij = 11 – 33
+;
+
+data_prop_thermal_expansion_Tij
+    _name                      '_prop_thermal_expansion_Tij'
+    _category                    prop
+    _type                        char
+    _units                       MPa.K^-1
+    _units_detail              'megapascal per kelvin'
+
+    _definition
+;              thermal expansion Tij
+               ij = 11 – 66
+;
+
+
+########################
+## PROP_THERMOELASTIC ##
+########################
+##
+##data_prop_thermoelastic_[]
+##    _name                      '_prop_thermoelastic_[]'
+##    _category                    category_overview
+##    _type                        null
+##
+##      _definition
+##;              The PROP_THERMOELASTIC category groups thermoelstic properties
+##;
+
+###############
+## NONLINEAR ##
+###############
+
+data_prop_thermoelastic_stiffness_1storder_cij1T
+    _name                      '_prop_thermoelastic_stiffness_1storder_cij1T'
+    _category                    prop
+    _type                        char
+    _units                       10^-6.K^-1
+    _units_detail              'parts per million per kelvin'
+
+    _definition
+;              thermoelastic stiffness 1st order cij1T
+               ij = 11 – 66
+;
+
+data_prop_thermoelastic_stiffness_2ndorder_cij2T
+    _name                      '_prop_thermoelastic_stiffness_2ndorder_cij2T'
+    _category                    prop
+    _type                        char
+    _units                       10^-9.K^-1
+    _units_detail              'parts per million per kelvin'
+
+    _definition
+;              thermoelastic stiffness 2nd order cij2T
+               ij = 11 – 66
+;
+
+data_prop_thermoelastic_stiffness_3rdorder_cij3T
+    _name                      '_prop_thermoelastic_stiffness_3rdorder_cij3T'
+    _category                    prop
+    _type                        char
+    _units                       10^-12.K^-1
+    _units_detail              'parts per million per kelvin'
+
+    _definition
+;              thermoelastic stiffness 3rd order cij3T
+               ij = 11 – 66
+;
+
+data_prop_thermoelastic_compliance_1storder_sij1T
+    _name                      '_prop_thermoelastic_compliance_1storder_sij1T'
+    _category                    prop
+    _type                        char
+    _units                       10^-6.K^-1
+    _units_detail              'parts per million per kelvin'
+
+    _definition
+;              thermoelastic compliance 1st order sij1T
+               ij = 11 – 66
+;
+
+data_prop_thermoelastic_compliance_2ndorder_sij2T
+    _name                      '_prop_thermoelastic_compliance_2ndorder_sij2T'
+    _category                    prop
+    _type                        char
+    _units                       10^-9.K^-1
+    _units_detail              'parts per million per kelvin'
+
+    _definition
+;              thermoelastic compliance 2nd order sij2T
+               ij = 11 – 66
+;
+
+data_prop_thermoelastic_compliance_3rdorder_sij3T
+    _name                      '_prop_thermoelastic_compliance_3rdorder_sij3T'
+    _category                    prop
+    _type                        char
+    _units                       10^-12.K^-1
+    _units_detail              'parts per million per kelvin'
+
+    _definition
+;              thermoelastic compliance 3rd order sij3T
+               ij = 11 – 66
+;
+
+
+
+#########################
+## PROP_THERMOELECTRIC ##
+#########################
+##
+##data_prop_thermoelectric_[]
+##    _name                      '_prop_thermoelectric_[]'
+##    _category                    category_overview
+##    _type                        null
+##
+##      _definition
+##;              The PROP_THERMOELECTRIC category groups thermoelectric properties
+##;
+
+data_prop_thermoelectric_Seebeck_Seij
+    _name                      '_prop_thermoelectric_Seebeck_Seij'
+    _category                    prop
+    _type                        char
+    _units                       10^-6.V.K^-1
+    _units_detail              'parts per million volts per kelvin'
+
+    _definition
+;              thermoelectric Seebeck coefficient Seij
+               ij = 11 – 33
+;
+
+
+###################
+## PROP_MAGNETIC ##
+###################
+##
+##data_prop_magnetic_[]
+##    _name                      '_prop_magnetic_[]'
+##    _category                    category_overview
+##    _type                        null
+##
+##      _definition
+##;              The PROP_MAGNETIC category groups magnetic properties
+##;
+
+data_prop_magnetic_paramagnetic_critical_temperature_Neel
+    _name                      '_prop_magnetic_paramagnetic_critical_temperature_Neel'
+    _category                    prop
+    _type                        char
+    _units                       K
+    _units_detail              'kelvin'
+
+    _definition
+;              Critical temperature for the transition magnetic to paramagnetic 'TN'
+;
+
+data_prop_magnetic_paramagnetic_critical_temperature_Neel_transitionwidth
+    _name                      '_prop_magnetic_paramagnetic_critical_temperature_Neel_transitionwidth'
+    _category                    prop
+    _type                        char
+    _units                       K
+    _units_detail              'kelvin'
+
+    _definition
+;              Temperature interval for the transition magnetic to paramagnetic 'DeltaTN'
+;
+
+data_prop_magnetic_antiferromagnetic_ordering_temperature_Neel
+    _name                      '_prop_magnetic_antiferromagnetic_ordering_temperature_Neel'
+    _category                    prop
+    _type                        char
+    _units                       K
+    _units_detail              'kelvin'
+
+    _definition
+;              Temperature at which antiferromagnetic ordering appears
+               Label 'TN_AFM'
+;
+
+
+########################
+## PROP_ELECTRO_OPTIC ##
+########################
+##
+##data_prop_electro_optic_[]
+##    _name                      '_prop_electro_optic_[]'
+##    _category                    category_overview
+##    _type                        null
+##
+##      _definition
+##;              The PROP_ELECTRO_OPTIC category groups electro-optic properties
+##;
+
+data_prop_electrooptic_rijk
+    _name                      '_prop_electrooptic_rijk'
+    _category                    prop
+    _type                        char
+    _units                       10^-12.m.V
+    _units_detail              'parts per trillion metres volts'
+
+    _definition
+;              electrooptic coefficient rijk
+               ijk = 111 – 333
+;
+
+data_prop_electrooptic_rijkS
+    _name                      '_prop_electrooptic_rijkS'
+    _category                    prop
+    _type                        char
+    _units                       10^-12.m.V
+    _units_detail              'parts per trillion metres volts'
+
+    _definition
+;              electrooptic coefficient rijkS (strain free)
+               ijk = 111 – 333
+;
+
+data_prop_electrooptic_rijkT
+    _name                      '_prop_electrooptic_rijkT'
+    _category                    prop
+    _type                        char
+    _units                       10^-12.m.V
+    _units_detail              'parts per trillion metres volts'
+
+    _definition
+;              electrooptic coefficient rijkT (sterss free)
+               ijk = 111 – 333
+;
+
+
+#-eof-eof-eof-eof-eof-eof-eof-eof-eof-eof-eof-eof-eof-eof-eof-eof-eof-eof-eof

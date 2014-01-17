@@ -1,0 +1,76 @@
+#------------------------------------------------------------------------------
+#$Date: 2010-11-27 20:54:17 +0000 $
+#$Revision: 001 $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Material Properties Open Database (MPOD),
+# http://www.materialproperties.org/
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_1000067
+_cod_database_code               1010298
+_structure_refined 'no'
+_phase_name 'iron selenide'
+_chemical_formula_sum 'Fe1.03 Se'
+_symmetry_point_group_name_H-M '4/m m m'
+_cell_length_a  3.765
+_cell_length_c  5.518
+_phase_density ?
+loop_
+_publ_author_name
+'Ge, Junyi'
+'Cao, Shixun'
+'Yuan, Shujuan'
+'Kang, Baojuan'
+'Zhang, Jincang'
+_publ_section_title
+;
+ Three-dimensional superconductivity in nominal composition Fe1.03Se with Tc zero up to 10.9 K induced by internal strain
+;
+_journal_name_full               'Journal of Applied Physics'
+_journal_volume                  108
+_journal_issue                   5
+_journal_article_reference       053903
+_journal_pages_number            5
+_journal_year                    2010
+
+data_1000067a
+_prop_superconducting_critical_temperature_onset Tco
+_prop_superconducting_critical_temperature_onset_90 Tcon90
+_prop_superconducting_critical_temperature_mid_50 Tcm50
+_prop_superconducting_critical_temperature_offset_10 Tcoff10
+_prop_superconducting_critical_temperature_thermodynamic Tcth
+_prop_superconducting_zero_resistivity_temperature Tr0
+_prop_superconducting_resistivity_transition_width Rtw
+_prop_residual_resistivity_ratio RRR
+_prop_residual_resistivity_ratio_high_temperature RRTh
+_prop_residual_resistivity_ratio_low_temperature RRTl
+
+loop_
+_prop_data_label
+_prop_data_value
+Tco 14.0
+Tcon90 13.3
+Tcm50 12.2
+Tcoff10 11.4
+Tcth ?
+Tr0 10.9
+Rtw ?
+RRR 12
+RRTh 300
+RRTl 0
+
+data_1000067b
+_prop_superconducting_coherence_length_ksii 'ksii'
+loop_
+_prop_data_label
+_prop_data_tensorial_index
+_prop_data_value
+ksii 1 ?
+ksii 2 ?
+ksii 3 0.92
+
+

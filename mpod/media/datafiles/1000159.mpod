@@ -1,0 +1,63 @@
+#------------------------------------------------------------------------------
+#$Date: 2011-03-30 16.38:00 +0000 $
+#$Revision: 001 $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Material Properties Open Database (MPOD),
+# http://www.materialproperties.org/
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_1000159
+_cod_database_code 9008860
+_structure_refined 'no'
+_phase_name 'Aluminum nitride oxygenated'
+_phase_formula AlN:O
+_chemical_formula_sum 'Al N O0.06'
+_symmetry_point_group_name_H-M '6 m m'
+_cell_length_a 3.111
+_cell_length_b 3.111
+_cell_length_c 4.978
+_cell_angle_alpha  90
+_cell_angle_beta   90
+_cell_angle_gamma  120
+loop_
+_publ_author_name
+'Kazan, M.'
+'Ruffle, B.'
+'Zgheib, Ch.'
+'Masri, P.'
+_publ_section_title
+;
+ Phonon dynamics in AlN lattice contaminated by oxygen
+;
+_journal_name_full               'Diamond & Related Materials'
+_journal_volume                  15
+_journal_issue                   ?
+_journal_page_first              1525
+_journal_page_last               1534
+_journal_year                    2006
+_phase_density 3230
+
+_prop_conditions_temperature ?
+_prop_elastic_stiffness_cij 'cij'
+_prop_conditions_wavelength 0.5145
+loop_
+_prop_data_label
+_prop_data_tensorial_index
+_prop_data_value
+_prop_measurement_method
+cij 11 394.1(1.0) BS
+cij 12 133.4(2.0) BS
+cij 13 95.2(1.0) BS
+cij 14 0 BS
+cij 22 394.1(1.0) BS
+cij 23 95.2(1.0) BS
+cij 24 0 BS
+cij 33 402(1) BS
+cij 44 120.1(1.0) BS
+cij 55 120.1(1.0) BS
+cij 56 0 BS
+cij 66 130 BS

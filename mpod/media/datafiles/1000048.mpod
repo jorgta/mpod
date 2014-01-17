@@ -1,0 +1,158 @@
+#------------------------------------------------------------------------------
+#$Date: 2010-09-30 10:46:17 +0000 (Thu, 30 Sep 2010) $
+#$Revision: 001 $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Material Properties Open Database (MPOD),
+# http://www.mpod.net/
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_1000048
+_cod_database_code               ?
+_structure_refined 'no'
+_phase_name Pb(Mg1/3Nb2/3)O3-PbTiO3(0.33)
+_chemical_formula_sum 'Pb Nb0.447 Mg0.223 Ti0.33 O3'
+_phase_generic 'PMN-PT'
+_symmetry_point_group_name_H-M 3m
+_cell_length_a  ?
+_cell_length_c  ?
+loop_
+_publ_author_name
+'Zhang Rui'
+'Jiang Bei'
+'Cao Wenwu'
+_publ_section_title
+;
+Single-domain properties of 0.67Pb(Mg1/3Nb2/3)O3-0.33PbTiO3 single crystals under electric field bias
+;
+_journal_name_full               'Applied Physics Letters'
+_journal_volume                  82
+_journal_issue                   5
+_journal_page_first              787
+_journal_page_last               789
+_journal_year                    2003
+_phase_density ?
+_phase_transition_temperature_rhomb_tetra ?
+_phase_transition_temperature_curie ?
+_prop_measurement_poling '[111]c'
+_prop_symmetry_point_group_name_H-M 3m
+_prop_frame '1=[0-11]c 2=[011]c 3=[111]c'
+_prop_elastic_compliance_sijD 'sijD'
+_prop_elastic_compliance_sijE 'sijE'
+_prop_elastic_stiffness_cijD 'cijD'
+_prop_elastic_stiffness_cijE 'cijE'
+_prop_electromechanical_coupling_kij 'kij'
+_prop_piezoelectric_dij 'dij'
+_prop_piezoelectric_eij 'eij'
+_prop_piezoelectric_gij 'gij'
+_prop_piezoelectric_hij 'hij'
+_prop_dielectric_permittivity_relative_epsrijS 'epsrijS'
+_prop_dielectric_permittivity_relative_epsrijT 'epsrijT'
+_prop_dielectric_stiffness_relative_betrijS 'betrijS'
+_prop_dielectric_stiffness_relative_betrijT 'betrijT'
+loop_
+_prop_data_label
+_prop_data_tensorial_index
+_prop_data_value
+_prop_measurement_method
+_prop_conditions_frequency
+cijE 11 201.2 'RUS' ?
+cijE 12 73.6 'RUS' ?
+cijE 13 115 'RUS' ?
+cijE 14 41.5 'RUS' ?
+cijE 22 201.2 'RUS' ?
+cijE 23 115 'RUS' ?
+cijE 24 -41.5 'RUS' ?
+cijE 33 171.2 'RUS' ?
+cijE 44 29 'RUS' ?
+cijE 55 29 'RUS' ?
+cijE 56 41.5 'RUS' ?
+cijE 66 63.8 'RUS' ?
+cijD 11 204.3 'RUS' ?
+cijD 12 76.2 'RUS' ?
+cijD 13 103.2 'RUS' ?
+cijD 14 38.7 'RUS' ?
+cijD 22 204.3 'RUS' ?
+cijD 23 103.2 'RUS' ?
+cijD 24 -38.7 'RUS' ?
+cijD 33 219.4 'RUS' ?
+cijD 44 56.3 'RUS' ?
+cijD 55 56.3 'RUS' ?
+cijD 56 38.7 'RUS' ?
+cijD 66 65 'RUS' ?
+sijE 11 62.16 'RUS' ?
+sijE 12 -53.85 'RUS' ?
+sijE 13 -5.58 'RUS' ?
+sijE 14 -166.24 'RUS' ?
+sijE 22 62.16 'RUS' ?
+sijE 23 -5.58 'RUS' ?
+sijE 24 166.24 'RUS' ?
+sijE 33 13.34 'RUS' ?
+sijE 44 510.98 'RUS' ?
+sijE 55 510.98 'RUS' ?
+sijE 56 -166.24 'RUS' ?
+sijE 66 232.02 'RUS' ?
+sijD 11 9.39 'RUS' ?
+sijD 12 -3.94 'RUS' ?
+sijD 13 -2.57 'RUS' ?
+sijD 14 -9.15 'RUS' ?
+sijD 22 9.39 'RUS' ?
+sijD 23 103.2 'RUS' ?
+sijD 24 9.15 'RUS' ?
+sijD 33 6.97 'RUS' ?
+sijD 44 30.33 'RUS' ?
+sijD 55 30.33 'RUS' ?
+sijD 56 -9.15 'RUS' ?
+sijD 66 26.65 'RUS' ?
+eij 15 7.52 'RUS' ?
+eij 16 -1.56 'RUS' ?
+eij 21 -0.78 'RUS' ?
+eij 22 0.78 'RUS' ?
+eij 24 7.52 'RUS' ?
+eij 31 -2.88 'RUS' ?
+eij 32 -2.88 'RUS' ?
+eij 33 11.83 'RUS' ?
+dij 15 4100 'RUS' ?
+dij 16 -2680 'RUS' ?
+dij 21 -1340 'RUS' ?
+dij 22 1340 'RUS' ?
+dij 24 4100 'RUS' ?
+dij 31 -90 'RUS' ?
+dij 32 -90 'RUS' ?
+dij 33 190 'RUS' ?
+gij 15 11.72 'RUS' ?
+gij 16 -7.66 'RUS' ?
+gij 21 -3.83 'RUS' ?
+gij 22 3.83 'RUS' ?
+gij 24 11.72 'RUS' ?
+gij 31 -1.59 'RUS' ?
+gij 32 -1.59 'RUS' ?
+gij 33 3.35 'RUS' ?
+hij 15 36.38 'RUS' ?
+hij 16 -7.56 'RUS' ?
+hij 21 -3.78 'RUS' ?
+hij 22 3.78 'RUS' ?
+hij 24 36.38 'RUS' ?
+hij 31 -9.94 'RUS' ?
+hij 32 -9.94 'RUS' ?
+hij 33 40.78 'RUS' ?
+kij 15 0.7 'RUS' ?
+kij 24 0.7 'RUS' ?
+kij 31 0.15 'RUS' ?
+kij 32 0.15 'RUS' ?
+kij 33 0.69 'RUS' ?
+epsrijT 11 3950 'CAP' ?
+epsrijT 22 3950 'CAP' ?
+epsrijT 33 640 'CAP' ?
+betrijT 11 2.53 'CAP' ?
+betrijT 22 2.53 'CAP' ?
+betrijT 33 15.63 'CAP' ?
+epsrijS 11 233 'CAP' ?
+epsrijS 22 233 'CAP' ?
+epsrijS 33 628 'CAP' ?
+betrijS 11 42.84 'CAP' ?
+betrijS 22 42.84 'CAP' ?
+betrijS 33 30.53 'CAP' ?

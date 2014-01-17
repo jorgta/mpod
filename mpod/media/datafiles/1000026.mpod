@@ -1,0 +1,94 @@
+#------------------------------------------------------------------------------
+#$Date: 2010-09-30 10:46:17 +0000 (Thu, 30 Sep 2010) $
+#$Revision: 001 $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Material Properties Open Database (MPOD),
+# http://www.mpod.net/
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_1000026
+_cod_database_code               ?
+_structure_refined 'no'
+_phase_name KTiOAsO4
+_chemical_formula_sum 'K Ti As O5'
+_phase_generic 'KTA'
+_symmetry_point_group_name_H-M mm2
+_cell_length_a  13.14
+_cell_length_b  6.58
+_cell_length_c  10.79
+loop_
+_publ_author_name
+'Gao Z.L.' 
+'Sun Y.X.'
+'Yin X.'
+'Wang S.P.'
+'Jiang M.H.'
+'Tao X.T.'
+_publ_section_title
+;
+Growth and electric-elastic properties of KTiAsO4 single crystal
+;
+_journal_name_full               'Journal of Applied Physics'
+_journal_volume                  108
+_journal_issue                   2
+_journal_article_reference       024103
+_journal_pages_number             4
+_journal_year                    2010
+_phase_density ?
+_prop_symmetry_point_group_name_H-M mm2
+_prop_frame '1=[010] 2=[001] 3=[100]'
+_prop_measurement_poling ?
+_prop_conditions_temperature 298
+_prop_elastic_compliance_sij 'sij'
+_prop_elastic_stiffness_cij 'cij'
+_prop_electromechanical_coupling_kij 'kij'
+_prop_piezoelectric_dij 'dij'
+_prop_piezoelectric_eij 'eij'
+_prop_dielectric_permittivity_relative_epsrij 'epsrij'
+loop_
+_prop_data_label
+_prop_data_tensorial_index
+_prop_data_value
+_prop_measurement_method
+_prop_conditions_frequency
+cij 11 69.4 'RT' ?
+cij 12 -57 'RT' ?
+cij 13 32.1 'RT' ?
+cij 22 188 'RT' ?
+cij 23 -64 'RT' ?
+cij 33 149.5 'RT' ?
+cij 44 58 'RT' ?
+cij 55 45.5 'RT' ?
+cij 66 36.8 'RT' ?
+sij 11 7.92 'RT' ?
+sij 12 2.38 'RT' ?
+sij 13 -0.15 'RT' ?
+sij 22 6.94 'RT' ?
+sij 23 2.62 'RT' ?
+sij 33 7.83 'RT' ?
+sij 44 17.24 'RT' ?
+sij 55 22 'RT' ?
+sij 66 27.14 'RT' ?
+dij 15 11.95 'RT' ?
+dij 24 11.19 'RT' ?
+dij 31 -3.357 'RT' ?
+dij 32 -4.29 'RT' ?
+dij 33 12.9 'RT' ?
+eij 15 0.54 'RT' ?
+eij 24 0.65 'RT' ?
+eij 31 0.05 'RT' ?
+eij 32 -1.44 'RT' ?
+eij 33 2.13 'RT' ?
+kij 15 0.132 'RT' ?
+kij 24 0.132 'RT' ?
+kij 31 0.826 'RT' ?
+kij 32 0.1128 'RT' ?
+kij 33 0.1383 'RT' ?
+epsrij 11 12.9 'CAP' 1
+epsrij 22 12.2 'CAP' 1
+epsrij 33 20.54 'CAP' 1
+

@@ -1,0 +1,48 @@
+#------------------------------------------------------------------------------
+#$Date: 2011-03-28 22:15:00 +0000 $
+#$Revision: 001 $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Material Properties Open Database (MPOD),
+# http://www.materialproperties.org/
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_1000142
+_cod_database_code               4300180
+_structure_refined 'no'
+_phase_name 'sodium chloride'
+_chemical_formula_sum 'Na Cl'
+_symmetry_point_group_name_H-M 'm -3 m'
+_cell_length_a  5.6393
+loop_
+_publ_author_name
+'Durand, Milo A.'
+_publ_section_title
+;
+ The temperature variation of the elastic moduli of NaCl, KCl and MgO
+;
+_journal_name_full               'Physical Review'
+_journal_volume                  50
+_journal_issue                   5
+_journal_page_first              449
+_journal_page_last               455
+_journal_year                    1936
+_prop_measurement_method '?'
+_prop_conditions_temperature ?
+_prop_elastic_compliance_sij 'sij'
+loop_
+_prop_data_label
+_prop_data_tensorial_index
+_prop_data_value
+sij 11 22.5
+sij 12 -4.67
+sij 13 -4.67
+sij 22 22.5
+sij 23 -4.67
+sij 33 22.5
+sij 44 78.7
+sij 55 78.7
+sij 66 78.7
