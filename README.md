@@ -1,4 +1,4 @@
-mpod
+MPOD
 ====
 
 Material Properties Open Database
