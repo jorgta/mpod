@@ -176,7 +176,7 @@ def view_data_item(request, dataitem_id):
         "horizontal_menu":my_horiz_menu,
         "html_dataitem":html_dataitem,
 ##        "html_gen_props":html_gen_props,
-        "html_tables":html_tables
+        "html_tables":html_tables,
         }
         ))
     response=HttpResponse(html)
@@ -347,3 +347,24 @@ def upload_success(request):
     aa=data_base(request,'data/upload_success.html')
     return HttpResponse(aa)
 
+##Mi intento
+def tabla(request, dataitem_id):
+#    ogge = DataFile.objects.get(code__exact = dataitem_id)
+    t = get_template('data/datafile_view.html')
+    request_path=request.get_full_path()
+    debug_info=request_path
+    my_verti_menu=menus.menu(my_menus.data_verti_menu, request_path, 0)
+    my_horiz_menu=menus.menu(my_menus.mpod_horiz_menu, request_path, 0)
+##    html_dataitem, html_gen_props, html_tables = data_item_html(dataitem_id)
+    html_dataitem, html_tables = data_item_html(dataitem_id)
+    html = t.render(Context(
+        {"vertical_menu":my_verti_menu,
+        "horizontal_menu":my_horiz_menu,
+        "html_dataitem":html_dataitem,
+##        "html_gen_props":html_gen_props,
+        "html_tables":html_tables,
+        }
+        ))
+    response=HttpResponse(html)
+##    response.write(debug_info)
+    return HttpResponse(response)

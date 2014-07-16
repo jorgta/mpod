@@ -1,6 +1,12 @@
+    <script language="javascript"> 
+    function fun_iFrameWrite(par_ID_iFrame, par_URL){
+       document.getElementById(par_ID_iFrame).src = par_URL;
+    }
+  </script> 
 {% if header %}
    {{header|safe}}
 {% endif %}
+
 <br />
 {% if formatted_data_blocks %}
 	{% for block in formatted_data_blocks %}
@@ -29,7 +35,7 @@
 							<tbody>
 							{% for lp in sec.0 %}
 								<tr class="{% cycle 'row1' 'row2' %}">
-								<td><a href="/exparcond/{{lp.1}}">{{lp.0}}</a></td><td>{{lp.2}}</td><td>:</td> <td>{{lp.3}} </td>
+								<td><a href="/exparcond/{{lp.1}}">{{lp.0}}</a></td><td>{{lp.2}}</td><td>:</td> <td>{{lp.3}}</td>
 								</tr>
 							{% endfor %}
 							</tbody>
@@ -53,6 +59,131 @@
 								</table>
 								</div>
 							<br />
+							<!--Button-->
+
+					<script type="text/javascript">
+
+					var tenspropB = "{{tens_prop.0}}";
+					var contadorA = 0;
+					var linkP = "";
+					var graficar = 0;
+					var parentesis = 0;
+					var tensprop = "";
+					var rango = 0;
+					var idiframe = 0;
+					{% if sec.1 %}
+							{% for tens_prop in sec.1 %}
+							tensprop = "{{ tens_prop.0 }}";
+									{% for tens_row in tens_prop.3 %}
+										{% with forloop.counter as prow %}
+										  {% for tens_val in tens_row %}
+										   contadorA++;
+										  {% endfor %}
+										{% endwith %}
+									{% endfor %}
+										tabla(contadorA, tensprop);
+										contadorA = 0;
+										linkP = "";
+										graficar = 0;
+										parentesis =0;
+										tensprop = "";
+							{% endfor %}
+					{% endif %}
+
+					function tabla(contador, tensprop){
+
+					if(contador == 9){
+						linkP  = linkP  + "http://crystal.cimav.edu.mx/samz/wf-r2.jsp?";
+						graficar++;
+						rango = 2;
+					}
+					if(contador == 18){
+						linkP  = linkP  + "http://crystal.cimav.edu.mx/samz/wf-r3.jsp?";
+						graficar++;
+						rango = 3;
+					}
+					if(contador == 36){
+						linkP  = linkP  + "http://crystal.cimav.edu.mx/samz/wf-r4.jsp?";
+						graficar++;
+						rango = 4;
+					}					
+					
+					{% if sec.1 %}
+						{% for tens_prop in sec.1 %}
+							if(tensprop == "{{ tens_prop.0 }}"){
+								{% for tens_row in tens_prop.3 %}
+									{% with forloop.counter as prow %}
+											{% for tens_val in tens_row %}
+												{% if tens_val != "-jhg"%}
+								
+												var cadena = "{{tens_val}}";
+		
+												if(cadena == '?' || cadena == '-'){
+													cadena = "0" ;
+												}
+												for (var x=0; x<cadena.length; x++){
+													if(x == 0){
+														linkP  = linkP  + "s{{prow}}{{forloop.counter}}=";
+													}
+													if(cadena[x] == '('){
+													parentesis++;
+													}
+													if(parentesis == 0){
+													linkP  = linkP  + cadena[x]; 
+													}
+													if(cadena[x] == ')'){
+													parentesis=0;
+													}										
+													}
+													linkP  = linkP  + "&";
+												{% endif %}
+											{% endfor %}
+										{% endwith %}
+								{% endfor %}
+							}
+						{% endfor %}
+					{% endif %}
+
+					if(graficar == 1 && tensprop == tenspropB){
+						idiframe = tensprop;
+						if(rango == 2){
+
+							document.write('<div class="divspoiler"><input type="button" value="View 3D" onclick="if (this.parentNode.nextSibling.childNodes[0].style.display != \'\') { this.parentNode.nextSibling.childNodes[0].style.display = \'\'; this.value = \'Hide\'; } else { this.parentNode.nextSibling.childNodes[0].style.display = \'none\'; this.value = \'View 3D\';} javascript:fun_iFrameWrite(\'' + linkP + '\',\'' + linkP + '\')"/></div><div><div class="spoiler" style="display: none;">');
+
+							document.write('<a href="' + linkP + '" target="_blank">Go to SAMZ</a><br>');
+
+							document.write('<iframe id="' + linkP + '" name="' + linkP + '"  width="600" height="420"></iframe><br />');
+							
+							document.write("</div></div><br>");
+						}
+						if(rango == 3){
+
+							document.write('<div class="divspoiler"><input type="button" value="View 3D" onclick="if (this.parentNode.nextSibling.childNodes[0].style.display != \'\') { this.parentNode.nextSibling.childNodes[0].style.display = \'\'; this.value = \'Hide\'; } else { this.parentNode.nextSibling.childNodes[0].style.display = \'none\'; this.value = \'View 3D\';} javascript:fun_iFrameWrite(\'' + linkP + '\',\'' + linkP + '\')"/></div><div><div class="spoiler" style="display: none;">');
+
+							document.write('<a href="' + linkP + '" target="_blank">Go to SAMZ</a><br>');
+
+							document.write('<iframe id="' + linkP + '" name="' + linkP + '"  width="600" height="420"></iframe><br />');
+
+							document.write("</div></div><br>");
+						}
+						if(rango == 4){
+							
+							document.write('<div class="divspoiler"><input type="button" value="View 3D" onclick="if (this.parentNode.nextSibling.childNodes[0].style.display != \'\') { this.parentNode.nextSibling.childNodes[0].style.display = \'\'; this.value = \'Hide\'; } else { this.parentNode.nextSibling.childNodes[0].style.display = \'none\'; this.value = \'View 3D\';} javascript:fun_iFrameWrite(\'' + linkP + '\',\'' + linkP + '\')"/></div><div><div class="spoiler" style="display: none;">');
+
+							document.write('<a href="' + linkP + '" target="_blank">Go to SAMZ</a><br>');
+
+							document.write('<iframe id="' + linkP + '" name="' + linkP + '" width="1200" height="420"></iframe><br/>');
+
+							document.write("</div></div><br>");
+
+						}
+						
+					}	
+					}
+
+					</script>
+					
+
 						{% endfor %}
 					{% endif %}
 				{% else %}
@@ -88,3 +219,5 @@
    {{footer|safe}}
 {% endif %}
 <br />
+
+ 
