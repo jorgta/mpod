@@ -14,7 +14,7 @@ header h1 {
   padding-right: 20px;
   color: #fff;
   font-size: 20px;
-  font-family: 'Roboto Condensed', serif;
+  font-family: 'Roboto Condensed', sans-serif;
   
   font-weight: normal;
 }
@@ -26,7 +26,6 @@ nav.left-nav {
   position: absolute;
   bottom: 0px;
   top: 64px;
-  padding-top: 20px;
 }
 
 nav.left-nav ul {
@@ -39,22 +38,28 @@ nav.left-nav ul {
 nav.left-nav ul li {
   font-size: 14px;
   text-transform: capitalize;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
 nav.left-nav ul li a {
-  padding: 37px 0px 30px 0px;
+  height: 80px;
   display: block;
   color: #fff;
+  padding-top: 50px;
+}
+
+nav.left-nav ul li a.active {
+  background-color: #333;
 }
 
 .search-option {
-   background: transparent url(../images/search-icon.png) no-repeat top center;
+   background: transparent url(../images/search-icon.png) no-repeat center 15px;
 }
 .doc-option {
-  background: transparent url(../images/doc-icon.png) no-repeat center top;
+  background: transparent url(../images/doc-icon.png) no-repeat center 15px;
 }
 .submit-option {
-  background: transparent url(../images/submit-icon.png) no-repeat center top;
+  background: transparent url(../images/submit-icon.png) no-repeat center 15px;
 }
 
 nav.top-nav {
@@ -63,13 +68,13 @@ nav.top-nav {
   top: 64px;
   left: 140px;
   right: 0px;
-  height: 32px;
+  height: 48px;
   border-bottom: 1px solid #eee;
 }
 
 nav.top-nav ul {
   list-style-type: none;
-  margin: 0;
+  margin: 10px 0 0 20px;
   padding: 0;
 }
 
@@ -77,6 +82,7 @@ nav.top-nav ul li {
   display: inline;
   font-size: 20px;
   text-transform: capitalize;
+  font-family: 'Roboto Condensed', sans-serif;
   padding: 0 10px;
 }
 
