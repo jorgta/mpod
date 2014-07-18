@@ -5,6 +5,7 @@ header {
 
 header img {
   padding-left: 20px;
+  margin-top: 5px;
   float: left;
 }
 
@@ -21,7 +22,7 @@ header h1 {
 
 nav.left-nav {
   background: #444;
-  width: 159px;
+  width: 140px;
   position: absolute;
   bottom: 0px;
   top: 64px;
@@ -60,7 +61,7 @@ nav.top-nav {
   background: #fafafa;
   position: absolute;
   top: 64px;
-  left: 159px;
+  left: 140px;
   right: 0px;
   height: 32px;
   border-bottom: 1px solid #eee;
@@ -88,7 +89,7 @@ nav.top-nav ul li a {
   top: 98px;
   padding: 20px;
   bottom: 0px;
-  left: 159px;
+  left: 140px;
   right: 0px;
   overflow: auto;
 }
