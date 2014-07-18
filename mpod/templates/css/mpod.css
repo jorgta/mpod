@@ -1,31 +1,30 @@
 header {
-  background: #ef4748;
-  height: 64px;
+  background: #fefefe;
+  border-bottom: 1px solid #ddd;
+  height: 100px;
 }
 
 header img {
   padding-left: 20px;
-  margin-top: 5px;
   float: left;
 }
 
 header h1 {
   float: right;
-  padding-right: 20px;
-  color: #fff;
-  font-size: 20px;
+  padding: 10px 20px 0 0;
+  color: #666;
+  font-size: 32px;
   font-family: 'Roboto Condensed', sans-serif;
-  
   font-weight: normal;
 }
 
 
 nav.left-nav {
-  background: #444;
-  width: 140px;
+  background: #2FBDC4;
+  width: 120px;
   position: absolute;
   bottom: 0px;
-  top: 64px;
+  top: 100px;
 }
 
 nav.left-nav ul {
@@ -65,8 +64,8 @@ nav.left-nav ul li a.active {
 nav.top-nav {
   background: #fafafa;
   position: absolute;
-  top: 64px;
-  left: 140px;
+  top: 100px;
+  left: 120px;
   right: 0px;
   height: 48px;
   border-bottom: 1px solid #eee;
@@ -92,10 +91,10 @@ nav.top-nav ul li a {
 
 .container {
   position: absolute;
-  top: 98px;
+  top: 148px;
   padding: 20px;
   bottom: 0px;
-  left: 140px;
+  left: 120px;
   right: 0px;
   overflow: auto;
 }
