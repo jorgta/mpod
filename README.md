@@ -1,5 +1,5 @@
-MPOD: Material Properties Open Database
-=======================================
+MPOD: Material Properties Open Database 
+---------------------------------------
 
 The Material Properties Open Database was initiated by Daniel Chateigner in July 2010.
 
