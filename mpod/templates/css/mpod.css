@@ -1,0 +1,94 @@
+header {
+  background: #ef4748;
+  height: 64px;
+}
+
+header img {
+  padding-left: 20px;
+  float: left;
+}
+
+header h1 {
+  float: right;
+  padding-right: 20px;
+  color: #fff;
+  font-size: 20px;
+  font-family: 'Roboto Condensed', serif;
+  
+  font-weight: normal;
+}
+
+
+nav.left-nav {
+  background: #444;
+  width: 159px;
+  position: absolute;
+  bottom: 0px;
+  top: 64px;
+  padding-top: 20px;
+}
+
+nav.left-nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+nav.left-nav ul li {
+  font-size: 14px;
+  text-transform: capitalize;
+}
+
+nav.left-nav ul li a {
+  padding: 37px 0px 30px 0px;
+  display: block;
+  color: #fff;
+}
+
+.search-option {
+   background: transparent url(../images/search-icon.png) no-repeat top center;
+}
+.doc-option {
+  background: transparent url(../images/doc-icon.png) no-repeat center top;
+}
+.submit-option {
+  background: transparent url(../images/submit-icon.png) no-repeat center top;
+}
+
+nav.top-nav {
+  background: #fafafa;
+  position: absolute;
+  top: 64px;
+  left: 159px;
+  right: 0px;
+  height: 32px;
+  border-bottom: 1px solid #eee;
+}
+
+nav.top-nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav.top-nav ul li {
+  display: inline;
+  font-size: 20px;
+  text-transform: capitalize;
+  padding: 0 10px;
+}
+
+nav.top-nav ul li a {
+  color: #888;
+}
+
+.container {
+  position: absolute;
+  top: 98px;
+  padding: 20px;
+  bottom: 0px;
+  left: 159px;
+  right: 0px;
+  overflow: auto;
+}

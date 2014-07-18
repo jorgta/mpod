@@ -23,13 +23,13 @@ def mpod_base(request, sub_template):
     t = get_template(sub_template)
     request_path=request.get_full_path()
     debug_info=request_path
-    my_verti_menu=menus.menu(my_menus.mpod_verti_menu, request_path, 0)
-    my_horiz_menu=menus.menu(my_menus.mpod_horiz_menu, request_path, 0)
-    print my_verti_menu
-    print my_horiz_menu
+    my_nav_menu=menus.menu(my_menus.mpod_nav_menu, request_path, 0)
+    my_top_menu=menus.menu(my_menus.mpod_top_menu, request_path, 0)
+    print my_nav_menu
+    print my_top_menu
     html = t.render(Context(
-    {"vertical_menu":my_verti_menu,
-    "horizontal_menu":my_horiz_menu}
+    {"top_menu":my_top_menu,
+    "nav_menu":my_nav_menu}
     ))
     return html
 
@@ -79,8 +79,8 @@ def load_css(request, file_name):
 
 def contact(request):
     request_path=request.get_full_path()
-    my_verti_menu=menus.menu(my_menus.mpod_verti_menu, request_path, 0)
-    my_horiz_menu=menus.menu(my_menus.mpod_horiz_menu, request_path, 0)
+    my_top_menu=menus.menu(my_menus.mpod_top_menu, request_path, 0)
+    my_nav_menu=menus.menu(my_menus.mpod_nav_menu, request_path, 0)
     if request.method == 'POST': # If the form has been submitted...
         form = ContactForm(request.POST) # A form bound to the POST data
         if form.is_valid(): # All validation rules pass
@@ -98,8 +98,8 @@ def contact(request):
         form = ContactForm() # An unbound form
     return render_to_response('mpod_contact.html', {
         'form': form,
-        "vertical_menu":my_verti_menu,
-        "horizontal_menu":my_horiz_menu,
+        "top_menu":my_top_menu,
+        "nav_menu":my_nav_menu,
     })
 
 def contact_success(request):

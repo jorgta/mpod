@@ -1,22 +1,21 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN">
-<html lang="en">
-
+<!DOCTYPE html>
+<html>
 <head>
-{% block css-file %} <link rel=stylesheet type="text/css" href="/css/mpod_css_1.css" > {% endblock %}
-
-<title>{% block title %} {% endblock %}</title>
-
-{% block meta %}  {% include "mpod_meta_1.html" %} {% endblock %}
-
+  {% block css-file %}
+    <link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:300' rel='stylesheet' type='text/css'> 
+    <link rel=stylesheet type="text/css" href="/css/bootstrap.css" > 
+    <link rel=stylesheet type="text/css" href="/css/mpod.css" > 
+  {% endblock %}
+  <title>{% block title %} {% endblock %}</title>
+  {% block meta %}  {% include "mpod_meta_1.html" %} {% endblock %}
 </head>
-
 <body>
-{% block header %} {% endblock %}
-{% block hor_menu %} {% endblock %}
-{% block ver_menu %} {% endblock %}
-{% block central_column %}  {% endblock %}
-{% block right_column %}  {% endblock %}
-{% block debugg_text %}  {% endblock %}
-{% block footer %}  {% endblock %}
+  {% block header %} {% endblock %}
+  {% block nav_menu %} {% endblock %}
+  {% block top_menu %} {% endblock %}
+  {% block container %}  {% endblock %}
+  {% block right_column %}  {% endblock %}
+  {% block debugg_text %}  {% endblock %}
+  {% block footer %}  {% endblock %}
 </body>
 </html>

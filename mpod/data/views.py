@@ -29,11 +29,11 @@ def data_base(request, sub_template):
     t = get_template(sub_template)
     request_path=request.get_full_path()
     debug_info=request_path
-    my_verti_menu=menus.menu(my_menus.data_verti_menu, request_path, 0)
-    my_horiz_menu=menus.menu(my_menus.mpod_horiz_menu, request_path, 0)
+    my_top_menu=menus.menu(my_menus.data_top_menu, request_path, 0)
+    my_nav_menu=menus.menu(my_menus.mpod_nav_menu, request_path, 0)
     html = t.render(Context(
-    {"vertical_menu":my_verti_menu,
-    "horizontal_menu":my_horiz_menu}
+    {"top_menu":my_top_menu,
+    "nav_menu":my_nav_menu}
     ))
     return html
 
@@ -41,11 +41,11 @@ def dict_base(request, sub_template):
     t = get_template(sub_template)
     request_path=request.get_full_path()
     debug_info=request_path
-    my_verti_menu=menus.menu(my_menus.dict_verti_menu, request_path, 0)
-    my_horiz_menu=menus.menu(my_menus.mpod_horiz_menu, request_path, 0)
+    my_top_menu=menus.menu(my_menus.dict_top_menu, request_path, 0)
+    my_nav_menu=menus.menu(my_menus.mpod_nav_menu, request_path, 0)
     html = t.render(Context(
-    {"vertical_menu":my_verti_menu,
-    "horizontal_menu":my_horiz_menu}
+    {"top_menu":my_top_menu,
+    "nav_menu":my_nav_menu}
     ))
     return html
 
@@ -53,12 +53,12 @@ def data_properties(request):
     ogge = Property.objects.all()
     t = get_template('data/properties_list_view.html')
     request_path=request.get_full_path()
-    my_verti_menu=menus.menu(my_menus.data_verti_menu, request_path, 0)
-    my_horiz_menu=menus.menu(my_menus.mpod_horiz_menu, request_path, 0)
+    my_top_menu=menus.menu(my_menus.data_top_menu, request_path, 0)
+    my_nav_menu=menus.menu(my_menus.mpod_nav_menu, request_path, 0)
     properties_list_table_html = view_linked_properties_list(oggetti=ogge, header=None)
     html = t.render(Context(
-    {"vertical_menu":my_verti_menu,
-    "horizontal_menu":my_horiz_menu,
+    {"top_menu":my_top_menu,
+    "nav_menu":my_nav_menu,
     "properties_list_table" : properties_list_table_html,
     }
     ))
@@ -100,11 +100,11 @@ def view_article(request, article_id):
     t = get_template('data/publi_view.html')
     request_path=request.get_full_path()
     debug_info=request_path
-    my_verti_menu=menus.menu(my_menus.data_verti_menu, request_path, 0)
-    my_horiz_menu=menus.menu(my_menus.mpod_horiz_menu, request_path, 0)
+    my_top_menu=menus.menu(my_menus.data_top_menu, request_path, 0)
+    my_nav_menu=menus.menu(my_menus.mpod_nav_menu, request_path, 0)
     html = t.render(Context(
-        {"vertical_menu":my_verti_menu,
-        "horizontal_menu":my_horiz_menu,
+        {"top_menu":my_top_menu,
+        "nav_menu":my_nav_menu,
         "publi_table": html_res,
         "associated_datafiles": html_res2,
         }
@@ -128,11 +128,11 @@ def view_property(request, property_id):
     t = get_template('data/property_view.html')
     request_path=request.get_full_path()
     debug_info=request_path
-    my_verti_menu=menus.menu(my_menus.data_verti_menu, request_path, 0)
-    my_horiz_menu=menus.menu(my_menus.mpod_horiz_menu, request_path, 0)
+    my_top_menu=menus.menu(my_menus.data_top_menu, request_path, 0)
+    my_nav_menu=menus.menu(my_menus.mpod_nav_menu, request_path, 0)
     html = t.render(Context(
-        {"vertical_menu":my_verti_menu,
-        "horizontal_menu":my_horiz_menu,
+        {"top_menu":my_top_menu,
+        "nav_menu":my_nav_menu,
         "property_table": html_res,
         "associated_datafiles": html_res2,
         }
@@ -145,16 +145,16 @@ def view_exparcond(request, exparcond_id):
     t = get_template('data/experimentalparcond_view.html')
     request_path=request.get_full_path()
     debug_info=request_path
-    my_verti_menu=menus.menu(my_menus.data_verti_menu, request_path, 0)
-    my_horiz_menu=menus.menu(my_menus.mpod_horiz_menu, request_path, 0)
+    my_top_menu=menus.menu(my_menus.data_top_menu, request_path, 0)
+    my_nav_menu=menus.menu(my_menus.mpod_nav_menu, request_path, 0)
     ogge = ExperimentalParCond.objects.filter(id__exact = exparcond_id).distinct()
     html_res = None
     if ogge:
         ogge = ogge[0]
         html_res = view_obj_as_2cols_table (ExperimentalParCond, ogge, cap="Experimental Parameter/Condition details")
     html = t.render(Context(
-        {"vertical_menu":my_verti_menu,
-        "horizontal_menu":my_horiz_menu,
+        {"top_menu":my_top_menu,
+        "nav_menu":my_nav_menu,
         "property_table": html_res,
         }
         ))
@@ -167,13 +167,13 @@ def view_data_item(request, dataitem_id):
     t = get_template('data/datafile_view.html')
     request_path=request.get_full_path()
     debug_info=request_path
-    my_verti_menu=menus.menu(my_menus.data_verti_menu, request_path, 0)
-    my_horiz_menu=menus.menu(my_menus.mpod_horiz_menu, request_path, 0)
+    my_top_menu=menus.menu(my_menus.data_top_menu, request_path, 0)
+    my_nav_menu=menus.menu(my_menus.mpod_nav_menu, request_path, 0)
 ##    html_dataitem, html_gen_props, html_tables = data_item_html(dataitem_id)
     html_dataitem, html_tables = data_item_html(dataitem_id)
     html = t.render(Context(
-        {"vertical_menu":my_verti_menu,
-        "horizontal_menu":my_horiz_menu,
+        {"top_menu":my_top_menu,
+        "nav_menu":my_nav_menu,
         "html_dataitem":html_dataitem,
 ##        "html_gen_props":html_gen_props,
         "html_tables":html_tables,
@@ -225,11 +225,11 @@ def data_search(request):
     t = get_template('data/mpod_data_search.html')
     request_path=request.get_full_path()
     debug_info=request_path
-    my_verti_menu=menus.menu(my_menus.data_verti_menu, request_path, 0)
-    my_horiz_menu=menus.menu(my_menus.mpod_horiz_menu, request_path, 0)
+    my_top_menu=menus.menu(my_menus.data_top_menu, request_path, 0)
+    my_nav_menu=menus.menu(my_menus.mpod_nav_menu, request_path, 0)
     html = t.render(Context(
-    {"vertical_menu":my_verti_menu,
-    "horizontal_menu":my_horiz_menu}
+    {"top_menu":my_top_menu,
+    "nav_menu":my_nav_menu}
     ))
     query_phase_name = request.GET.get('phase_name', '')
     query_formula = request.GET.get('formula', '')
@@ -240,8 +240,8 @@ def data_search(request):
     else:
         html_results=None
     html = t.render(Context(
-        {"vertical_menu":my_verti_menu,
-        "horizontal_menu":my_horiz_menu,
+        {"top_menu":my_top_menu,
+        "nav_menu":my_nav_menu,
         "query_phase_name": query_phase_name,
         "query_formula": query_formula,
         "query_cod_code": query_cod_code,
@@ -285,11 +285,11 @@ def publi_search(request):
     t = get_template('data/mpod_publi_search.html')
     request_path=request.get_full_path()
     debug_info=request_path
-    my_verti_menu=menus.menu(my_menus.data_verti_menu, request_path, 0)
-    my_horiz_menu=menus.menu(my_menus.mpod_horiz_menu, request_path, 0)
+    my_top_menu=menus.menu(my_menus.data_top_menu, request_path, 0)
+    my_nav_menu=menus.menu(my_menus.mpod_nav_menu, request_path, 0)
     html = t.render(Context(
-    {"vertical_menu":my_verti_menu,
-    "horizontal_menu":my_horiz_menu}
+    {"top_menu":my_top_menu,
+    "nav_menu":my_nav_menu}
     ))
     query_title = request.GET.get('title', '')
     query_author = request.GET.get('author', '')
@@ -299,8 +299,8 @@ def publi_search(request):
     else:
         html_results=None
     html = t.render(Context(
-        {"vertical_menu":my_verti_menu,
-        "horizontal_menu":my_horiz_menu,
+        {"top_menu":my_top_menu,
+        "nav_menu":my_nav_menu,
         "query_title": query_title,
         "query_author": query_author,
         "query_journal": query_journal,
@@ -316,8 +316,8 @@ def publi_search(request):
 def submit_file(request):
     time_st = "_"
     request_path=request.get_full_path()
-    my_verti_menu=menus.menu(my_menus.data_verti_menu, request_path, 0)
-    my_horiz_menu=menus.menu(my_menus.mpod_horiz_menu, request_path, 0)
+    my_top_menu=menus.menu(my_menus.data_top_menu, request_path, 0)
+    my_nav_menu=menus.menu(my_menus.mpod_nav_menu, request_path, 0)
     if request.method == 'POST':
         form = UploadFileForm(request.POST, request.FILES)
         val = form.is_valid()
@@ -339,8 +339,8 @@ def submit_file(request):
     return render_to_response('data/mpod_file_submit.html', 
             {'form': form, 
             'time_stamp': time_st,
-            "vertical_menu":my_verti_menu,
-            "horizontal_menu":my_horiz_menu,
+            "top_menu":my_top_menu,
+            "nav_menu":my_nav_menu,
              })
 
 def upload_success(request):
@@ -353,13 +353,13 @@ def tabla(request, dataitem_id):
     t = get_template('data/datafile_view.html')
     request_path=request.get_full_path()
     debug_info=request_path
-    my_verti_menu=menus.menu(my_menus.data_verti_menu, request_path, 0)
-    my_horiz_menu=menus.menu(my_menus.mpod_horiz_menu, request_path, 0)
+    my_top_menu=menus.menu(my_menus.data_top_menu, request_path, 0)
+    my_nav_menu=menus.menu(my_menus.mpod_nav_menu, request_path, 0)
 ##    html_dataitem, html_gen_props, html_tables = data_item_html(dataitem_id)
     html_dataitem, html_tables = data_item_html(dataitem_id)
     html = t.render(Context(
-        {"vertical_menu":my_verti_menu,
-        "horizontal_menu":my_horiz_menu,
+        {"top_menu":my_top_menu,
+        "nav_menu":my_nav_menu,
         "html_dataitem":html_dataitem,
 ##        "html_gen_props":html_gen_props,
         "html_tables":html_tables,
