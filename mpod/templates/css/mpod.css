@@ -20,7 +20,8 @@ header h1 {
 
 
 nav.left-nav {
-  background: #2FBDC4;
+  background: #eee;
+  border-right: 1px solid #ddd;
   width: 120px;
   position: absolute;
   bottom: 0px;
@@ -43,12 +44,12 @@ nav.left-nav ul li {
 nav.left-nav ul li a {
   height: 80px;
   display: block;
-  color: #fff;
+  color: #888;
   padding-top: 50px;
 }
 
 nav.left-nav ul li a.active {
-  background-color: #333;
+  background-color: #ddd;
 }
 
 .search-option {
@@ -67,13 +68,13 @@ nav.top-nav {
   top: 100px;
   left: 120px;
   right: 0px;
-  height: 48px;
+  height: 56px;
   border-bottom: 1px solid #eee;
 }
 
 nav.top-nav ul {
   list-style-type: none;
-  margin: 10px 0 0 20px;
+  margin: 13px 0 0 20px;
   padding: 0;
 }
 
