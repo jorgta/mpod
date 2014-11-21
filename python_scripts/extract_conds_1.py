@@ -2,9 +2,12 @@ import os
 import re
 import string
 
-cifs_dir='/home/pepponi/work/physdata/mpod/data_files'
-core_dic_filepath="/home/pepponi/work/physdata/cif/cif_core.dic"
-mpod_dic_filepath="/home/pepponi/work/physdata/mpod/cif_material_properties_2013_10_03.dic"
+cifs_dir='/Users/ion/Hacking/CIMAV/mpod/python_scripts/incoming'
+core_dic_filepath="/Users/ion/Hacking/CIMAV/mpod/mpod/media/dictionary/cif_core.dic"
+mpod_dic_filepath="/Users/ion/Hacking/CIMAV/mpod/mpod/media/dictionary/cif_material_properties_0_0_6.dic"
+
+
+
 fds=os.listdir(cifs_dir)
 fds2=filter(lambda x: x[-5:]==".mpod",  fds)
 filets=sorted(filter(lambda x: os.path.isfile(os.path.join(cifs_dir,  x)), fds2))
@@ -333,7 +336,7 @@ if __name__ == "__main__":
     tail = "\nCOMMIT;\n"
     sql_text=head+ "\n".join(sql_lins) + "\n" + "\n".join(sql_lins2) + tail
     print sql_text
-    out_file_path = "/home/pepponi/work/physdata/mpod/load_conditions_2013_10_03.sql"
+    out_file_path = "load_conditions_2013_10_03.sql"
     out_file = open(out_file_path,"w")
     out_file.write(sql_text)
     out_file.close()
